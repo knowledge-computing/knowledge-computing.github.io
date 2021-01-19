@@ -16,3 +16,6 @@ markdown: kramdown
 
 paginate: 3
 paginate_path: "blog/page:num"
+
+# Gems
+gems: [jekyll-paginate]
