@@ -1,23 +1,23 @@
 - name: Home
   path: index.html
   section_id: home
-- name: Research & Projects
-  path: research_and_projects.html
-  section_id: portfolio
-  children:
-    - name: Research & Projects
-      path: research_and_projects.html
-    - name: Portfolio item
-      path: portfolio-item.html
+- name: Research Projects
+  path: research.html
+  section_id: research
+  # children:
+  #   - name: Map
+  #     path: jonsnow.html
+  #   - name: Public Health
+  #     path: contextmp.html
+  #   - name: Strabo
+  #     path: strabo.html
+  #   - name: Transportation
+  #     path: transportation.html
 - name: Publications
   path: publications.html
 - name: People
   path: people.html
-  section_id: about
-  section_id: services
-- name: Contact
+  section_id: people
+- name: Join Us
   path: contact.html
   section_id: contact
-- name: Blog
-  path: blog/
-  section_id: blog

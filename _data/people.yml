@@ -1,0 +1,82 @@
+director:
+  - name: Bob
+    image: images/people/bob.png
+    position: Associate Professor (Research)
+    department: USC Spatial Sciences Institute
+    link: http://www.yoyoi.info/
+  - name: Bob
+    image: images/people/bob.png
+    position: The dog
+    link: NA
+faculty:
+  - name: Bob
+    image: images/people/bob.png
+    position: Associate Professor (Research)
+    department: USC Spatial Sciences Institute
+    link: http://www.yoyoi.info/
+  - name: Bob
+    image: images/people/bob.png
+    position: The dog
+    link: NA
+phd:
+  - name: Bob
+    image: images/people/bob.png
+    position: Associate Professor (Research)
+    department: USC Spatial Sciences Institute
+    link: http://www.yoyoi.info/
+  - name: Bob
+    image: images/people/bob.png
+    position: The dog
+    link: NA
+  - name: Bob
+    image: images/people/bob.png
+    position: Associate Professor (Research)
+    department: USC Spatial Sciences Institute
+    link: http://www.yoyoi.info/
+  - name: Bob
+    image: images/people/bob.png
+    position: The dog
+    link: NA
+  - name: Bob
+    image: images/people/bob.png
+    position: Associate Professor (Research)
+    department: USC Spatial Sciences Institute
+    link: http://www.yoyoi.info/
+  - name: Bob
+    image: images/people/bob.png
+    position: The dog
+    link: NA
+  - name: Bob
+    image: images/people/bob.png
+    position: Associate Professor (Research)
+    department: USC Spatial Sciences Institute
+    link: http://www.yoyoi.info/
+worker:
+  - name: Bob
+    image: images/people/bob.png
+    position: Associate Professor (Research)
+    department: USC Spatial Sciences Institute
+    link: http://www.yoyoi.info/
+  - name: Bob
+    image: images/people/bob.png
+    position: The dog
+    link: NA
+  - name: Bob
+    image: images/people/bob.png
+    position: Associate Professor (Research)
+    department: USC Spatial Sciences Institute
+    link: http://www.yoyoi.info/
+  - name: Bob
+    image: images/people/bob.png
+    position: The dog
+    link: NA
+alumni:
+  - name: Bob
+    image: images/people/bob.png
+    position: Associate Professor (Research)
+    department: USC Spatial Sciences Institute
+    link: http://www.yoyoi.info/
+  - name: Bob
+    image: images/people/bob.png
+    position: The dog
+    link: NA
