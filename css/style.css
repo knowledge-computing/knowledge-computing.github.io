@@ -618,10 +618,11 @@ a:hover {
   color: #999;
 }
 
-h1, h2, h3, h4, h5, h6 {
+/* Yijun */
+/*h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
   letter-spacing: 1px;
-}
+}*/
 
 .centered-text {
   text-align: center;
@@ -2917,7 +2918,10 @@ form input.error, form textarea.error {
   color: #F9CE06;
 }
 .modGallery ul.gallery img {
-  width: 100%;
+  /*width: 100%;*/
+  object-fit: cover;
+  height: 280px;
+  width: 280px;
   -moz-transform: scale(1);
   -ms-transform: scale(1);
   -webkit-transform: scale(1);
@@ -2932,6 +2936,7 @@ form input.error, form textarea.error {
   -o-transition: all 0.4s linear;
   -webkit-transition: all 0.4s linear;
   transition: all 0.4s linear;
+  margin-bottom: 20px;
 }
 .modGallery ul.gallery li a {
   position: relative;
@@ -3342,6 +3347,45 @@ body {
   position: relative;
   top: 50%;
   margin-top: -18px;
+}
+
+/* Yijun */
+.modPeople {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 10px;
+  text-align: center;
+  display: inline-block;
+  vertical-align: top;
+  min-width: 20%;
+}
+
+.modPeople img {
+  object-fit: cover;
+  height: 150px;
+  width: 150px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* Yijun */
+.modSponsor {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 10px;
+  text-align: center;
+  display: inline-block;
+  vertical-align: top;
+  min-width: 20%;
+}
+
+.modSponsor img {
+  object-fit: cover;
+  height: 150px;
+  width: 150px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
 }
 
 /* Slider */
