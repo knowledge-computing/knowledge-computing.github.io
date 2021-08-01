@@ -2,94 +2,44 @@
 layout: default
 section_id: home
 slides:
-  - bg: images/homepage_img/map_3d_bg_small_dark.jpg
-    small_title:
-      klass: bottom-to-top
-      text: Computer Vision &amp; Machine Learning for
+  - bg: images/research/historical_map_slider.png
     title:
       klass: bottom-to-top
-      text: Historical Map Understanding
+      text: Image Recognition
     buttons:
       klass: bottom-to-top
       items:
         - text: Learn More
-          link_to: http://themeforest.net/user/honryou/portfolio?ref=honryou
-  - bg: images/research/slider_jonsnow.jpg
-    small_title:
-      klass: bottom-to-top
-      text: We aim for fine-scale
+          link_to: research/contextmp.html
+  - bg: images/research/air_quality_slider.png
     title:
       klass: bottom-to-top
-      text: Air Quality Forcasting
+      text: Spatiotempotal Data Analytics
     buttons:
       klass: bottom-to-top
       items:
         - text: Learn More
-          link_to: http://themeforest.net/user/honryou/portfolio?ref=honryou
-  - bg: images/homepage_img/map_3d_bg_small_dark.jpg
-    small_title:
-      klass: bottom-to-top
-      text: This is a creative theme that you'll
+          link_to: research/contextmp.html
+  - bg: images/research/geobert.png
     title:
       klass: bottom-to-top
-      text: definitely love...
+      text: GeoBERT
     buttons:
       klass: bottom-to-top
       items:
         - text: Learn More
-          link_to: http://themeforest.net/user/honryou/portfolio?ref=honryou
+          link_to: research/contextmp.html
 
 research:          
   - image: images/research/jonsnow.png
     title: ContextMP
-    link_to: jonsnow.html
-    klass: map
-    desc: ContextMP
+    link_to: research/contextmp.html
+    desc: Computer Vision & Machine Learning for Historical Map Understanding
   - image: images/research/jonsnow.png
     title: Jonsnow
-    link_to: jonsnow.html
-    klass: health
-    desc: Jonsnow
-  - image: images/research/jonsnow.png
-    title: Strabo
-    link_to: jonsnow.html
-    klass: map
-    desc: Strabo
-
-<!-- services:
-  - icon: trophy
-    title: Web Design
-    desc: Acusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
-  - icon: cogs
-    title: Web Development
-    desc: Acusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
-  - icon: pagelines
-    title: Branding
-    desc: Acusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
-  - icon: lock
-    title: Security
-    desc: Acusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
-
-milestones:
-  - icon: folder-open
-    from: 0
-    to: 69
-    title: Projects Completed
-  - icon: coffee
-    from: 0
-    to: 726
-    title: Cups of coffee offered
-  - icon: thumbs-up
-    from: 0
-    to: 59
-    title: Happy clients
-  - icon: file-text
-    from: 0
-    to: 21
-    title: Articles Published -->
-
+    link_to: research/jonsnow.html
+    desc: Deep Learning Method for Air Quality Prediction
 ---
-
 
 <div class='mod modDefaultSlider'>
   <div class='sequence' data-autostop='on' data-timeout='0'>
@@ -118,14 +68,14 @@ milestones:
         {% endif %}
 
         <li class='frame {{style}} {{ slide.klass }}'>
-          <div class='bg' style='background-image: url({{ slide.bg}});'></div>
-          <div class='small-title {{ slide.small_title.klass }}'>
+          <div class='bg' style='background-image: url({{ slide.bg }});'></div>
+          <!-- <div class='small-title {{ slide.small_title.klass }}'>
             <div class='row'>
               <div class='large-12 columns'>
                 <h2>{{ slide.small_title.text }}</h2>
               </div>
             </div>
-          </div>
+          </div> -->
           <div class='title {{ slide.title.klass }}'>
             <div class='row'>
               <div class='large-12 columns'>
@@ -138,7 +88,7 @@ milestones:
               <div class='large-12 columns'>
                 <div class='two spacing'></div>
                 {% for button in slide.buttons.items %}
-                  <a class='button {{ button.klass }}' href='{{ button.link_to }}'>{{ button.text }}</a>
+                  <a class='button {{ button.klass }}' href='{{ button.link_to }}' style="font-size: 1.5rem; background-color: darkcyan; border: none; border-radius: 8px;">{{ button.text }}</a>
                 {% endfor %}
               </div>
             </div>
@@ -168,35 +118,39 @@ milestones:
 
 <!-- <div class="spacing"></div> -->
 
-<div class="full" style="background: #f5f5f5;">
+<div class="full">
   <div class="row">
     <div class="large-12 columns">
       {% include section-header.html title="Who We Are" %}
     <div class="spacing"></div>
-    <p>
+    <p style="font-size: 1.2rem">
       We are an interdisciplinary research lab at the <a href="https://spatial.usc.edu/"><b>Spatial Sciences Institute</b></a>, <a href="http://www.usc.edu"><b>University of Southern California</b></a>. Our research focus lies at the intersection of <b>computer science</b> and <b>spatial sciences</b> where we build intelligent algorithms and applications for: <b>discovering, collecting, fusing, and analyzing data from heterogeneous sources to solve real-world problems.</b>
     </p>
-    <p>
+    <p style="font-size: 1.2rem">
       For example, we are pioneering novel map processing technologies to unlock historical geographic information from maps. Our open-source software, Strabo, “reads” scanned maps for automatically identifying historical locations of places. In another project, in collaboration with the USC Information Sciences Institute and the USC Keck Medical School, we are developing data mining algorithms and a system for automatic predictions of fine-scale air pollutant concentrations. 
     </p>
-     
-    <div class="three spacing"></div>
     </div>
   </div>
+  <div class="three spacing"></div>
 </div>
 
-<div class="full">
+
+<div class="full"  style="background: #f5f5f5;">
   <div class="row">
     <div class="large-12 columns">
       {% include section-header.html title="Our Research" %}
-      <div class="spacing"></div>
+      <div class='spacing'></div>
+      <p style="font-size: 1.2rem">
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing. <a href='research.html'>See more research projects</a>.
+      </p>
+      <div class='two spacing'></div>
       <div class="mod modGallery">
-        <ul class="gallery small-block-grid-2 medium-block-grid-3 large-block-grid-4">
+        <ul class="gallery large-block-grid-4">
           {% for item in page.research %}
-            <li class="{{ item.klass }}">
+            <li>
               <a href='{{ item.link_to }}'>
-                <img alt="" src="{{ item.image }}" />
-                <div class='overlay'>
+                <img alt="" src="{{ item.image }}"         />
+                <div class='overlay'> 
                   <div class='thumb-info'>
                     <h3>{{ item.title }}</h3>
                     <p>{{ item.desc }}</p>
@@ -209,18 +163,12 @@ milestones:
       </div>
     </div> 
   </div>
-  <div class='two spacing'></div>
-  <div class='row'>
-    <div class='large-12 columns'>
-      <p class='centered-text'>
-        <a class='button' href='research.html'>See more research</a>
-      </p>
-    </div>
-  </div>
-  <div class='spacing'></div>
+  <div class='three spacing'></div>
 </div>
 
 
+
+<!--
 <div class='full' style='background: #f5f5f5'>
   <div class='row'>
     <div class='large-12 columns'>
@@ -232,7 +180,6 @@ milestones:
       <div class='two spacing'></div>
     </div>
   </div>
-
   <div class='row'>
     {% for item in site.data.research %}
       {% if forloop.index > 3 %}
@@ -243,19 +190,8 @@ milestones:
         <div class='mod modBlogPost'>
           <a href="{{item.link_to}}"><img alt="" src="{{item.image}}" /></a>
           <div class='content'>
-            <!-- <p class='date'>{{item.date | date: "%B %d, %Y" }}</p> -->
             <h4><a href="#">{{item.title}}</a></h4>
             <p>{{item.desc}}</p>
-            <!--
-              <div class="tags">
-                {% for cat in post.categories %}
-                  <a href="#">{{cat | capitalize}}</a>
-                  {% unless forloop.last %}
-                    ,
-                  {% endunless %}
-                {% endfor %}
-              </div>
-            -->
           </div>
         </div>
       </div>
@@ -271,6 +207,7 @@ milestones:
   </div>
   <div class='two spacing'></div>
 </div>
+-->
 
 <div class='full'>
   <div class='row'>
@@ -281,11 +218,10 @@ milestones:
     <div class='centered-text'>
       {% for item in site.data.sponsors %}
       <div class='modSponsor'>
-        <img class="avatar" alt="" src="{{ item.image }}" />
-        <h3>{{item.name}}</h3>
+        <img class="avatar" alt="" src="{{ item.image }}" style="object-fit:scale-down;" />
+        <!-- <h3>{{item.name}}</h3> -->
       </div>
       {% endfor %}
-      <div class="columns end"></div>
     </div>
-  <div class='spacing'></div>
+  <!-- <div class='three spacing'></div> -->
 </div>

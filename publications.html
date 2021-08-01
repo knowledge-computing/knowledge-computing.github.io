@@ -1,71 +1,66 @@
 ---
 layout: default
-title: Services
-section_id: services
-services_left:
-  - icon: trophy
-    title: Web Design
-    desc: Acusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
-  - icon: cogs
-    title: Web Development
-    desc: Acusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
-  - icon: pagelines
-    title: Branding
-    desc: Acusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
-  - icon: lock
-    title: Security
-    desc: Acusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
-services_right:
-  - icon: compass
-    title: Art Direction
-    desc: Acusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
-  - icon: image
-    title: Photography
-    desc: Acusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
-  - icon: database
-    title: Data
-    desc: Acusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
-  - icon: film
-    title: Video
-    desc: Acusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos.
+title: Publications
+section_id: publications
 ---
 
-<div class='full parallax' style='background-image: url(images/@stock/service-page-header.jpg); color: #fff;'>
+<div class='full parallax' style='background-image: url(images/background/publications.png); color: #fff;'>
+  <div class='two spacing'></div>
   <div class='row'>
     <div class='large-12 columns'>
-      {% include section-header.html title="Our services" tagline="Get to know what we do" color="#fff" class="big" %}
+      {% include section-header.html title="Publications" color="#fff" class="big" %}
     </div>
   </div>
-  <div class='four spacing'></div>
+  <div class='three spacing'></div>
 </div>
 
 
 <div class='full'>
   <div class='row'>
-    <div class='medium-6 columns'>
-      {% for service in page.services_left %}
-        <div class='fadein mod modIconText' data-delay='{{ 300 | times:forloop.index0 }}'>
-          <div class='icon-text-simple'>
-            <i class='fa fa-{{service.icon}}'></i>
-            <h3>{{service.title}}</h3>
-            <p>{{service.desc}}</p>
-          </div>
-          <div class='two spacing'></div>
-        </div>
+    <h2>Book</h2>
+    <ol reversed="reversed" type="1" style="font-size: 1.2rem;">
+      {% for publication in site.data.publications.book %}
+        <li ><a href={{publication.link}}>{{publication.authors}} ({{publication.year}}). {{publication.title}}. In {{publication.publisher}}</a></li> 
       {% endfor %}
-    </div>
-    <div class='medium-6 columns'>
-      {% for service in page.services_right %}
-        <div class='fadein mod modIconText' data-delay='{{ 300 | times:forloop.index0 }}'>
-          <div class='icon-text-simple'>
-            <i class='fa fa-{{service.icon}}'></i>
-            <h3>{{service.title}}</h3>
-            <p>{{service.desc}}</p>
-          </div>
-          <div class='two spacing'></div>
-        </div>
-      {% endfor %}
-    </div>
+    </ol>
   </div>
   <div class='spacing'></div>
 </div>
+
+<div class='full'>
+  <div class='row'>
+    <h2>Book Chapters</h2>
+    <ol reversed="reversed" type="1" style="font-size: 1.2rem;">
+      {% for publication in site.data.publications.book_chap %}
+        <li><a href={{publication.link}}>{{publication.authors}} ({{publication.year}}). {{publication.title}}. In {{publication.publisher}}</a></li> 
+      {% endfor %}
+    </ol>
+  </div>
+  <div class='spacing'></div>
+</div>
+
+<div class='full'>
+  <div class='row'>
+    <h2>Refereed Journal Articles</h2>
+    <ol reversed="reversed" type="1" style="font-size: 1.2rem;">  
+      {% for publication in site.data.publications.journal %}
+        <li><a href={{publication.link}}>{{publication.authors}} ({{publication.year}}). {{publication.title}}. In {{publication.publisher}}</a></li>
+      {% endfor %}
+    </ol>
+  </div>
+  <div class='spacing'></div>
+</div>
+
+<div class='full'>
+  <div class='row'>
+    <h2>Refereed Conference & Symposium Proceedings</h2>
+    <ol reversed="reversed" type="1" style="font-size: 1.2rem;">
+      {% for publication in site.data.publications.proceedings %}
+        <li><a href={{publication.link}}>{{publication.authors}} ({{publication.year}}). {{publication.title}}. In {{publication.publisher}}</a></li> 
+      {% endfor %}
+    </ol>
+  </div>
+  <div class='spacing'></div>
+</div>
+
+<div class='three spacing'></div>

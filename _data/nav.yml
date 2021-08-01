@@ -19,5 +19,5 @@
   path: people.html
   section_id: people
 - name: Join Us
-  path: contact.html
-  section_id: contact
+  path: join.html
+  section_id: join

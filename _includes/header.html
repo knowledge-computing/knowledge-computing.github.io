@@ -2,16 +2,9 @@
   <nav class='top-bar' data-options='sticky_on: large' data-topbar=''>
     <ul class='title-area'>
       <li class='name'>
-        <h1>
           <a href='{{site.url}}/index.html'>
-            <img alt="" src="{{site.url}}/images/logo-bordered.png" />
-            <!-- Knowledge Computing <br>
-            Laboratory -->
+            <img alt="" src="{{site.url}}/images/knowledge_computing_sticker.jpg" style="width:400px"/>
           </a>
-        </h1>
-      </li>
-      <li class='toggle-topbar menu-icon'>
-        <a href='#'>Menu</a>
       </li>
     </ul>
     <section class='top-bar-section'>
@@ -36,7 +29,7 @@
             </li>
           {% else %}
             <li class="{{active_class}}">
-              <a href="{{site.url}}/{{ item.path }}">{{ item.name }}</a>
+              <a href="{{site.url}}/{{ item.path }}" style="font-size:1.1rem">{{ item.name }}</a>
             </li>
           {% endif %}
         {% endfor %}

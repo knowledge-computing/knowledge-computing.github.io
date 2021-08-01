@@ -1,0 +1,83 @@
+---
+layout: default
+title: Join Us
+section_id: join
+---
+
+<div class='full parallax' style='background-image: url(images/background/join.png); color: #fff;'>
+  <div class='two spacing'></div>
+  <div class='row'>
+    <div class='large-12 columns'>
+      {% include section-header.html title="Join Us" color="#fff" class="big" %}
+    </div>
+  </div>
+  <div class='three spacing'></div>
+</div>
+
+
+<div class='full'>
+  <div class='row'>
+    <div class='large-12 columns'>
+      <div class='spacing'></div>
+      <p style="font-size: 1.2rem"> We are always looking for talented and motivated students and summer interns to work on exciting problems in spatial science, data science, and computer science. Before you send us an email, please talk to at least one PhD student in the group. We are receiving many applications every semester, and we have limited positions. In your email, please include 1) your resume, 2) a short description of your research interests, 3) the PhD student whom you have talked to, and 4) the research projects that you'd like to participate.</p>
+
+      <h3 style="font-size: 1.5rem">Graduate Students & Undergraduate Students</h3>
+      <p style="font-size: 1.2rem"> Directed research students (Computer Science, Data Informatics, or GIST students): we ask you to put down at least 15 hours a week so that you will have enough time to finish a cool project.</p>
+      <h3 style="font-size: 1.5rem">Visitors and Students from Other Schools (including international scholars and students)</h3>
+      <p style="font-size: 1.2rem"> We welcome visitors and students from other schools. We had great experiences with international summer interns in the past. Come work with us in Los Angeles and enjoy the nice weather! </p>
+      <h3 style="font-size: 1.5rem">Prospective PhD Students</h3>
+      <p style="font-size: 1.2rem"> We take PhD students from both the USC Ph.D. programs in Computer Science and in Population, Health, and Place. If you want to work with our faculty members for your Ph.D. study, you are welcome to send us an email describing your research interest before you apply. This way we will be able to find your application after the admission committee has reviewed your profile. However, in most of the cases, we will not be able to tell you your chance of getting into the program. </p>
+      <div class='three spacing'></div>
+    </div>
+  </div>
+</div>
+
+<!-- <div class='large-12 columns'>
+  {% include section-header.html title="Lab Activities" %}
+</div>
+<div class='three spacing'></div>
+<div class='full'>
+  <div class='row'>
+    {% for item in site.data.activities %}
+    <div class='row'>
+      <div class='medium-4 columns large-4 columns'>
+        <img class="fadeinleft" src="{{ item.image }}" />
+        <div class='three spacing'></div>
+      </div>
+      <div class='medium-8 columns large-8 columns'>
+        <h3>{{item.name}}</h3>
+        <p>{{item.desc}}</p>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div> -->
+
+
+<div class='large-12 columns'>
+  {% include section-header.html title="Lab Activities" %}
+</div>
+<div class='three spacing'></div>
+<div class='full'>      
+  <div class='row'>
+    {% for item in site.data.activities %}
+      {% if forloop.index > 3 %}
+        {% break %}
+      {% endif %}
+      <div class='large-4 medium-4 columns'>
+        <div class='mod modBlogPost'>
+          <img class="fadeinleft" src="{{item.image}}" /></a>
+          <div class='content'>
+            <p>{{item.desc}}</p>
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+
+
+
+
+

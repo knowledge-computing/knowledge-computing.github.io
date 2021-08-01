@@ -1,82 +1,26 @@
 director:
-  - name: Bob
-    image: images/people/bob.png
-    position: Associate Professor (Research)
-    department: USC Spatial Sciences Institute
+  - name: Yao-Yi Chiang
+    image: images/people/yaoyichiang.jpg
+    position: Associate Professor <br> UMN CS&E
     link: http://www.yoyoi.info/
   - name: Bob
     image: images/people/bob.png
-    position: The dog
-    link: NA
+    position: The Dog
+    link:
 faculty:
-  - name: Bob
-    image: images/people/bob.png
-    position: Associate Professor (Research)
-    department: USC Spatial Sciences Institute
-    link: http://www.yoyoi.info/
-  - name: Bob
-    image: images/people/bob.png
-    position: The dog
-    link: NA
 phd:
-  - name: Bob
-    image: images/people/bob.png
-    position: Associate Professor (Research)
-    department: USC Spatial Sciences Institute
-    link: http://www.yoyoi.info/
-  - name: Bob
-    image: images/people/bob.png
-    position: The dog
-    link: NA
-  - name: Bob
-    image: images/people/bob.png
-    position: Associate Professor (Research)
-    department: USC Spatial Sciences Institute
-    link: http://www.yoyoi.info/
-  - name: Bob
-    image: images/people/bob.png
-    position: The dog
-    link: NA
-  - name: Bob
-    image: images/people/bob.png
-    position: Associate Professor (Research)
-    department: USC Spatial Sciences Institute
-    link: http://www.yoyoi.info/
-  - name: Bob
-    image: images/people/bob.png
-    position: The dog
-    link: NA
-  - name: Bob
-    image: images/people/bob.png
-    position: Associate Professor (Research)
-    department: USC Spatial Sciences Institute
-    link: http://www.yoyoi.info/
+  - name: Weiwei Duan
+    image: images/people/weiweiduan.jpg
+    position: USC Spatial Sciences Institute
+  - name: Zekun Li
+    image: images/people/zekunli.jpg
+    position: UMN CS&E    
+  - name: Yijun Lin
+    image: images/people/yijunlin.png
+    position: UMN CS&E
+    link: https://linyijun.github.io/
+  - name: Junbao & Yuanyuan
+    image: images/people/junbao&yuanyuan.jpeg
+    position: The Cats
 worker:
-  - name: Bob
-    image: images/people/bob.png
-    position: Associate Professor (Research)
-    department: USC Spatial Sciences Institute
-    link: http://www.yoyoi.info/
-  - name: Bob
-    image: images/people/bob.png
-    position: The dog
-    link: NA
-  - name: Bob
-    image: images/people/bob.png
-    position: Associate Professor (Research)
-    department: USC Spatial Sciences Institute
-    link: http://www.yoyoi.info/
-  - name: Bob
-    image: images/people/bob.png
-    position: The dog
-    link: NA
 alumni:
-  - name: Bob
-    image: images/people/bob.png
-    position: Associate Professor (Research)
-    department: USC Spatial Sciences Institute
-    link: http://www.yoyoi.info/
-  - name: Bob
-    image: images/people/bob.png
-    position: The dog
-    link: NA

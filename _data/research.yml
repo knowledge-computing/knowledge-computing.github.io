@@ -1,13 +1,13 @@
 - title: ContextMP
   image: images/research/jonsnow.png
-  link_to: research/jonsnow.html
+  link_to: research/contextmp.html
   klass: map
-  desc: ContextMP
-- title: ContextMP
+  desc: Computer Vision & Machine Learning for Historical Map Understanding
+- title: Jonsnow
   image: images/research/jonsnow.png
   link_to: research/jonsnow.html
-  klass: health
-  desc: Jonsnow
+  klass: spatioremporal
+  desc: Deep Learning Method for Air Quality Prediction
 - title: ContextMP
   image: images/research/jonsnow.png
   link_to: research/jonsnow.html
@@ -16,7 +16,7 @@
 - title: ContextMP
   image: images/research/jonsnow.png
   link_to: research/jonsnow.html
-  klass: transportation
+  klass: nlp
   desc: Transportation
 - title: ContextMP
   image: images/research/jonsnow.png
@@ -26,7 +26,7 @@
 - title: ContextMP
   image: images/research/jonsnow.png
   link_to: research/jonsnow.html
-  klass: transportation
+  klass: nlp
   desc: Transportation
 - title: ContextMP
   image: images/research/jonsnow.png
