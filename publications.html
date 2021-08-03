@@ -14,6 +14,11 @@ section_id: publications
   <div class='three spacing'></div>
 </div>
 
+<div class='full'>
+  <div class='row'>
+    <script src="https://bibbase.org/show?bib=http%3A%2F%2Fknowledge-computing.github.io%2Fpublications.bib&amp;jsonp=1"></script>
+    </div>
+</div>
 
 <!-- <div class='full'>
   <div class='row'>
@@ -26,49 +31,6 @@ section_id: publications
   </div>
   <div class='spacing'></div>
 </div>
-
-<div class='full'>
-  <div class='row'>
-    <h2>Book Chapters</h2>
-    <ol reversed="reversed" type="1" style="font-size: 1.2rem;">
-      {% for publication in site.data.publications.book_chap %}
-        <li><a href={{publication.link}}>{{publication.authors}} ({{publication.year}}). {{publication.title}}. In {{publication.publisher}}</a></li> 
-      {% endfor %}
-    </ol>
-  </div>
-  <div class='spacing'></div>
-</div>
-
-<div class='full'>
-  <div class='row'>
-    <h2>Refereed Journal Articles</h2>
-    <ol reversed="reversed" type="1" style="font-size: 1.2rem;">  
-      {% for publication in site.data.publications.journal %}
-        <li><a href={{publication.link}}>{{publication.authors}} ({{publication.year}}). {{publication.title}}. In {{publication.publisher}}</a></li>
-      {% endfor %}
-    </ol>
-  </div>
-  <div class='spacing'></div>
-</div>
-
-<div class='full'>
-  <div class='row'>
-    <h2>Refereed Conference & Symposium Proceedings</h2>
-    <ol reversed="reversed" type="1" style="font-size: 1.2rem;">
-      {% for publication in site.data.publications.proceedings %}
-        <li><a href={{publication.link}}>{{publication.authors}} ({{publication.year}}). {{publication.title}}. In {{publication.publisher}}</a></li> 
-      {% endfor %}
-    </ol>
-  </div>
-  <div class='spacing'></div>
-</div>
  -->
-
-<div class='full'>
-  <div class='row'>
-    <script src="https://bibbase.org/show?bib=http%3A%2F%2Fknowledge-computing.github.io%2Fpublications.bib&amp;jsonp=1"></script>
-    </div>
-</div>
-
 
 <div class='three spacing'></div>
