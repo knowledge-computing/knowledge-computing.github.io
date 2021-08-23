@@ -21,6 +21,13 @@ phd:
     link: https://linyijun.github.io/
   - name: Junbao & Yuanyuan
     image: images/people/junbao&yuanyuan.jpeg
-    position: The Cats
+    position: The Cats    
+  - name: Jina Kim
+    image: images/people/jinakim.jpeg
+    position: UMN CS&E
+    link: https://jina-kim.github.io
+  - name: Min Namgung
+    image: images/people/minnamgung.jpg
+    position: UMN CS&E    
 worker:
 alumni:
