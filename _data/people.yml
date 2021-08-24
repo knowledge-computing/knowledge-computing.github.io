@@ -11,10 +11,13 @@ faculty:
 phd:
   - name: Weiwei Duan
     image: images/people/weiweiduan.jpg
-    position: USC CS
+    position: USC CS  
   - name: Zekun Li
     image: images/people/zekunli.jpg
     position: UMN CS&E    
+  - name: Lois Park
+    image: images/people/loispark.jpeg
+    position: USC Spatial Sciences Institute
   - name: Dan Feldman
     image: images/people/danfeldman.jpeg
     position: USC CS
