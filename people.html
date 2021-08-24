@@ -54,25 +54,6 @@ section_id: people
 
 <div class='full'>
   <div class='row'>
-    <h2> Student Workers </h2>
-      {% for member in site.data.people.worker %}
-            <div class='modPeople'>
-              {% if {{member.link}} == null %}
-                <img class="avatar" alt="" src="{{ member.image }}" />
-                <h3>{{member.name}}</h3>
-              {% else %}
-                <a href={{member.link}}><img class="avatar" alt="" src="{{ member.image }}"/></a>
-                <h3><a href={{member.link}}>{{member.name}}</a></h3>
-              {% endif %}
-              <p>{{member.position}}</p>
-            </div>
-      {% endfor %}
-      <div class="columns end"></div>
-  </div>
-</div>
-
-<div class='full'>
-  <div class='row'>
     <h2> Alumni </h2>
       {% for member in site.data.people.alumni %}
             <div class='modPeople'>
@@ -81,6 +62,25 @@ section_id: people
                 <h3>{{member.name}}</h3>
               {% else %}
                 <a href={{member.link}}><img class="avatar" alt="" src="{{ member.image }}" /></a>
+                <h3><a href={{member.link}}>{{member.name}}</a></h3>
+              {% endif %}
+              <p>{{member.position}}</p>           
+            </div>
+      {% endfor %}
+      <div class="columns end"></div>
+  </div>
+</div>
+
+<div class='full'>
+  <div class='row'>
+    <h2> Student Workers </h2>
+      {% for member in site.data.people.worker %}
+            <div class='modPeople'>
+              {% if {{member.link}} == null %}
+                <img class="avatar" alt="" src="{{ member.image }}" />
+                <h3>{{member.name}}</h3>
+              {% else %}
+                <a href={{member.link}}><img class="avatar" alt="" src="{{ member.image }}"/></a>
                 <h3><a href={{member.link}}>{{member.name}}</a></h3>
               {% endif %}
               <p>{{member.position}}</p>

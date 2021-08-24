@@ -35,5 +35,8 @@ phd:
   - name: Min Namgung
     image: images/people/minnamgung.jpg
     position: UMN CS&E    
-worker:
 alumni:
+  - name: Johanna Avelar Portillo
+    image: images/people/johannaavelar.png
+    position: USC Ph.D. 
+worker:
