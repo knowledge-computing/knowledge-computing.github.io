@@ -1,10 +1,10 @@
 - title: Strabo
-  image: 
+  image: images/research/strabo.jpg
   link_to: research/contextmp.html
   klass: cv
   desc: Detecting and recognizing text from historical maps
 - title: mapKurator
-  image: 
+  image: images/research/mapkurator.png
   link_to: research/jonsnow.html
   klass: cv
   desc: Generating rich metadata from historical map content
@@ -44,7 +44,7 @@
   klass: kg
   desc: Building a geolocality aware natural language model using geographic and linguistic contex 
 - title: Moving behavior detection from trajectory 
-  image: 
+  image: images/research/detect.png
   link_to: http://mint-project.info/ 
   klass: st
   desc: 
