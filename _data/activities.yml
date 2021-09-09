@@ -1,9 +1,18 @@
-- name: ContextMP
-  image: images/activities/lab_meeting.png
-  desc: Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing.
-- name: ContextMP
-  image: images/activities/birthday.png
-  desc: Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing.
-- name: ContextMP
-  image: images/activities/birthday.png
-  desc: Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing.
+- image: images/activities/lab1.jpeg
+  desc:
+- image: images/activities/labmeeting.jpg
+  desc:
+- image: images/activities/birthday.jpg
+  desc:
+- image: images/activities/paintball1.jpg
+  desc:
+- image: images/activities/paintball2.jpg
+  desc:
+- image: images/activities/sigspatial2017.jpg
+  desc:
+- image: images/activities/sigspatial20181.jpg
+  desc:
+- image: images/activities/sigspatial20182.jpg
+  desc:
+- image: images/activities/sigspatial20183.jpg
+  desc:

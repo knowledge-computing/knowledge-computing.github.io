@@ -1,35 +1,60 @@
-- title: ContextMP
-  image: images/research/jonsnow.png
+- title: Strabo
+  image: 
   link_to: research/contextmp.html
-  klass: map
-  desc: Computer Vision & Machine Learning for Historical Map Understanding
-- title: Jonsnow
-  image: images/research/jonsnow.png
+  klass: cv
+  desc: Detecting and recognizing text from historical maps
+- title: mapKurator
+  image: 
   link_to: research/jonsnow.html
-  klass: spatioremporal
-  desc: Deep Learning Method for Air Quality Prediction
-- title: ContextMP
-  image: images/research/jonsnow.png
-  link_to: research/jonsnow.html
-  klass: map
+  klass: cv
+  desc: Generating rich metadata from historical map content
+- title: Machines reading maps
+  image: 
+  link_to: https://machines-reading-maps.github.io/
+  klass: cv
   desc: Strabo
-- title: ContextMP
-  image: images/research/jonsnow.png
+- title: LinkedMap
+  image: 
+  link_to: https://usc-isi-i2.github.io/linked-maps/ 
+  klass: cv
+  desc: Transportation
+- title: Jonsnow
+  image: 
   link_to: research/jonsnow.html
+  klass: st
+  desc: Transportation
+- title: DeepLATTE
+  image: i
+  link_to: research/jonsnow.html
+  klass: st
+  desc: Building a spatially explicit approach for hierarchical forecasting on geolocated multiscale multivariate time-series data
+- title: EarthScan
+  image: 
+  link_to: 
+  klass: cv
+  desc: Incorporating Prior Knowledge for Robust Object Detection and Geographic Layer Extraction from Overhead Imagery 
+- title: GeoBERT
+  image: 
+  link_to: 
   klass: nlp
-  desc: Transportation
-- title: ContextMP
-  image: images/research/jonsnow.png
-  link_to: research/jonsnow.html
-  klass: transportation
-  desc: Transportation
-- title: ContextMP
-  image: images/research/jonsnow.png
-  link_to: research/jonsnow.html
-  klass: nlp
-  desc: Transportation
-- title: ContextMP
-  image: images/research/jonsnow.png
-  link_to: research/jonsnow.html
-  klass: transportation
-  desc: Transportation
+  desc: Building a geolocality aware natural language model using geographic and linguistic contex 
+- title: MINT
+  image: 
+  link_to: http://mint-project.info/ 
+  klass: kg
+  desc: Building a geolocality aware natural language model using geographic and linguistic contex 
+- title: Moving behavior detection from trajectory 
+  image: 
+  link_to: http://mint-project.info/ 
+  klass: st
+  desc: 
+- title: Bus arrival time estimation
+  image: 
+  link_to: 
+  klass: st
+  desc: 
+- title: AI-Driven Analytics for Network Operations
+  image: 
+  link_to:  
+  klass: st
+  desc: 

@@ -14,6 +14,16 @@ section_id: people
   <div class='three spacing'></div>
 </div>
 
+<div class='one spacing'></div>
+<div class='full'>
+  <div class='row'>
+    <div class='large-12 columns'>
+      <p style="font-size: 1.4rem"> Our team includes researchers from the University of Minnesota (UMN) and the University of Southern California (USC), and visitors from worldwide universities. Our students are from various programs, such as Computer Science, Computer Engineering, Data Science, Population, Health and Place Graduate (PHP). </p>
+    </div>
+  </div>
+</div>
+
+
 <div class='full'>
   <div class='row'>
     <h2> Lab Director</h2>
@@ -26,7 +36,26 @@ section_id: people
                 <a href={{member.link}}><img class="avatar" alt="" src="{{ member.image }}"/></a>
                 <h3><a href={{member.link}}>{{member.name}}</a></h3>
               {% endif %}
-              <p>{{member.position}}</p>
+              <p>{{member.profile}}</p>
+            </div>
+      {% endfor %}
+      <div class="columns end"></div>
+  </div>
+</div>
+
+<div class='full'>
+  <div class='row'>
+    <h2> Faculties </h2>
+      {% for member in site.data.people.faculty %}
+            <div class='modPeople'>
+              {% if {{member.link}} == null %}
+                <img class="avatar" alt="" src="{{ member.image }}" />
+                <h3>{{member.name}}</h3>
+              {% else %}
+                <a href={{member.link}}><img class="avatar" alt="" src="{{ member.image }}"/></a>
+                <h3><a href={{member.link}}>{{member.name}}</a></h3>
+              {% endif %}
+              <p>{{member.profile}}</p>
             </div>
       {% endfor %}
       <div class="columns end"></div>
@@ -45,26 +74,7 @@ section_id: people
                 <a href={{member.link}}><img class="avatar" alt="" src="{{ member.image }}";/></a>
                 <h3><a href={{member.link}}>{{member.name}}</a></h3>
               {% endif %}
-              <p>{{member.position}}</p>
-            </div>
-      {% endfor %}
-      <div class="columns end"></div>
-  </div>
-</div>
-
-<div class='full'>
-  <div class='row'>
-    <h2> Alumni </h2>
-      {% for member in site.data.people.alumni %}
-            <div class='modPeople'>
-              {% if {{member.link}} == null %}
-                <img class="avatar" alt="" src="{{ member.image }}" />
-                <h3>{{member.name}}</h3>
-              {% else %}
-                <a href={{member.link}}><img class="avatar" alt="" src="{{ member.image }}" /></a>
-                <h3><a href={{member.link}}>{{member.name}}</a></h3>
-              {% endif %}
-              <p>{{member.position}}</p>           
+              <p>{{member.profile}}</p>
             </div>
       {% endfor %}
       <div class="columns end"></div>
@@ -83,11 +93,33 @@ section_id: people
                 <a href={{member.link}}><img class="avatar" alt="" src="{{ member.image }}"/></a>
                 <h3><a href={{member.link}}>{{member.name}}</a></h3>
               {% endif %}
-              <p>{{member.position}}</p>
+              <p>{{member.profile}}</p>
             </div>
       {% endfor %}
       <div class="columns end"></div>
   </div>
 </div>
+
+<div class='full'>
+  <div class='row'>
+    <h2> Alumni </h2>
+      {% for member in site.data.people.alumni %}
+            <div class='modPeople'>
+              {% if {{member.link}} == null %}
+                <img class="avatar" alt="" src="{{ member.image }}" />
+                <h3>{{member.name}}</h3>
+              {% else %}
+                <a href={{member.link}}><img class="avatar" alt="" src="{{ member.image }}" /></a>
+                <h3><a href={{member.link}}>{{member.name}}</a></h3>
+              {% endif %}
+              <p style="margin:0">{{member.position}}</p>       
+              <p>{{member.profile}}</p>        
+            </div>
+      {% endfor %}
+      <div class="columns end"></div>
+  </div>
+</div>
+
+
 
 <div class='three spacing'></div>

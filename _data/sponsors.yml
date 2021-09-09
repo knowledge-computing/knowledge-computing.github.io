@@ -6,13 +6,29 @@
   image: images/sponsors/nga.jpeg
 - name: NIH
   image: images/sponsors/nih.png
+- name: NEH
+  image: images/sponsors/neh.jpeg
+- name: Google AI
+  image: images/sponsors/googleai.jpg
 - name: MICROSOFT
   image: images/sponsors/microsoft.png
+- name: LA Metro
+  image: images/sponsors/lametro.jpg
+- name: Caltrans
+  image: images/sponsors/caltrans.jpg
 - name: NVIDIA
   image: images/sponsors/nvidia.png
 - name: BAE
   image: images/sponsors/bae.png
 - name: CLS
-  image: images/sponsors/cls.png
+  image: images/sponsors/risksolutions.jpg
+- name: NTT
+  image: images/sponsors/ntt.jpg
 - name: TERRAGO
   image: images/sponsors/terrago.png
+- name: Metrans
+  image: images/sponsors/metrans.jpg
+- name: USC
+  image: images/sponsors/usc.jpg
+- name: UMN
+  image: images/sponsors/umn.jpg
