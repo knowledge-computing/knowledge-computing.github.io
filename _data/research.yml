@@ -1,60 +1,60 @@
 - title: Strabo
   image: 
-  link_to: research/contextmp.html
-  klass: cv
+  link_to: 
+  klass: cv map geoint
   desc: Detecting and recognizing text from historical maps
 - title: mapKurator
   image: 
-  link_to: research/jonsnow.html
-  klass: cv
+  link_to: 
+  klass: cv map geoint
   desc: Generating rich metadata from historical map content
 - title: Machines reading maps
   image: 
   link_to: https://machines-reading-maps.github.io/
-  klass: cv
-  desc: Strabo
+  klass: cv map geoint
+  desc: 
 - title: LinkedMap
   image: 
   link_to: https://usc-isi-i2.github.io/linked-maps/ 
-  klass: cv
-  desc: Transportation
+  klass: cv map geoint
+  desc: 
 - title: Jonsnow
   image: 
-  link_to: research/jonsnow.html
-  klass: st
-  desc: Transportation
+  link_to: 
+  klass: st geoint health smartcity
+  desc: Predicting fine-scale air quality
 - title: DeepLATTE
-  image: i
-  link_to: research/jonsnow.html
-  klass: st
-  desc: Building a spatially explicit approach for hierarchical forecasting on geolocated multiscale multivariate time-series data
+  image: 
+  link_to: 
+  klass: st health smartcity
+  desc: Building a spatially-explicit approach for hierarchical forecasting on geolocated multiscale multivariate time-series data
 - title: EarthScan
   image: 
   link_to: 
-  klass: cv
+  klass: cv map geoint
   desc: Incorporating Prior Knowledge for Robust Object Detection and Geographic Layer Extraction from Overhead Imagery 
 - title: GeoBERT
   image: 
   link_to: 
-  klass: nlp
+  klass: nlp geoint kg
   desc: Building a geolocality aware natural language model using geographic and linguistic contex 
 - title: MINT
   image: 
   link_to: http://mint-project.info/ 
-  klass: kg
-  desc: Building a geolocality aware natural language model using geographic and linguistic contex 
+  klass: geoint
+  desc: 
 - title: Moving behavior detection from trajectory 
   image: 
-  link_to: http://mint-project.info/ 
-  klass: st
+  link_to: 
+  klass: st trans smartcity
   desc: 
 - title: Bus arrival time estimation
   image: 
   link_to: 
-  klass: st
+  klass: st trans smartcity
   desc: 
 - title: AI-Driven Analytics for Network Operations
   image: 
   link_to:  
-  klass: st
+  klass: st others
   desc: 

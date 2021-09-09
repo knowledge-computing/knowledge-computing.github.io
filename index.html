@@ -30,7 +30,7 @@ slides:
         - text: Learn More
           link_to: research/contextmp.html
 
-research:          
+<!-- research:          
   - image: images/research/jonsnow.png
     title: Computer Vision
     link_to: research.html
@@ -42,10 +42,25 @@ research:
     link_to: research.html
   - image: images/research/jonsnow.png
     title: Knowledge Graphs
-    link_to: research.html
+    link_to: research.html -->
 ---
 
-<div class='mod modDefaultSlider'>
+<div class='full parallax' style='background-image: url(images/background/slider_historical_map.png); color: #fff;'>
+  <div class='two spacing'></div>
+  <div class='row'>
+    <div class='large-12 columns'>
+      {% include section-header.html title="Knowledge Computing Lab" color="#fff" class="big" %}
+      <div class='two spacing'></div>
+      <div style="text-align: center; ">
+        <h5 style="font-size: 1.8rem; color: white; ">We are an interdisciplinary research lab at the</h5>
+        <h5 style="font-size: 1.6rem; color: lightgray; "> <a style="color: lightgray; " href="https://cse.umn.edu/cs"><b>Computer Science & Engineering Department</b></a>, <a style="color: lightgray;" href="https://twin-cities.umn.edu/"><b>University of Minnesota, Twin Cities</b></a></h5>
+      </div>
+    </div>
+  </div>
+  <div class='three spacing'></div>
+</div>
+
+<!-- <div class='mod modDefaultSlider'>
   <div class='sequence' data-autostop='on' data-timeout='0'>
     <a class='sequence-prev' href='javascript:void(0);'>
       <span></span>
@@ -72,7 +87,7 @@ research:
         {% endif %}
 
         <li class='frame {{style}} {{ slide.klass }}'>
-          <div class='bg' style='background-image: url({{ slide.bg }});'></div>
+          <div class='bg' style='background-image: url({{ slide.bg }});'></div> -->
           <!-- <div class='small-title {{ slide.small_title.klass }}'>
             <div class='row'>
               <div class='large-12 columns'>
@@ -80,7 +95,7 @@ research:
               </div>
             </div>
           </div> -->
-          <div class='title {{ slide.title.klass }}'>
+          <!-- <div class='title {{ slide.title.klass }}'>
             <div class='row'>
               <div class='large-12 columns'>
                 <h2 style="">{{ slide.title.text }}</h2>
@@ -101,9 +116,9 @@ research:
       {% endfor %}
     </ul>
   </div>
-</div>
+</div> -->
 
-<div class="full">
+<!-- <div class="full">
   <div class="row">
     <div class="large-12 columns">
       {% include section-header.html title="Who We Are" %}
@@ -115,11 +130,13 @@ research:
   </div>
   <div class="three spacing"></div>
 </div>
+ -->
 
 
 <div class="full"  style="background: #f5f5f5;">
   <div class="row">
     <div class="large-12 columns">
+      <div class="two spacing"></div>
       {% include section-header.html title="Our Research" %}
       <div class='spacing'></div>
       <p style="font-size: 1.2rem">
@@ -146,40 +163,43 @@ research:
         </ul>
       </div> -->
 
-      <!-- <div class='mod modGallery'>
-      <div class='gallery-nav'>
-        <ul style="font-size: 1.2rem;">
-          <li class='current'><a data-cat='all' href='#'>All</a></li>
-          <li><a data-cat='map' href='#'>Computer Vision</a></li>
-          <li><a data-cat='spatioremporal' href='#'>Spatiotemporal Data Analysis</a></li>
-          <li><a data-cat='nlp' href='#'>Natural Language Understanding</a></li>
-          <li><a data-cat='others' href='#'>Knowledge Graphs</a></li>
+      <div class='full'>
+        <div class='row'>
+          <div class='mod modGallery'>
+            <div class='gallery-nav'>
+              <ul style="font-size: 1.2rem;">
+                <li class='current'><a data-cat='all' href='#'>All</a></li>
+                <li><a data-cat='cv' href='#'>Computer Vision</a></li>
+                <li><a data-cat='st' href='#'>Spatiotemporal Data Analysis</a></li>
+                <li><a data-cat='nlp' href='#'>Natural Language Understanding</a></li>
+                <li><a data-cat='kg' href='#'>Knowledge Graphs</a></li>
+                <li><a data-cat='map' href='#'>Digital Map Processing</a></li>
+                <li><a data-cat='health' href='#'>Health</a></li>
+                <li><a data-cat='smartcity' href='#'>Smart City</a></li>
+                <li><a data-cat='trans' href='#'>Transportation</a></li>
+                <li><a data-cat='geoint' href='#'>Geospatial Intelligence (GeoINT)</a></li>
+                <li><a data-cat='others' href='#'>Others</a></li>
+              </ul>
+            </div>
 
-          <li><a data-cat='map' href='#'>Digital Map Processing</a></li>
-          <li><a data-cat='spatioremporal' href='#'>Health</a></li>
-          <li><a data-cat='nlp' href='#'>Smart City</a></li>
-          <li><a data-cat='others' href='#'>Transportation</a></li>
-          <li><a data-cat='nlp' href='#'>Geospatial Intelligence (GeoINT)</a></li>
-          <li><a data-cat='others' href='#'>Others</a></li>
-        </ul>
+            <ul class='gallery large-block-grid-4'>
+              {% for work in site.data.research %}
+                <li class="{{ work.klass }}">
+                  <a href='{{ work.link_to }}'>
+                    <img alt="" src="{{ work.image }}" />
+                    <div class='overlay'>
+                      <div class='thumb-info' style="padding: 0 10px;">
+                        <h3>{{ work.title }}</h3>
+                        <p>{{ work.desc }}</p>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
       </div>
-
-      <ul class='gallery large-block-grid-4'>
-        {% for work in site.data.research %}
-          <li class="{{ work.klass }}">
-            <a href='{{ work.link_to }}'>
-              <img alt="" src="{{ work.image }}" />
-              <div class='overlay'>
-                <div class='thumb-info'>
-                  <h3>{{ work.title }}</h3>
-                  <p>{{ work.desc }}</p>
-                </div>
-              </div>
-            </a>
-          </li>
-        {% endfor %}
-      </ul>
-    </div> -->
     </div> 
   </div>
   <div class='three spacing'></div>

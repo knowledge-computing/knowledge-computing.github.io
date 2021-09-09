@@ -577,7 +577,6 @@ jQuery(document).foundation();
         return false;
 
       });
-
     }
   })
 })(Tc.$);

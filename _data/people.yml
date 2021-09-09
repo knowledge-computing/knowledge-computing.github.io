@@ -15,16 +15,16 @@ faculty:
 phd:
   - name: Weiwei Duan
     image: images/people/weiweiduan.jpg
-    profile: USC CS  
+    profile: USC Computer Science
   - name: Zekun Li
     image: images/people/zekunli.jpg
     profile: UMN CS&E    
   - name: Lois Park
     image: images/people/loispark.jpeg
-    profile: USC Spatial Sciences Institute
+    profile: USC Spatial Sciences Institute <br> PHP Graduate Program
   - name: Dan Feldman
     image: images/people/danfeldman.jpeg
-    profile: USC CS
+    profile: USC Computer Science
   - name: Yijun Lin
     image: images/people/yijunlin.png
     profile: UMN CS&E
@@ -47,7 +47,7 @@ worker:
 alumni:
   - name: Johanna Avelar Portillo
     image: images/people/johannaavelar.png
-    profile: Ph.D. <br> USC Spatial Sciences Institute <br> PHP Program
+    profile: Ph.D. <br> USC Spatial Sciences Institute <br> PHP Graduate Program
   - name: Hayley Song
     image: images/people/hayleysong.jpg
     profile: Ph.D. Student <br> USC Computer Science
