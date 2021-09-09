@@ -2,3 +2,4 @@ _site
 .sass-cache
 .jekyll-cache
 zhtml_backup
+.DS_Store
