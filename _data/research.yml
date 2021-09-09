@@ -9,7 +9,7 @@
   klass: cv
   desc: Generating rich metadata from historical map content
 - title: Machines reading maps
-  image: mrm.jpeg
+  image: images/research/mrm.jpeg
   link_to: https://machines-reading-maps.github.io/
   klass: cv
   desc: Strabo
@@ -39,7 +39,7 @@
   klass: nlp
   desc: Building a geolocality aware natural language model using geographic and linguistic contex 
 - title: MINT
-  image: 
+  image: images/research/mint.png
   link_to: http://mint-project.info/ 
   klass: kg
   desc: Building a geolocality aware natural language model using geographic and linguistic contex 
