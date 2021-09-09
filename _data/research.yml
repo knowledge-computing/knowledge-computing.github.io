@@ -14,7 +14,7 @@
   klass: cv
   desc: Strabo
 - title: LinkedMap
-  image: 
+  image: images/research/linked_maps.png
   link_to: https://usc-isi-i2.github.io/linked-maps/ 
   klass: cv
   desc: Transportation
@@ -24,17 +24,17 @@
   klass: st
   desc: Transportation
 - title: DeepLATTE
-  image: i
+  image: images/research/deeplatte.png
   link_to: research/jonsnow.html
   klass: st
   desc: Building a spatially explicit approach for hierarchical forecasting on geolocated multiscale multivariate time-series data
 - title: EarthScan
-  image: 
+  image: images/research/earthscan.png
   link_to: 
   klass: cv
   desc: Incorporating Prior Knowledge for Robust Object Detection and Geographic Layer Extraction from Overhead Imagery 
 - title: GeoBERT
-  image: 
+  image: images/research/geobert.png
   link_to: 
   klass: nlp
   desc: Building a geolocality aware natural language model using geographic and linguistic contex 
