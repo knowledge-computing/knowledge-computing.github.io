@@ -49,12 +49,17 @@
   klass: st
   desc: 
 - title: Bus arrival time estimation
-  image: 
-  link_to: 
+  image: images/research/bus.png
+  link_to: https://infolab.usc.edu/caltrans/index.html#/
+  klass: st
+  desc: 
+- title: Archived Data Management System
+  image: images/research/adms.png
+  link_to: https://adms.usc.edu/app
   klass: st
   desc: 
 - title: AI-Driven Analytics for Network Operations
-  image: 
+  image: images/research/ntt.png
   link_to:  
   klass: st
   desc: 
