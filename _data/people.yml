@@ -2,16 +2,11 @@ director:
   - name: Yao-Yi Chiang
     image: images/people/yaoyichiang.jpg
     profile: Associate Professor <br> UMN CS&E
-    link: http://www.yoyoi.info/
+    link: https://yaoyichi.github.io/
   - name: Bob
     image: images/people/bob.png
     profile: The Dog
     link:
-faculty:
-  - name: Craig Knoblock
-    image: images/people/craigknoblock.jpg
-    profile: Affiliate USC faculty <br> Director of Information Integration <br> USC Information Sciences Institute
-    link: http://www.isi.edu/integration/people/knoblock/
 phd:
   - name: Weiwei Duan
     image: images/people/weiweiduan.jpg
