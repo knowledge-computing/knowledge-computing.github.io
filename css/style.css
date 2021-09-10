@@ -2901,13 +2901,15 @@ form input.error, form textarea.error {
   margin: 0 auto 30px;
   text-align: center;
 }
+.modGallery .gallery-nav ul {
+  margin-left: 0;
+}
 .modGallery .gallery-nav li {
   float: none;
   display: inline-block;
   border: 1px solid #bbb;
   padding: 5px 10px;
-  margin-left: 0.5rem;
-  margin-bottom: 0.5rem;
+  margin: 0 0.25rem 0.5rem;
 }
 .modGallery .gallery-nav li a {
   color: #999;
@@ -2943,11 +2945,16 @@ form input.error, form textarea.error {
   position: relative;
   display: block;
   overflow: hidden;
+  text-align: center;
 }
 .modGallery ul.gallery li a .overlay {
   opacity: 0;
   position: absolute;
+  margin: auto;
+  left: 0;
   top: 0;
+  right: 0;
+  bottom: 0;
   text-align: center;
   background: rgba(34, 34, 34, 0.8);
   width: 250px;
