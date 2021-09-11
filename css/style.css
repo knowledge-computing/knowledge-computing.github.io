@@ -624,6 +624,30 @@ a:hover {
   text-transform: uppercase;
   letter-spacing: 1px;
 }*/
+.header-hyperlink a {
+  color: white;
+}
+
+.header-hyperlink a:hover {
+  color: lightgrey;
+}
+
+/* button style */
+.btn, .btn:hover, .btn:active, .btn:focus {
+  border: 1px solid #bbb;
+  border-radius: 4px;
+  padding: 5px 15px;
+  cursor: pointer;
+  color: #bbb;
+}
+.btn:hover {
+  opacity: .5;
+}
+.btn-outline-primary {
+  border-color: #0080df;
+  color: #0080df;
+}
+
 
 .centered-text {
   text-align: center;
@@ -2901,13 +2925,15 @@ form input.error, form textarea.error {
   margin: 0 auto 30px;
   text-align: center;
 }
+.modGallery .gallery-nav ul {
+  margin-left: 0;
+}
 .modGallery .gallery-nav li {
   float: none;
   display: inline-block;
   border: 1px solid #bbb;
   padding: 5px 10px;
-  margin-left: 0.5rem;
-  margin-bottom: 0.5rem;
+  margin: 0 0.25rem 0.5rem;
 }
 .modGallery .gallery-nav li a {
   color: #999;
@@ -2938,16 +2964,22 @@ form input.error, form textarea.error {
   -webkit-transition: all 0.4s linear;
   transition: all 0.4s linear;
   margin-bottom: 20px;
+  text-align: center;
 }
 .modGallery ul.gallery li a {
   position: relative;
   display: block;
   overflow: hidden;
+  text-align: center;
 }
 .modGallery ul.gallery li a .overlay {
   opacity: 0;
   position: absolute;
+  margin: auto;
+  left: 0;
   top: 0;
+  right: 0;
+  bottom: 0;
   text-align: center;
   background: rgba(34, 34, 34, 0.8);
   width: 250px;

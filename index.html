@@ -29,20 +29,6 @@ slides:
       items:
         - text: Learn More
           link_to: research/contextmp.html
-
-<!-- research:          
-  - image: images/research/jonsnow.png
-    title: Computer Vision
-    link_to: research.html
-  - image: images/research/jonsnow.png
-    title: Spatiotemporal <br> Data Analysis
-    link_to: research.html
-  - image: images/research/jonsnow.png
-    title: Natural Language Understanding
-    link_to: research.html
-  - image: images/research/jonsnow.png
-    title: Knowledge Graphs
-    link_to: research.html -->
 ---
 
 <div class='full parallax' style='background-image: url(images/background/slider_historical_map.jpeg); color: #fff;'>
@@ -56,11 +42,7 @@ slides:
       <!-- {% include section-header.html title="Knowledge Computing Lab" color="#fff" class="big" %} -->
 
       <div class='two spacing'></div>
-      <style>
-      a {color: white;}
-      a: hover {color: lightgrey;}
-      </style>
-      <div style="text-align: center; ">
+      <div class='header-hyperlink' style="text-align: center; ">
         <h5 style="font-size: 1.8rem; color: white; ">We are an interdisciplinary research lab at the</h5>
         <h5 style="font-size: 1.5rem; color: white; " > <a href="https://cse.umn.edu/cs"><b><u>Computer Science & Engineering Department</b></u></a>, <a href="https://twin-cities.umn.edu/"><b><u>University of Minnesota, Twin Cities</b></u></a></h5>
       </div>
@@ -68,79 +50,6 @@ slides:
   </div>
   <div class='four spacing'></div>
 </div>
-
-<!-- <div class='mod modDefaultSlider'>
-  <div class='sequence' data-autostop='on' data-timeout='0'>
-    <a class='sequence-prev' href='javascript:void(0);'>
-      <span></span>
-    </a>
-    <a class='sequence-next' href='javascript:void(0);'>
-      <span></span>
-    </a>
-    <ul class='sequence-pagination'>
-      {% for slide in page.slides %}
-        {% if forloop.first %}
-          {% assign class = 'current' %}
-        {% else %}
-          {% assign class = '' %}
-        {% endif %}
-        <li class="{{class}}"></li>
-      {% endfor %}
-    </ul>
-    <ul class='sequence-canvas'>
-      {% for slide in page.slides %}
-        {% if forloop.first %}
-          {% assign style = 'static' %}
-        {% else %}
-          {% assign style = '' %}
-        {% endif %}
-
-        <li class='frame {{style}} {{ slide.klass }}'>
-          <div class='bg' style='background-image: url({{ slide.bg }});'></div> -->
-          <!-- <div class='small-title {{ slide.small_title.klass }}'>
-            <div class='row'>
-              <div class='large-12 columns'>
-                <h2>{{ slide.small_title.text }}</h2>
-              </div>
-            </div>
-          </div> -->
-          <!-- <div class='title {{ slide.title.klass }}'>
-            <div class='row'>
-              <div class='large-12 columns'>
-                <h2 style="">{{ slide.title.text }}</h2>
-              </div>
-            </div>
-          </div>
-          <div class='buttons-wrapper {{ slide.buttons.klass }}'>
-            <div class='row'>
-              <div class='large-12 columns'>
-                <div class='two spacing'></div>
-                {% for button in slide.buttons.items %}
-                  <a class='button {{ button.klass }}' href='{{ button.link_to }}' style="font-size: 1.5rem; background-color: darkcyan; border: none; border-radius: 8px;">{{ button.text }}</a>
-                {% endfor %}
-              </div>
-            </div>
-          </div>
-        </li>
-      {% endfor %}
-    </ul>
-  </div>
-</div> -->
-
-<!-- <div class="full">
-  <div class="row">
-    <div class="large-12 columns">
-      {% include section-header.html title="Who We Are" %}
-    <div class="spacing"></div>
-    <p style="font-size: 1.2rem">
-      We are an interdisciplinary research lab at the <a href="https://cse.umn.edu/cs"><b>Computer Science & Engineering Department</b></a>, <a href="https://twin-cities.umn.edu/"><b>University of Minnesota</b></a>. 
-    </p>
-    </div>
-  </div>
-  <div class="three spacing"></div>
-</div>
- -->
-
 
 <div class="full"  style="background: #f5f5f5;">
   <div class="row">
@@ -150,27 +59,6 @@ slides:
       <div class='spacing'></div>
       <p style="font-size: 1.3rem">
         Our research lies at the intersection of <b>computer science</b> and <b>spatial sciences</b>. We build algorithms and intelligent  systems for discovering, collecting, fusing, and analyzing data from heterogeneous sources to solve real-world problems. Recently, we focus on developing machine learning frameworks that exploit unique spatial data properties and prior structural knowledge to tackle problems in <b>natural language processing</b>, <b>computer vision</b>, and <b>spatiotemporal data analysis</b>. <a href="research.html" style="color: #800000">Learn more about our research.</a></p>
-
-<!--       <p style="font-size: 1.4rem"><a href="research.html"><b>Learn more about our research projects.</b></a></p>
- -->    
-      <!-- <div class='two spacing'></div> -->
-      <!-- <div class="mod modGallery">
-        <ul class="gallery large-block-grid-4">
-          {% for item in page.research %}
-            <li>
-              <a href='{{ item.link_to }}'>
-                <img alt="" src="{{ item.image }}"         />
-                <div class='overlay'> 
-                  <div class='thumb-info'>
-                    <h3>{{ item.title }}</h3>
-                    <p>{{ item.desc }}</p>
-                  </div>
-                </div>
-              </a>
-            </li>
-          {% endfor %}
-        </ul>
-      </div> -->
 
       <div class='full'>
         <div class='row'>
@@ -194,7 +82,7 @@ slides:
             <ul class='gallery large-block-grid-4'>
               {% for work in site.data.research %}
                 <li class="{{ work.klass }}">
-                  <a href='{{ work.link_to }}'>
+                  <a href='/research.html#{{ work.title }}'>
                     <img alt="" src="{{ work.image }}" />
                     <div class='overlay'>
                       <div class='thumb-info' style="padding: 0 10px;">

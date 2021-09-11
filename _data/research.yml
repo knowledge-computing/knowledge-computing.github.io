@@ -3,63 +3,102 @@
   link_to: 
   klass: cv map geoint
   desc: Detecting and recognizing text from historical maps
+  abstract: 
+  github:
+  paper:
 - title: mapKurator
   image: images/research/mapkurator.png
   link_to: 
   klass: cv map geoint
   desc: Generating rich metadata from historical map content
+  abstract:
+  github:
+  paper:
 - title: Machines reading maps
   image: images/research/mrm.jpeg
   link_to: https://machines-reading-maps.github.io/
   klass: cv map geoint
   desc: 
+  abstract:
+  github:
+  paper:
 - title: LinkedMap
   image: images/research/linked_maps.png
   link_to: https://usc-isi-i2.github.io/linked-maps/ 
   klass: cv map geoint
   desc: 
+  abstract:
+  github:
+  paper:
 - title: Jonsnow
   image: images/research/jonsnow.jpg
   link_to: 
   klass: st health smartcity
   desc: Predicting fine-scale air quality
+  abstract:
+  github:
+  paper:
 - title: DeepLATTE
   image: images/research/deeplatte.png
   link_to: 
   klass: st geoint health smartcity
   desc: Building a spatially-explicit approach for hierarchical forecasting on geolocated multiscale multivariate time-series data
+  abstract:
+  github:
+  paper:
 - title: EarthScan
   image: images/research/earthscan.png
   link_to: 
   klass: cv map geoint
   desc: Incorporating Prior Knowledge for Robust Object Detection and Geographic Layer Extraction from Overhead Imagery 
+  abstract:
+  github:
+  paper:
 - title: GeoBERT
   image: images/research/geobert.jpg
   link_to: 
   klass: nlp geoint kg
   desc: Building a geolocality aware natural language model using geographic and linguistic contex 
+  abstract:
+  github:
+  paper:
 - title: MINT
   image: images/research/mint.png
   link_to: http://mint-project.info/ 
   klass: geoint
   desc: 
+  abstract:
+  github:
+  paper:
 - title: Moving behavior detection from trajectory 
   image: images/research/detect.jpg
   link_to: 
   klass: st trans smartcity
   desc: 
+  abstract:
+  github:
+  paper:
 - title: Bus arrival time estimation
   image: images/research/bus.png
   link_to: https://infolab.usc.edu/caltrans/index.html#/
   klass: st
   desc: 
+  abstract:
+  github:
+  paper:
 - title: Archived Data Management System
   image: images/research/adms.jpg
   link_to: https://adms.usc.edu/app
   klass: st
   desc: 
+  abstract:
+  github:
+  paper:
 - title: AI-Driven Analytics for Network Operations
   image: images/research/ntt.png
   link_to:  
   klass: st others
   desc: 
+  abstract:
+  github:
+  paper:

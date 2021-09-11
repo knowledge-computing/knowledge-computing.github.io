@@ -11,29 +11,35 @@ phd:
   - name: Weiwei Duan
     image: images/people/weiweiduan.jpg
     profile: USC Computer Science
+    link:
   - name: Zekun Li
     image: images/people/zekunli.jpg
-    profile: UMN CS&E    
+    profile: UMN CS&E
+    link:
   - name: Lois Park
     image: images/people/loispark.jpeg
     profile: USC Spatial Sciences Institute <br> PHP Graduate Program
+    link:
   - name: Dan Feldman
     image: images/people/danfeldman.jpeg
     profile: USC Computer Science
+    link:
   - name: Yijun Lin
     image: images/people/yijunlin.png
     profile: UMN CS&E
     link: https://linyijun.github.io/
   - name: Junbao & Yuanyuan
     image: images/people/junbao&yuanyuan.jpeg
-    profile: The Cats    
+    profile: The Cats
+    link:
   - name: Jina Kim
     image: images/people/jinakim.jpeg
     profile: UMN CS&E
     link: https://jina-kim.github.io
   - name: Min Namgung
     image: images/people/minnamgung.jpg
-    profile: UMN CS&E   
+    profile: UMN CS&E
+    link:
 worker:
   - name: Runyu Guan
     image: images/people/runyuguan.jpg

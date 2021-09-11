@@ -29,12 +29,12 @@ section_id: people
     <h2> Lab Director</h2>
       {% for member in site.data.people.director %}
             <div class='modPeople'>
-              {% if {{member.link}} == null %}
-                <img class="avatar" alt="" src="{{ member.image }}" />
-                <h3>{{member.name}}</h3>
-              {% else %}
+              {% if {{member.link}} %}
                 <a href={{member.link}}><img class="avatar" alt="" src="{{ member.image }}"/></a>
                 <h3><a href={{member.link}}>{{member.name}}</a></h3>
+              {% else %}  
+                <img class="avatar" alt="" src="{{ member.image }}" />
+                <h3>{{member.name}}</h3>
               {% endif %}
               <p>{{member.profile}}</p>
             </div>
@@ -48,12 +48,12 @@ section_id: people
     <h2> Faculties </h2>
       {% for member in site.data.people.faculty %}
             <div class='modPeople'>
-              {% if {{member.link}} == null %}
-                <img class="avatar" alt="" src="{{ member.image }}" />
-                <h3>{{member.name}}</h3>
-              {% else %}
+              {% if {{member.link}} %}
                 <a href={{member.link}}><img class="avatar" alt="" src="{{ member.image }}"/></a>
                 <h3><a href={{member.link}}>{{member.name}}</a></h3>
+              {% else %}  
+                <img class="avatar" alt="" src="{{ member.image }}" />
+                <h3>{{member.name}}</h3>
               {% endif %}
               <p>{{member.profile}}</p>
             </div>
@@ -67,12 +67,12 @@ section_id: people
     <h2> Ph.D. Students </h2>
       {% for member in site.data.people.phd %}
             <div class='modPeople'>
-              {% if {{member.link}} == null %}
+              {% if {{member.link}} %}
+                <a href={{member.link}}><img class="avatar" alt="" src="{{ member.image }}"/></a>
+                <h3><a href={{member.link}}>{{member.name}}</a></h3>
+              {% else %}  
                 <img class="avatar" alt="" src="{{ member.image }}" />
                 <h3>{{member.name}}</h3>
-              {% else %}
-                <a href={{member.link}}><img class="avatar" alt="" src="{{ member.image }}";/></a>
-                <h3><a href={{member.link}}>{{member.name}}</a></h3>
               {% endif %}
               <p>{{member.profile}}</p>
             </div>
@@ -86,12 +86,12 @@ section_id: people
     <h2> Student Workers </h2>
       {% for member in site.data.people.worker %}
             <div class='modPeople'>
-              {% if {{member.link}} == null %}
-                <img class="avatar" alt="" src="{{ member.image }}" />
-                <h3>{{member.name}}</h3>
-              {% else %}
+              {% if {{member.link}} %}
                 <a href={{member.link}}><img class="avatar" alt="" src="{{ member.image }}"/></a>
                 <h3><a href={{member.link}}>{{member.name}}</a></h3>
+              {% else %}  
+                <img class="avatar" alt="" src="{{ member.image }}" />
+                <h3>{{member.name}}</h3>
               {% endif %}
               <p>{{member.profile}}</p>
             </div>
@@ -105,14 +105,13 @@ section_id: people
     <h2> Alumni </h2>
       {% for member in site.data.people.alumni %}
             <div class='modPeople'>
-              {% if {{member.link}} == null %}
+              {% if {{member.link}} %}
+                <a href={{member.link}}><img class="avatar" alt="" src="{{ member.image }}"/></a>
+                <h3><a href={{member.link}}>{{member.name}}</a></h3>
+              {% else %}  
                 <img class="avatar" alt="" src="{{ member.image }}" />
                 <h3>{{member.name}}</h3>
-              {% else %}
-                <a href={{member.link}}><img class="avatar" alt="" src="{{ member.image }}" /></a>
-                <h3><a href={{member.link}}>{{member.name}}</a></h3>
               {% endif %}
-              <p style="margin:0">{{member.position}}</p>       
               <p>{{member.profile}}</p>        
             </div>
       {% endfor %}

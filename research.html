@@ -16,40 +16,37 @@ section_id: research
 
 <div class='full'>
   <div class='row'>
-    <div class='mod modGallery'>
-      <div class='gallery-nav'>
-        <ul style="font-size: 1.2rem;">
-          <li class='current'><a data-cat='all' href='#'>All</a></li>
-          <li><a data-cat='cv' href='#'>Computer Vision</a></li>
-          <li><a data-cat='st' href='#'>Spatiotemporal Data Analysis</a></li>
-          <li><a data-cat='nlp' href='#'>Natural Language Understanding</a></li>
-          <li><a data-cat='kg' href='#'>Knowledge Graphs</a></li>
-          <li><a data-cat='map' href='#'>Digital Map Processing</a></li>
-          <li><a data-cat='health' href='#'>Health</a></li>
-          <li><a data-cat='smartcity' href='#'>Smart City</a></li>
-          <li><a data-cat='trans' href='#'>Transportation</a></li>
-          <li><a data-cat='geoint' href='#'>Geospatial Intelligence (GeoINT)</a></li>
-          <li><a data-cat='others' href='#'>Others</a></li>
-        </ul>
-      </div>
+    
 
-      <ul class='gallery large-block-grid-4'>
-        {% for work in site.data.research %}
-          <li class="{{ work.klass }}">
-            <a href='{{ work.link_to }}'>
-              <img alt="" src="{{ work.image }}" />
-              <div class='overlay'>
-                <div class='thumb-info' style="padding: 0 10px;">
-                  <h3>{{ work.title }}</h3>
-                  <p>{{ work.desc }}</p>
+      {% for work in site.data.research %}
+      
+
+        <div class="container">
+          <div class="row">
+            <div class='col-md-10 offset-1' style="position: relative">
+              <span id="{{work.title}}" style="position: absolute;top: -100px"></span>
+              <div style="display: flex">
+                <div style="flex-shrink: 0;margin-right: 20px">
+                  <img src="{{ work.image }}" class="img-fluid" alt="msaenet-icon" style="object-fit: cover; height: 300px; width: 300px;" />
+                </div>
+                <div>
+                  <h3>{{ work.title }}</h3> 
+                  <p class="font-italic"> {{ work.abstract }}</p>
+                  <p style="word-spacing: 10px">
+                    <a href="{{ work.paper }}" class="btn btn-outline-primary">Paper</a>
+                    <a href="{{ work.github }}" class="btn btn-outline-primary">GitHub</a>
+                  </p>
                 </div>
               </div>
-            </a>
-          </li>
-        {% endfor %}
-      </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <div class=""><div class="container"><div class="row"><div class="col-md-10 offset-1"><hr></div></div></div></div>
+
+    {% endfor %}
     </div>
-  </div>
 </div>
 
 <div class='three spacing'></div>
