@@ -3659,6 +3659,25 @@ body {
 .modTestimonials.simple .slick-slider {
   margin-bottom: 10px;
 }
+
+/* button style */
+.btn, .btn:hover, .btn:active, .btn:focus {
+  border: 1px solid #bbb;
+  border-radius: 4px;
+  padding: 5px 15px;
+  cursor: pointer;
+  color: #bbb;
+}
+.btn:hover {
+  opacity: .5;
+}
+.btn-outline-primary {
+  border-color: #0080df;
+  color: #0080df;
+}
+
+
+
 @media only screen and (max-width: 60em) {
   .modTeamMember .overlay {
     opacity: 1;
