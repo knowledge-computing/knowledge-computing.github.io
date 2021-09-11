@@ -16,8 +16,8 @@ section_id: research
 
 <div class='full'>
   <div class='row'>
-    <div class='mod modGallery'>
-      <div class='gallery-nav'>
+    <!-- <div class='mod modGallery'> -->
+      <!-- <div class='gallery-nav'>
         <ul style="font-size: 1.2rem;">
           <li class='current'><a data-cat='all' href='#'>All</a></li>
           <li><a data-cat='cv' href='#'>Computer Vision</a></li>
@@ -31,10 +31,10 @@ section_id: research
           <li><a data-cat='geoint' href='#'>Geospatial Intelligence (GeoINT)</a></li>
           <li><a data-cat='others' href='#'>Others</a></li>
         </ul>
-      </div>
+      </div> -->
 
-      <ul class='gallery large-block-grid-4'>
-        {% for work in site.data.research %}
+      {% for work in site.data.research %}
+      <!-- <ul class='gallery large-block-grid-4'>
           <li class="{{ work.klass }}">
             <a href='{{ work.link_to }}'>
               <img alt="" src="{{ work.image }}" />
@@ -42,14 +42,42 @@ section_id: research
                 <div class='thumb-info' style="padding: 0 10px;">
                   <h3>{{ work.title }}</h3>
                   <p>{{ work.desc }}</p>
-                </div>
+                </div>                  
               </div>
             </a>
+            <p>{{ work.desc }}</p>
           </li>
-        {% endfor %}
-      </ul>
+      </ul> -->
+      <div class="py-3">
+        <div class="container">
+          <div class="row">
+            <div class='col-md-10 offset-1'>
+              <div class="row">
+                <div class='col-md-3'>
+                  <img src="{{ work.image }}" class="img-fluid" alt="msaenet-icon" style="object-fit: cover; height: 300px; width: 300px;" />
+                </div>
+                <div class='col-md-9'><br>
+                  <h5>Exploiting Spatiotemporal Patterns for Accurate Air Quality Forecasting using Deep Learning [SigSpatial2018 Full Paper]</h5> 
+                  <p class="font-italic"> Spatiotemporal Forecasting &middot; Graph Convolutional Neural Network</p>
+                  <p>
+                    <li style="margin-bottom: 8px;">Construct spatial correlation between two locations using the context of air quality-related environmental factors on a graph</li>
+                    <li style="margin-bottom: 8px;">Jointly model spatial and temporal dependencies using <b>a geo-context-based <a href="../publications/Diffusion convolutional recurrent neural network Data-driven traffic forecasting.pdf">diffusion-convolutional recurrent neural network</a></b> for accurately forecasting PM2.5 concentrations
+                  </p>
+                  <p style="word-spacing: 10px">
+                    <a href="../publications/paper_Exploiting Spatiotemporal Patterns for Accurate Air quality Forecasting using Deep Learning.pdf" class="btn btn-outline-primary">Paper</a>
+                    <a href="https://github.com/spatial-computing/air-quality-forecasting-model" class="btn btn-outline-primary">GitHub</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <div class=""><div class="container"><div class="row"><div class="col-md-10 offset-1"><hr></div></div></div></div>
+
+    {% endfor %}
     </div>
-  </div>
 </div>
 
 <div class='three spacing'></div>
