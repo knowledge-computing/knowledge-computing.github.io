@@ -1,104 +1,118 @@
 - title: Strabo
+  progress: Finished
   image: images/research/strabo.jpg
-  link_to: 
   klass: cv map geoint
   desc: Detecting and recognizing text from historical maps
-  abstract: 
+  abstract: Detecting and recognizing text from historical maps
   github:
   paper:
+  demo:
 - title: mapKurator
+  progress: Finished
   image: images/research/mapkurator.png
-  link_to: 
   klass: cv map geoint
   desc: Generating rich metadata from historical map content
-  abstract:
+  abstract: Generating rich metadata from historical map content
   github:
   paper:
-- title: Machines reading maps
+  demo:  
+- title: Machines Reading Maps
+  progress: Ongoing
   image: images/research/mrm.jpeg
-  link_to: https://machines-reading-maps.github.io/
   klass: cv map geoint
   desc: 
   abstract:
-  github:
+  github: https://machines-reading-maps.github.io/
   paper:
+  demo:
 - title: LinkedMap
+  progress: Ongoing
   image: images/research/linked_maps.png
-  link_to: https://usc-isi-i2.github.io/linked-maps/ 
   klass: cv map geoint
   desc: 
   abstract:
   github:
   paper:
+  demo: https://usc-isi-i2.github.io/linked-maps/ 
 - title: Jonsnow
+  progress: Finished
   image: images/research/jonsnow.jpg
-  link_to: 
   klass: st health smartcity
   desc: Predicting fine-scale air quality
-  abstract:
-  github:
+  abstract: In this project, 
+  github: 
   paper:
+  demo:
 - title: DeepLATTE
+  progress: Ongoing
   image: images/research/deeplatte.png
-  link_to: 
   klass: st geoint health smartcity
   desc: Building a spatially-explicit approach for hierarchical forecasting on geolocated multiscale multivariate time-series data
-  abstract:
+  abstract: Building a spatially-explicit approach for hierarchical forecasting on geolocated multiscale multivariate time-series data
   github:
   paper:
+  demo:  
 - title: EarthScan
+  progress: Ongoing
   image: images/research/earthscan.png
-  link_to: 
   klass: cv map geoint
   desc: Incorporating Prior Knowledge for Robust Object Detection and Geographic Layer Extraction from Overhead Imagery 
-  abstract:
+  abstract: Incorporating Prior Knowledge for Robust Object Detection and Geographic Layer Extraction from Overhead Imagery 
   github:
   paper:
+  demo:
 - title: GeoBERT
+  progress: Ongoing
   image: images/research/geobert.jpg
-  link_to: 
   klass: nlp geoint kg
   desc: Building a geolocality aware natural language model using geographic and linguistic contex 
-  abstract:
+  abstract: Building a geolocality aware natural language model using geographic and linguistic contex 
   github:
   paper:
+  demo:
 - title: MINT
+  progress: Finished
   image: images/research/mint.png
-  link_to: http://mint-project.info/ 
   klass: geoint
   desc: 
   abstract:
   github:
   paper:
-- title: Moving behavior detection from trajectory 
+  demo: http://mint-project.info/ 
+- title: Moving behavior detection from trajectory
+  progress: Ongoing
   image: images/research/detect.jpg
-  link_to: 
   klass: st trans smartcity
   desc: 
   abstract:
   github:
   paper:
+  demo:
 - title: Bus arrival time estimation
+  progress: Finished
   image: images/research/bus.png
-  link_to: https://infolab.usc.edu/caltrans/index.html#/
   klass: st
   desc: 
   abstract:
   github:
   paper:
+  demo: https://infolab.usc.edu/caltrans/index.html#/
 - title: Archived Data Management System
+  progress: Finished
   image: images/research/adms.jpg
-  link_to: https://adms.usc.edu/app
+  link_to: 
   klass: st
   desc: 
   abstract:
   github:
   paper:
+  demo: https://adms.usc.edu/app  
 - title: AI-Driven Analytics for Network Operations
+  progress: Ongoing
   image: images/research/ntt.png
-  link_to:  
   klass: st others
   desc: 
   abstract:
-  github:
+  github: https://github.com/spatial-computing/network-operations-anomaly-detection
   paper:
+  demo:

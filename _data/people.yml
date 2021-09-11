@@ -49,6 +49,7 @@ alumni:
   - name: Johanna Avelar Portillo
     image: images/people/johannaavelar.png
     profile: Ph.D. <br> USC Spatial Sciences Institute <br> PHP Graduate Program
+    link:
   - name: Hayley Song
     image: images/people/hayleysong.jpg
     profile: Ph.D. Student <br> USC Computer Science
@@ -92,9 +93,11 @@ alumni:
   - name: Xiaozhe Yin
     image: images/people/xiaozheyin.jpg
     profile: Ph.D. Student <br> USC 
+    link:
   - name: Khaoula Karroum
     image: images/people/khaoulakarroum.jpg
     profile: Ph.D. Student <br> Telecommunication Systems, <br> Networks and Services Lab <br> National Institute of Posts <br> and Telecommunications <br> Rabat Morocco 
+    link:
   - name: Libo Liu
     image: images/people/liboliu.jpg
     profile: Graduate Student <br> USC Computer Science
@@ -114,9 +117,11 @@ alumni:
   - name: Adam Vaccaro
     image: images/people/adamvaccaro.jpg
     profile: Graduate Student <br> USC Spatial Data Science
+    link:
   - name: Jeffrey Jow
     image: images/people/jeffreyjow.jpg
     profile: Graduate Student <br> USC Data Informatics
+    link:
   - name: Tong Lyu
     image: images/people/tonglyu.jpg
     profile: Graduate Student <br> USC Data Informatics
@@ -128,6 +133,7 @@ alumni:
   - name: Liujie Wang
     image: images/people/liujiewang.jpg
     profile: Graduate Student <br> USC Data Informatics
+    link:
   - name: Weifeng Yan
     image: images/people/weifengyan.jpg
     profile: Visiting Research Assistant <br> Mathematics <br> Shanghai Jiao Tong University
@@ -135,9 +141,11 @@ alumni:
   - name: Yanyi Qian
     image: images/people/yanyiqian.jpg
     profile: Visiting Scholar <br> Information Management <br> and Information System <br> Peking University
+    link:
   - name: Xin Yu
     image: images/people/xinyu.jpg
     profile: Graduate Student <br> USC Spatial Informatics
+    link:
   - name: Sandeep Banisetti
     image: images/people/sandeepbanisetti.jpg
     profile: Graduate Student <br> USC Computer Science
@@ -153,12 +161,15 @@ alumni:
   - name: Nikhit Mago
     image: images/people/nikhitmago.jpg
     profile: Graduate Student <br> USC Data Informatics
+    link:
   - name: Shayna Lascala
     image: images/people/shaynalascala.jpg
     profile: Ph.D. Student <br> Department of Sociology <br> UC Riverside
+    link:
   - name: Jose Rico
     image: images/people/joserico.jpg
     profile: Undergraduate Student <br> USC GeoDesign
+    link:
   - name: Yiqi Huang
     image: images/people/yiqihuang.jpg
     profile: Graduate Student <br> USC Data Informatics
@@ -170,6 +181,7 @@ alumni:
   - name: Mengyue Huan
     image: images/people/mengyuehuan.jpg
     profile: Graduate Student <br> USC Spatial Informatics
+    link:
   - name: Ishan Alok
     image: images/people/ishanalok.jpg
     profile: Graduate Student <br> USC Computer Science
@@ -177,6 +189,7 @@ alumni:
   - name: Ying Zhang
     image: images/people/yingzhang.jpg
     profile: Associate Professor <br> Control and Computing Engineering <br> North China Electric Power University
+    link:
   - name: Xiaoyue (Vivien) Yang
     image: images/people/xiaoyue(vivien)yang.jpg
     profile: Visiting Research Programmer
@@ -224,9 +237,11 @@ alumni:
   - name: Jakapun Tachaiya
     image: images/people/jakapuntachaiya.jpg
     profile: Graduate Student <br> USC Data Informatics
+    link:
   - name: Ronald Yu
     image: images/people/ronaldyu.jpg
     profile: Undergraduate Student <br> USC Computer Science
+    link:
   - name: Yuanchang Zhang
     image: images/people/yuanchangzhang.jpg
     profile: Graduate Student <br> USC Spatial Informatics
@@ -238,9 +253,11 @@ alumni:
   - name: Yuan Gao
     image: images/people/yuangao.jpg
     profile: Associate Professor <br> Department of Information <br> and Management <br> Northwest University, China
+    link:
   - name: Narges Honarvar Nazari
     image: images/people/woman.png
     profile: Graduate Student <br> USC Computer Science
+    link:
   - name: Saarthak Khanna
     image: images/people/saarthakkhanna.jpg
     profile: Graduate Student <br> USC Data Informatics
@@ -248,6 +265,7 @@ alumni:
   - name: Zexuan Luo
     image: images/people/zexuanluo.jpg
     profile: Graduate Student <br> USC Computer Science
+    link:
   - name: Sanjay Singh
     image: images/people/sanjaysingh.jpg
     profile: Graduate Student <br> USC Computer Science
@@ -259,21 +277,27 @@ alumni:
   - name: Jianhua Wu
     image: images/people/jianhuawu.jpg
     profile: Visiting Scholar <br> USC Spatial Sciences Institute
+    link:
   - name: Robin Franke
     image: images/people/robinfranke.jpg
     profile: Undergraduate Student <br> USC GeoDesign
+    link:
   - name: Alex Chen
     image: images/people/man.png
     profile: Undergraduate Student <br> USC GeoDesign
+    link:
   - name: Leonard Ngo
     image: images/people/man.png
     profile: Undergraduate Student <br> USC GeoDesign
+    link:
   - name: Kuangyu Xiong
     image: images/people/man.png
     profile: Undergraduate Student <br> USC Architecture
+    link:
   - name: Yi Hou
     image: images/people/woman.png
     profile: Undergraduate Student <br> USC GeoDesign
+    link:
   - name: Rashmina Ramachandran Menon
     image: images/people/rashminaramachandranmenon.jpg
     profile: Graduate Student <br> USC Computer Science
@@ -281,24 +305,31 @@ alumni:
   - name: Zebao Zhang
     image: images/people/zebaozhang.jpg
     profile: Visiting Scholar <br> USC Spatial Sciences Institute
+    link:
   - name: Nilesh Gupta
     image: images/people/nileshgupta.jpg
     profile: Graduate Student <br> USC Electrical Engineering
+    link:
   - name: Yamini Goyal
     image: images/people/yaminigoyal.jpg
     profile: Graduate Student <br> USC Computer Science
+    link:
   - name: Andrew Hsu
     image: images/people/andrewhsu.jpg
     profile: Palos Verdes Peninsula High School
+    link:
   - name: Wilson Franca De Souza
     image: images/people/man.png
     profile: Undergraduate Student <br> Environmental Resources Engineering <br> Humboldt State University
+    link:
   - name: Yang Meng
     image: images/people/yangmeng.jpg
     profile: Graduate Student <br> USC Data Science
+    link:
   - name: Woojin Park
     image: images/people/woojinpark.jpg
     profile: Visiting Scholar <br> USC Spatial Sciences Institute
+    link:
   - name: Sima Moghaddam
     image: images/people/simamoghaddam.jpg
     profile: Graduate Student <br> USC Computer Science
@@ -326,6 +357,7 @@ alumni:
   - name: Jizhe Zhou
     image: images/people/jizhezhou.jpg
     profile: Undergraduate Student <br> USC Electronics and <br> Information Engineering 
+    link:
   - name: Ketan Akade
     image: images/people/ketamakade.jpg
     profile: Yahoo <br> Previously Graduate Student <br> USC Computer Science
@@ -333,9 +365,11 @@ alumni:
   - name: Cathy Ji 
     image: images/people/woman.png
     profile: Undergraduate Student <br> USC Computer Engineering
+    link:
   - name: Phokgoan Chioh
     image: images/people/man.png
     profile: USC
+    link:
   - name: Parin Jogani
     image: images/people/man.png
     profile: Ebay <br> Previously Graduate Student <br> USC Computer Science
@@ -347,3 +381,4 @@ alumni:
   - name: Ashish Shirode
     image: images/people/man.png
     profile: Intel <br> Previously Graduate Student <br> USC Computer Science
+    link:

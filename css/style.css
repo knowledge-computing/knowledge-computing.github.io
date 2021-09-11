@@ -641,7 +641,9 @@ a:hover {
   color: #bbb;
 }
 .btn:hover {
-  opacity: .5;
+  border-color: #0080df;
+  background: #0080df;
+  color: #fff;
 }
 .btn-outline-primary {
   border-color: #0080df;

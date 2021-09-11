@@ -1,34 +1,7 @@
 ---
 layout: default
 section_id: home
-slides:
-  - bg: images/background/slider_historical_map.jpeg
-    title:
-      klass: bottom-to-top
-      text: Image Recognition
-    buttons:
-      klass: bottom-to-top
-      items:
-        - text: Learn More
-          link_to: research/contextmp.html
-  - bg: images/background/slider_air_quality.png
-    title:
-      klass: bottom-to-top
-      text: Spatiotempotal Data Analytics
-    buttons:
-      klass: bottom-to-top
-      items:
-        - text: Learn More
-          link_to: research/contextmp.html
-  - bg: images/background/slider_geobert.png
-    title:
-      klass: bottom-to-top
-      text: Natural Language Processing in Geo Data
-    buttons:
-      klass: bottom-to-top
-      items:
-        - text: Learn More
-          link_to: research/contextmp.html
+
 ---
 
 <div class='full parallax' style='background-image: url(images/background/slider_historical_map.jpeg); color: #fff;'>
@@ -36,15 +9,13 @@ slides:
   <div class='row'>
     <div class='large-12 columns'>
       <div class="special-title centered-text">
-        <h2 style="font-size: 6.5rem; color: white; -webkit-text-stroke: 1px black;">Knowledge Computing</h2>
+        <a href="https://github.com/knowledge-computing/knowledge-computing.github.io"><h2 style="font-size: 6.5rem; color: white; -webkit-text-stroke: 1px black;">Knowledge Computing</h2></a>
       </div>
       
-      <!-- {% include section-header.html title="Knowledge Computing Lab" color="#fff" class="big" %} -->
-
       <div class='two spacing'></div>
       <div class='header-hyperlink' style="text-align: center; ">
         <h5 style="font-size: 1.8rem; color: white; ">We are an interdisciplinary research lab at the</h5>
-        <h5 style="font-size: 1.5rem; color: white; " > <a href="https://cse.umn.edu/cs"><b><u>Computer Science & Engineering Department</b></u></a>, <a href="https://twin-cities.umn.edu/"><b><u>University of Minnesota, Twin Cities</b></u></a></h5>
+        <h5 style="font-size: 1.5rem; color: white; "> <a href="https://cse.umn.edu/cs"><b><u>Computer Science & Engineering Department</b></u></a>, <a href="https://twin-cities.umn.edu/"><b><u>University of Minnesota, Twin Cities</b></u></a></h5>
       </div>
     </div>
   </div>
@@ -58,7 +29,7 @@ slides:
       {% include section-header.html title="Our Research" %}
       <div class='spacing'></div>
       <p style="font-size: 1.3rem">
-        Our research lies at the intersection of <b>computer science</b> and <b>spatial sciences</b>. We build algorithms and intelligent  systems for discovering, collecting, fusing, and analyzing data from heterogeneous sources to solve real-world problems. Recently, we focus on developing machine learning frameworks that exploit unique spatial data properties and prior structural knowledge to tackle problems in <b>natural language processing</b>, <b>computer vision</b>, and <b>spatiotemporal data analysis</b>. <a href="research.html" style="color: #800000">Learn more about our research.</a></p>
+        Our research lies at the intersection of <b>computer science</b> and <b>spatial sciences</b>. We build algorithms and intelligent  systems for discovering, collecting, fusing, and analyzing data from heterogeneous sources to solve real-world problems. Recently, we focus on developing machine learning frameworks that exploit unique spatial data properties and prior structural knowledge to tackle problems in <b>natural language processing</b>, <b>computer vision</b>, and <b>spatiotemporal data analysis</b>. <a href="research.html">Learn more about our research.</a> <a href="https://github.com/knowledge-computing/knowledge-computing.github.io">See our Github.</a></p>
 
       <div class='full'>
         <div class='row'>
@@ -83,7 +54,7 @@ slides:
               {% for work in site.data.research %}
                 <li class="{{ work.klass }}">
                   <a href='/research.html#{{ work.title }}'>
-                    <img alt="" src="{{ work.image }}" />
+                    <img alt="" src="{{ work.image }}" style="border: 1px solid black;" />
                     <div class='overlay'>
                       <div class='thumb-info' style="padding: 0 10px;">
                         <h3>{{ work.title }}</h3>
