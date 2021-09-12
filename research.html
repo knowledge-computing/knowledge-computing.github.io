@@ -50,14 +50,14 @@ section_id: research
       </ul> -->
       <div class="py-3">
         <div class="container">
-          <div class="row">
+          <div style="padding: 0 20px">
             <div class='col-md-10 offset-1' style="position: relative">
               <span id="{{work.title}}" style="position: absolute;top: -100px"></span>
-              <div style="display: flex">
+              <div style="display: flex; flex-wrap: wrap;">
                 <div style="flex-shrink: 0;margin-right: 20px">
                   <img src="{{ work.image }}" class="img-fluid" alt="msaenet-icon" style="object-fit: cover; height: 300px; width: 300px;" />
                 </div>
-                <div><br />
+                <div style="max-width: calc(100% - 320px); min-width: 300px;"><br />
                   <h5>Exploiting Spatiotemporal Patterns for Accurate Air Quality Forecasting using Deep Learning [SigSpatial2018 Full Paper]</h5> 
                   <p class="font-italic"> Spatiotemporal Forecasting &middot; Graph Convolutional Neural Network</p>
                   <p>
