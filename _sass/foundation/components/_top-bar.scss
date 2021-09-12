@@ -151,7 +151,7 @@ $topbar-dropdown-arrows: true !default; //Set false to remove the \00bb >> text 
     }
 
     .top-bar {
-      overflow: hidden;
+      // overflow: hidden;
       height: $topbar-height;
       line-height: $topbar-height;
       position: relative;
@@ -297,6 +297,7 @@ $topbar-dropdown-arrows: true !default; //Set false to remove the \00bb >> text 
       @include single-transition($default-float, $topbar-transition-speed);
 
       ul {
+        background-color: #FFFFFF;
         padding: 0;
         width: 100%;
         height: auto;
