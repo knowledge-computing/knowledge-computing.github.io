@@ -16,29 +16,39 @@ section_id: research
 
 <div class='full'>
   <div class='row'>
+    <div>
+      <img class="avatar" alt="" src="./images/research/complete_ongoing.jpg" style="height: 50px;" />
+    </div>
     {% for work in site.data.research %}
       <div class='two spacing'></div>
       <div class="container">
-        <!-- <div class="row"> -->
         <div style="padding: 0 20px">
           <div class='col-md-10 offset-1' style="position: relative">
             <span id="{{work.title}}" style="position: absolute;top: -100px"></span>
             <!-- <div style="display: flex"> -->
             <div style="display: flex; flex-wrap: wrap;">
               <div style="flex-shrink: 0; margin-right: 40px">
-                <img src="{{ work.image }}" class="img-fluid" alt="msaenet-icon" style="object-fit: cover; height: 300px; width: 300px; border: 1px solid black;" />
+                <img src="{{ work.image }}" class="img-fluid" alt="msaenet-icon" style="object-fit: cover; height: 250px; width: 250px; border: 1px solid black;" />
               </div>
-              <div style="margin-top: 20px; max-width: calc(100% - 320px); min-width: 300px;">
-                <p style="font-size: 1.5rem;"><b>{{ work.title }}</b> [{{ work.progress }}]</p> 
-                <p class="font-italic" style="font-size: 1.2rem"> <b>Abstract:</b> {{ work.abstract }}</p>
+              <div style="max-width: calc(100% - 400px); min-width: 300px;">
+                <p style="font-size: 1.2rem;"><b>{{ work.title }}</b> 
+                  {% if work.progress == "complete" %}
+                    <img class="avatar" alt="" src="./images/research/complete_icon.jpg" style="height: 35px;" />
+                  {% else %}  
+                    <img class="avatar" alt="" src="./images/research/ongoing_icon.jpg" style="height: 35px;" />
+                  {% endif %} </p> 
+                <p class="font-italic" style="font-size: 1.rem"> <b>Abstract:</b> {{ work.abstract }}</p>
+                <p class="font-italic" style="font-size: 1.rem"> <b>Paper:</b> {{ work.paper }}</p>
+                <p class="font-italic" style="font-size: 1.rem"> <b>Sponsor:</b> {{ work.sponsor }}</p>
+                <div class='one spacing'></div>
                 <p style="word-spacing: 10px">
-                  {% if work.paper %}
-                    <a href="{{ work.paper }}" class="btn btn-outline-primary">Paper</a>
-                  {% endif %}
                   {% if work.github %}
                   <a href="{{ work.github }}" class="btn btn-outline-primary">GitHub</a>
                   {% endif %}
                   {% if work.demo %}
+                  <a href="{{ work.demo }}" class="btn btn-outline-primary">Demo</a>
+                  {% endif %}
+                  {% if work.link %}
                   <a href="{{ work.demo }}" class="btn btn-outline-primary">Demo</a>
                   {% endif %}
                 </p>

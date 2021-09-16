@@ -1,118 +1,139 @@
 - title: Strabo
-  progress: Finished
+  progress: complete
   image: images/research/strabo.jpg
   klass: cv map geoint
   desc: Detecting and recognizing text from historical maps
   abstract: Detecting and recognizing text from historical maps;Detecting and recognizing text from historical maps;Detecting and recognizing text from historical maps;Detecting and recognizing text from historical maps;Detecting and recognizing text from historical maps;Detecting and recognizing text from historical maps;Detecting and recognizing text from historical maps
-  Detecting and recognizing text from historical mapsDetecting and recognizing text from historical maps:
-  paper: 
+  Detecting and recognizing text from historical mapsDetecting and recognizing text from historical maps
+  paper:
+  sponsor:
   demo: http://services.digitallibrary.usc.edu/straboweb/
+  link:
 - title: mapKurator
-  progress: Finished
+  progress: complete
   image: images/research/mapkurator.png
   klass: cv map geoint
   desc: Generating rich metadata from historical map content
   abstract: Generating rich metadata from historical map content
-  github:
-  paper: 
+  paper:
+  sponsor:
   demo:  
+  link:
 - title: Machines Reading Maps
-  progress: Ongoing
+  progress: ongoing
   image: images/research/mrm.jpeg
   klass: cv map geoint
   desc: 
   abstract:
-  github: https://machines-reading-maps.github.io/
   paper:
+  sponsor:
+  github: https://machines-reading-maps.github.io/
   demo:
+  link:
 - title: LinkedMap
-  progress: Ongoing
+  progress: ongoing
   image: images/research/linked_maps.png
   klass: cv map geoint
   desc: 
   abstract:
-  github:
   paper:
+  sponsor:
+  github:
   demo: https://usc-isi-i2.github.io/linked-maps/ 
+  link:
 - title: Jonsnow
-  progress: Finished
+  progress: complete
   image: images/research/jonsnow.jpg
   klass: st health smartcity
   desc: Predicting fine-scale air quality
   abstract: In this project, 
-  github: 
   paper:
+  sponsor:
+  github: 
   demo:
+  link:
 - title: DeepLATTE
-  progress: Ongoing
+  progress: ongoing
   image: images/research/deeplatte.png
   klass: st geoint health smartcity
   desc: Building a spatially-explicit approach for hierarchical forecasting on geolocated multiscale multivariate time-series data
   abstract: Building a spatially-explicit approach for hierarchical forecasting on geolocated multiscale multivariate time-series data
-  github:
   paper:
+  sponsor:
+  github:
   demo:  
 - title: EarthScan
-  progress: Ongoing
+  progress: ongoing
   image: images/research/earthscan.png
   klass: cv map geoint
   desc: Incorporating Prior Knowledge for Robust Object Detection and Geographic Layer Extraction from Overhead Imagery 
   abstract: Incorporating Prior Knowledge for Robust Object Detection and Geographic Layer Extraction from Overhead Imagery 
-  github:
   paper:
+  sponsor:
+  github:
   demo:
 - title: GeoBERT
-  progress: Ongoing
+  progress: ongoing
   image: images/research/geobert.jpg
   klass: nlp geoint kg
   desc: Building a geolocality aware natural language model using geographic and linguistic contex 
   abstract: Building a geolocality aware natural language model using geographic and linguistic contex 
-  github:
   paper:
+  sponsor:
+  github:
   demo:
 - title: MINT
-  progress: Finished
+  progress: complete
   image: images/research/mint.png
   klass: geoint
   desc: 
   abstract:
-  github:
   paper:
+  sponsor:
+  github:
   demo: http://mint-project.info/ 
+  link:
 - title: Moving behavior detection from trajectory
-  progress: Ongoing
+  progress: ongoing
   image: images/research/detect.jpg
   klass: st trans smartcity
   desc: 
   abstract:
-  github:
   paper:
+  sponsor:
+  github:
   demo:
+  link:
 - title: Bus arrival time estimation
-  progress: Finished
+  progress: complete
   image: images/research/bus.png
   klass: st
   desc: 
   abstract:
-  github:
   paper:
+  sponsor:
+  github:
   demo: https://infolab.usc.edu/caltrans/index.html#/
+  link:
 - title: Archived Data Management System
-  progress: Finished
+  progress: complete
   image: images/research/adms.jpg
   link_to: 
   klass: st
   desc: 
   abstract:
-  github:
   paper:
+  sponsor:
+  github:
   demo: https://adms.usc.edu/app  
 - title: AI-Driven Analytics for Network Operations
-  progress: Ongoing
+  progress: ongoing
   image: images/research/ntt.png
   klass: st others
   desc: 
+  paper:
+  sponsor:
   abstract:
   github: https://github.com/spatial-computing/network-operations-anomaly-detection
-  paper:
   demo:
+  link:
