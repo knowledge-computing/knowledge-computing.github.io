@@ -3,7 +3,7 @@
   image: images/research/strabo.jpg
   klass: cv map geoint
   desc: Detecting and recognizing text from historical maps
-  abstract: Detecting and recognizing text from historical mapsChiang, Y.-Y. and Knoblock, C. A. (2014). Recognizing Text in Raster Maps. GeoInformatica, 19(1):1–27. doi: 10.1007/s10707-014-0203-9 
+  abstract: Detecting and recognizing text from historical maps
   github:
   paper: 
   demo:
@@ -12,7 +12,7 @@
   image: images/research/mapkurator.png
   klass: cv map geoint
   desc: Generating rich metadata from historical map content
-  abstract: Generating rich metadata from historical map content; Li, Z., Chiang, Y.-Y., Tavakkol, S., Shbita, B., Uhl, J. H., Leyk, S., and Knoblock, C. A. (August 2020). An Automatic Approach for Generating Rich, Linked Geo-Metadata from Historical Map Images, In Proceedings of ACM Knowledge Discovery and Data Mining Conference (KDD), pp. 3290-3298, San Diego, CA, USA
+  abstract: Generating rich metadata from historical map content
   github:
   paper: 
   demo:  
