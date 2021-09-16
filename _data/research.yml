@@ -22,7 +22,7 @@
   klass: cv map geoint
   desc: 
   abstract:
-  link: https://machines-reading-maps.github.io/
+  github: https://machines-reading-maps.github.io/
   paper:
   demo:
 - title: LinkedMap
