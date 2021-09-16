@@ -3,10 +3,10 @@
   image: images/research/strabo.jpg
   klass: cv map geoint
   desc: Detecting and recognizing text from historical maps
-  abstract: Detecting and recognizing text from historical maps
-  github:
+  abstract: Detecting and recognizing text from historical maps;Detecting and recognizing text from historical maps;Detecting and recognizing text from historical maps;Detecting and recognizing text from historical maps;Detecting and recognizing text from historical maps;Detecting and recognizing text from historical maps;Detecting and recognizing text from historical maps
+  Detecting and recognizing text from historical mapsDetecting and recognizing text from historical maps:
   paper: 
-  demo:
+  demo: http://services.digitallibrary.usc.edu/straboweb/
 - title: mapKurator
   progress: Finished
   image: images/research/mapkurator.png
