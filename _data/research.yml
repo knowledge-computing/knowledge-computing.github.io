@@ -2,10 +2,9 @@
   progress: complete
   image: images/research/strabo.jpg
   klass: cv map geoint
-  desc: Detecting and recognizing text from historical maps
-  abstract: Detecting and recognizing text from historical maps;Detecting and recognizing text from historical maps;Detecting and recognizing text from historical maps;Detecting and recognizing text from historical maps;Detecting and recognizing text from historical maps;Detecting and recognizing text from historical maps;Detecting and recognizing text from historical maps Detecting and recognizing text from historical mapsDetecting and recognizing text from historical maps
-  paper:
-  sponsor:
+  desc: Harvesting geographic features from heterogeneous historical maps
+  abstract: Many historical maps exist as scanned images, which contain valuable information difficult to find elsewhere. In previous work, we developed an open-source map-processing tool, Strabo. Strabo processes scanned map images to recognize map symbols, extract road geometries, recognize text labels, and associate extracted road geometries with the recognized text labels to generate named road vector data. 
+  sponsor: NGA, CLS, NSF, NEH
   demo: http://services.digitallibrary.usc.edu/straboweb/
   link:
 - title: mapKurator
@@ -13,9 +12,9 @@
   image: images/research/mapkurator.png
   klass: cv map geoint
   desc: Generating rich metadata from historical map content
-  abstract: Generating rich metadata from historical map content
-  paper:
-  sponsor:
+  abstract: Historical maps typically exist as scanned images without searchable metadata. Existing approaches making historical maps searchable rely on tedious manual work (including crowd-sourcing) to generate the metadata (e.g., geolocations and keywords). mapKurator addresses the real-world problem of finding and indexing historical map images by automatically extract their text content and generates a set of metadata linked to large external geospatial knowledge bases. The linked metadata in the RDF (Resource Description Framework) format support complex queries for finding and indexing historical maps, such as retrieving all historical maps covering mountain peaks higher than 1,000 meters in California. 
+  paper: An Automatic Approach for Generating Rich, Linked Geo-Metadata from Historical Map Images. Li, Z; Chiang, Y Y; Tavakkol, S; Shbita, B; Uhl, J H; and others Proceedings of ACM Knowledge Discovery and Data Mining Conference (KDD). 2020.
+  sponsor: NSF, NEH
   demo:  
   link:
 - title: Machines Reading Maps
