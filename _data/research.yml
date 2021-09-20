@@ -5,8 +5,7 @@
   desc: Harvesting geographic features from heterogeneous historical maps
   abstract: Many historical maps exist as scanned images, which contain valuable information difficult to find elsewhere. In previous work, we developed an open-source map-processing tool, Strabo. Strabo processes scanned map images to recognize map symbols, extract road geometries, recognize text labels, and associate extracted road geometries with the recognized text labels to generate named road vector data. 
   sponsor: NGA, CLS, NSF, NEH
-  paper: Generating Named Road Vector Data from Raster Maps. Chiang, Y.; and Knoblock, C. A In Xiao, N.; Kwan, M.; Goodchild, M. F; and Shekhar, S., editor(s), Geographic Information Science, volume 7478, of Lecture Notes in Computer Science, pages 57–71. Springer Berlin Heidelberg, Berlin, Heidelberg, 2012. <br> Recognizing Text in Raster Maps. Chiang, Y.; and Knoblock, C. A GeoInformatica, 19(1): 1–27. February 2014.<br> A General Approach for Extracting Road Vector Data from Raster Maps. Chiang, Y.; and Knoblock, C. A International Journal on Document Analysis and Recognition (IJDAR), 16(1): 55–81. March 2013.
-  
+  paper: "Generating Named Road Vector Data from Raster Maps. Chiang, Y.; and Knoblock, C. A In Xiao, N.; Kwan, M.; Goodchild, M. F; and Shekhar, S., editor(s), Geographic Information Science, volume 7478, of Lecture Notes in Computer Science, pages 57–71. Springer Berlin Heidelberg, Berlin, Heidelberg, 2012. <br> Recognizing Text in Raster Maps. Chiang, Y.; and Knoblock, C. A GeoInformatica, 19(1): 1–27. February 2014.<br> A General Approach for Extracting Road Vector Data from Raster Maps. Chiang, Y.; and Knoblock, C. A International Journal on Document Analysis and Recognition (IJDAR), 16(1): 55–81. March 2013."  
   demo: http://services.digitallibrary.usc.edu/straboweb/
   link:
 - title: mapKurator
