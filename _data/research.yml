@@ -5,6 +5,8 @@
   desc: Harvesting geographic features from heterogeneous historical maps
   abstract: Many historical maps exist as scanned images, which contain valuable information difficult to find elsewhere. In previous work, we developed an open-source map-processing tool, Strabo. Strabo processes scanned map images to recognize map symbols, extract road geometries, recognize text labels, and associate extracted road geometries with the recognized text labels to generate named road vector data. 
   sponsor: NGA, CLS, NSF, NEH
+  paper: Generating Named Road Vector Data from Raster Maps. Chiang, Y.; and Knoblock, C. A In Xiao, N.; Kwan, M.; Goodchild, M. F; and Shekhar, S., editor(s), Geographic Information Science, volume 7478, of Lecture Notes in Computer Science, pages 57–71. Springer Berlin Heidelberg, Berlin, Heidelberg, 2012. <br> Recognizing Text in Raster Maps. Chiang, Y.; and Knoblock, C. A GeoInformatica, 19(1): 1–27. February 2014.<br> A General Approach for Extracting Road Vector Data from Raster Maps. Chiang, Y.; and Knoblock, C. A International Journal on Document Analysis and Recognition (IJDAR), 16(1): 55–81. March 2013.
+  
   demo: http://services.digitallibrary.usc.edu/straboweb/
   link:
 - title: mapKurator
@@ -21,24 +23,24 @@
   progress: ongoing
   image: images/research/mrm.jpeg
   klass: cv map geoint
-  desc: 
-  abstract:
+  desc: Make text on maps an accessible resource
+  abstract: Machines Reading Maps (MRM) is a collaborative project between the Digital Library and Spatial Sciences Institute at the University of Southern California (US)and the Alan Turing Institute (UK). The project is funded by the United States’ National Endowment for the Humanities (NEH) and the United Kingdom’s Arts and Humanities Research Council (AHRC) under the first round of NEH/AHRC New Directions for Digital Scholarship. MRM seeks to normalize map text as a new kind of data that can be used across the humanities and the heritage sector. To do so MRM will change the way that humanists and heritage professionals interact with digitised map images. Maps constitute a significant body of global cultural heritage, and they are being scanned at a rapid pace in the US and UK. However, most critical investigation of maps continues on a small scale, through close readings of a few maps. Individual maps communicate through visual grammars, supplemented by text. But text on maps, particularly in aggregate, is a nearly untapped source about the construction of knowledge about place (with the notable exception of the GB1900 project, which crowdsourced transcriptions of all labels on the ca.1900 6-inch Ordnance Survey maps of Britain). While we speak colloquially about reading maps, MRM concretely addresses how to make text on maps an accessible resource. We will make maps searchable and linked to other geospatial data and collections, creating the possibility for humanities research that uses map text as a primary source. Spatial searching will no longer be limited by metadata fields like place of publication, but instead allows queries based on the labeled, spatial content of visual materials.
   paper:
-  sponsor:
-  github: https://machines-reading-maps.github.io/
-  demo:
-  link:
+  sponsor: NEH
+  github: 
+  demo: 
+  link: https://machines-reading-maps.github.io/
 - title: LinkedMap
   progress: ongoing
   image: images/research/linked_maps.png
   klass: cv map geoint
-  desc: 
-  abstract:
+  desc: Exploiting context in cartographic evolutionary documents to extract and build linked spatial-temporal datasets
+  abstract: The major goal of this project is to develop a framework to efficiently extract contents and build semantics for large volumes of maps as well as link the extracted contents through space and time for robust, meaningful change analysis. This framework is intended to exploit existing geographic data to build generic semantic models of geographic phenomena and use the models to extract geographic features from maps, evaluate (the semantic consistency), update the extracted data, and link the data across space and time.
   paper:
   sponsor:
   github:
-  demo: https://usc-isi-i2.github.io/linked-maps/ 
-  link:
+  demo: 
+  link: https://usc-isi-i2.github.io/linked-maps/ 
 - title: Jonsnow
   progress: complete
   image: images/research/jonsnow.jpg
