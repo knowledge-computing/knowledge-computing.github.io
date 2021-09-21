@@ -26,15 +26,12 @@
   sponsor: NEH
   link: https://machines-reading-maps.github.io/
 - title: LinkedMap
-  progress: ongoing
+  progress: complete
   image: images/research/linked_maps.png
   klass: cv map geoint
   desc: Exploiting context in cartographic evolutionary documents to extract and build linked spatial-temporal datasets
   abstract: The major goal of this project is to develop a framework to efficiently extract contents and build semantics for large volumes of maps as well as link the extracted contents through space and time for robust, meaningful change analysis. This framework is intended to exploit existing geographic data to build generic semantic models of geographic phenomena and use the models to extract geographic features from maps, evaluate (the semantic consistency), update the extracted data, and link the data across space and time.
-  paper:
-  sponsor:
-  github:
-  demo: 
+  sponsor: NSF
   link: https://usc-isi-i2.github.io/linked-maps/ 
 - title: Jonsnow
   progress: complete
