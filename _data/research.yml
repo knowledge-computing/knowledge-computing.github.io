@@ -4,7 +4,7 @@
   klass: st geoint health smartcity
   desc: Building a spatially-explicit approach for hierarchical forecasting on geolocated multiscale multivariate time-series data
   abstract: Building a spatially-explicit approach for hierarchical forecasting on geolocated multiscale multivariate time-series data
-  paper: <br>Lin, Y., Chiang, Y.-Y., Franklin, M., Eckel, P. S., and Ambite, J. L. (November 2020). Building Autocorrelation-Aware Representations for Fine-Scale Spatiotemporal Prediction, In Proceedings of IEEE International Conference on Data Mining (ICDM), pp. 352-361, Sorrento, Italy (9.8% acceptance rate)
+  paper: "<ul><li>Lin, Y., Chiang, Y.-Y., Franklin, M., Eckel, P. S., and Ambite, J. L. (November 2020). Building Autocorrelation-Aware Representations for Fine-Scale Spatiotemporal Prediction, In Proceedings of IEEE International Conference on Data Mining (ICDM), pp. 352-361, Sorrento, Italy (9.8% acceptance rate)</li></ul>"
   sponsor:
   github: https://github.com/spatial-computing/deeplatte-fine-scale-prediction
   demo:  
