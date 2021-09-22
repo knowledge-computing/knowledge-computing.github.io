@@ -10,20 +10,20 @@ director:
 phd:
   - name: Weiwei Duan
     image: images/people/weiweiduan.jpg
-    profile: USC Computer Science
-    link:
+    profile: USC Computer Science 
+    link: https://weiweiduan.github.io/
   - name: Zekun Li
     image: images/people/zekunli.jpg
     profile: UMN CS&E
-    link:
+    link: https://www.linkedin.com/in/lizekun/
   - name: Lois Park
     image: images/people/loispark.jpeg
     profile: USC Spatial Sciences Institute <br> PHP Graduate Program
-    link:
+    link: https://www.linkedin.com/in/lois-park/
   - name: Dan Feldman
     image: images/people/danfeldman.jpeg
     profile: USC Computer Science
-    link:
+    link: https://www.linkedin.com/in/dan-feldman/
   - name: Yijun Lin
     image: images/people/yijunlin.png
     profile: UMN CS&E
@@ -39,7 +39,7 @@ phd:
   - name: Min Namgung
     image: images/people/minnamgung.jpg
     profile: UMN CS&E
-    link:
+    link: https://www.linkedin.com/in/minnamgung0115/
 worker:
   - name: Runyu Guan
     image: images/people/runyuguan.jpg
