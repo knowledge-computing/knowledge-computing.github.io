@@ -90,7 +90,7 @@ JonSnow automatically generates (domain-) expert-free models for accurate PM2.5 
   paper: "<ul><li>Stripelis, D., Ambite, J. L., Chiang, Y.-Y., Eckel, S. P., and Habre, R. (April 2017). A Scalable Data Integration and Analysis Architecture for Sensor Data of Pediatric Asthma, In Proceedings of the 2017 IEEE 33rd International Conference on Data Engineering (ICDE), pp. 1407-1408, San Diego, CA, USA	</li><li>Lin, Y., Mago, N., Gao, Y., Li, Y., Chiang, Y.-Y., Shahabi, C., and Ambite, J. L. (November 2018). Exploiting Spatiotemporal Patterns for Accurate Air Quality Forecasting using Deep Learning. In Proceedings of the 26th ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems, pp. 359 – 368, Seattle, WA, USA</li><li>Lin, Y., Chiang, Y.-Y., Pan F., Stripelis, D., Ambite, J. L., Eckel, S. P., and Habre, R. (November 2017). Mining Public Datasets for Modeling Intra-city PM2.5 Concentrations at a Fine Spatial Resolution. In Proceedings of the 25th ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems, Article No. 25, Redondo Beach, CA, USA</li></ul>"
   sponsor: National Institutes of Health (NIH)
   github: https://github.com/linyijun/fine-scale-air-quality-prediction
-  github: https://github.com/spatial-computing/air-quality-forecasting
+  github1: https://github.com/spatial-computing/air-quality-forecasting
   demo: 
   link:
 - title: LinkedMap
