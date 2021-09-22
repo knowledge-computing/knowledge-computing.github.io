@@ -38,9 +38,9 @@ section_id: research
                     <img class="avatar" alt="" src="./images/research/ongoing_icon.jpg" style="height: 30px;" />
                   {% endif %} 
                 </p> 
-                <p class="font-italic" style="font-size: 1.rem"> <b>Abstract:</b> {{ work.abstract }}</p>
+                <p class="font-italic" style="font-size: 1.rem"> {{ work.abstract }}</p>
                 {% if work.paper %}
-                  <p class="font-italic" style="font-size: 1.rem"> <b>Paper:</b> {{ work.paper }}</p>
+                  <p class="font-italic" style="font-size: 1.rem"> <b>Selected Papers:</b> {{ work.paper }}</p>
                 {% endif %}
                 {% if work.sponsor %}
                 <p class="font-italic" style="font-size: 1.rem"> <b>Sponsor:</b> {{ work.sponsor }}</p>
