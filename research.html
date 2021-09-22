@@ -30,16 +30,21 @@ section_id: research
               <div style="flex-shrink: 0; margin-right: 40px">
                 <img src="{{ work.image }}" class="img-fluid" alt="msaenet-icon" style="object-fit: cover; height: 250px; width: 250px; border: 1px solid black;" />
               </div>
-              <div style="max-width: calc(100% - 400px); min-width: 300px;">
-                <p style="font-size: 1.2rem;"><b>{{ work.title }}</b> 
+              <div style="max-width: calc(100% - 400px); min-width: 300px; ">
+                <p style="font-size: 1.2rem;"><b>{{ work.title }}</b> &nbsp
                   {% if work.progress == "complete" %}
-                    <img class="avatar" alt="" src="./images/research/complete_icon.jpg" style="height: 35px;" />
+                    <img class="avatar" alt="" src="./images/research/complete_icon.jpg" style="height: 30px;" />
                   {% else %}  
-                    <img class="avatar" alt="" src="./images/research/ongoing_icon.jpg" style="height: 35px;" />
-                  {% endif %} </p> 
+                    <img class="avatar" alt="" src="./images/research/ongoing_icon.jpg" style="height: 30px;" />
+                  {% endif %} 
+                </p> 
                 <p class="font-italic" style="font-size: 1.rem"> <b>Abstract:</b> {{ work.abstract }}</p>
-                <p class="font-italic" style="font-size: 1.rem"> <b>Paper:</b> {{ work.paper }}</p>
+                {% if work.paper %}
+                  <p class="font-italic" style="font-size: 1.rem"> <b>Paper:</b> {{ work.paper }}</p>
+                {% endif %}
+                {% if work.sponsor %}
                 <p class="font-italic" style="font-size: 1.rem"> <b>Sponsor:</b> {{ work.sponsor }}</p>
+                {% endif %}
                 <div class='one spacing'></div>
                 <p style="word-spacing: 10px">
                   {% if work.github %}
@@ -49,7 +54,7 @@ section_id: research
                   <a href="{{ work.demo }}" class="btn btn-outline-primary">Demo</a>
                   {% endif %}
                   {% if work.link %}
-                  <a href="{{ work.demo }}" class="btn btn-outline-primary">Demo</a>
+                  <a href="{{ work.link }}" class="btn btn-outline-primary">Link</a>
                   {% endif %}
                 </p>
               </div>
