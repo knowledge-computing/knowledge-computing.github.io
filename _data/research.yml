@@ -100,14 +100,14 @@ JonSnow automatically generates (domain-) expert-free models for accurate PM2.5 
   desc: Exploiting context in cartographic evolutionary documents to extract and build linked spatial-temporal datasets
   abstract: The major goal of this project is to develop a framework to efficiently extract contents and build semantics for large volumes of maps as well as link the extracted contents through space and time for robust, meaningful change analysis. This framework is intended to exploit existing geographic data to build generic semantic models of geographic phenomena and use the models to extract geographic features from maps, evaluate (the semantic consistency), update the extracted data, and link the data across space and time.
   sponsor: National Science Foundation (NSF)
-  link: https://usc-isi-i2.github.io/linked-maps/ 
+  link: https://usc-isi-i2.github.io/linked-maps/
 - title: MINT
   progress: complete
   image: images/research/mint.png
   klass: geoint
   desc: Model Integration through Knowledge-Rich Data and Process Composition
   abstract: The Model INTegration (MINT) project is developing a modeling environment which will significantly reduce the time needed to develop new integrated models while ensuring their utility and accuracy.
-  paper: ""<ul><li>Gil, Y., Garijo, D., Khider, D., Knoblock, C. A., Ratnakar, V., Osorio, M., Vargas, H., Pham, M., Pujara, J., Shbita, B., Vu, B., Chiang, Y.-Y., Feldman, D., Lin, Y., Song, H., Kumar, V., Khandelwal, A., Steinbach, M., Tayal, K., … Shu, L. (2021). Artificial Intelligence for Modeling Complex Systems: Taming the Complexity of Expert Models to Improve Decision Making. ACM Trans. Interact. Intell. Syst., 11(2), 1–49. https://doi.org/10.1145/3453172</li><ul>"
+  paper: "<ul><li>Gil, Y., Garijo, D., Khider, D., Knoblock, C. A., Ratnakar, V., Osorio, M., Vargas, H., Pham, M., Pujara, J., Shbita, B., Vu, B., Chiang, Y.-Y., Feldman, D., Lin, Y., Song, H., Kumar, V., Khandelwal, A., Steinbach, M., Tayal, K., … Shu, L. (2021). Artificial Intelligence for Modeling Complex Systems: Taming the Complexity of Expert Models to Improve Decision Making. ACM Trans. Interact. Intell. Syst., 11(2), 1–49. https://doi.org/10.1145/3453172</li><ul>"
   sponsor: Defense Advanced Research Projects Agency (DARPA)
   github: https://github.com/mintproject/MINT-NetCDF-Convention
   demo: 
