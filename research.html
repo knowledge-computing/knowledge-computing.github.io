@@ -40,7 +40,7 @@ section_id: research
                 </p> 
                 <p class="font-italic" style="font-size: 1.rem"> {{ work.abstract }}</p>
                 {% if work.paper %}
-                  <p class="font-italic" style="font-size: 1.rem"> <b>Selected Papers:</b> {{ work.paper }}</p>
+                  <p class="font-italic" style="font-size: 1.rem"> <b>Selected Paper(s):</b> {{ work.paper }}</p>
                 {% endif %}
                 {% if work.sponsor %}
                 <p class="font-italic" style="font-size: 1.rem"> <b>Sponsor:</b> {{ work.sponsor }}</p>
@@ -49,6 +49,9 @@ section_id: research
                 <p style="word-spacing: 10px">
                   {% if work.github %}
                   <a href="{{ work.github }}" class="btn btn-outline-primary">GitHub</a>
+                  {% endif %}
+                  {% if work.github %}
+                  <a href="{{ work.github1 }}" class="btn btn-outline-primary">GitHub</a>
                   {% endif %}
                   {% if work.demo %}
                   <a href="{{ work.demo }}" class="btn btn-outline-primary">Demo</a>
