@@ -16,9 +16,7 @@ section_id: research
 
 <div class='full'>
   <div class='row'>
-    <! ––<div>
-      <img class="avatar" alt="" src="./images/research/complete_ongoing.png" style="height: 50px;" />
-    </div>-->
+  
     {% for work in site.data.research %}
       <div class='two spacing'></div>
       <div class="container">
@@ -33,7 +31,7 @@ section_id: research
               <div style="max-width: calc(100% - 400px); min-width: 300px; ">
                 <p style="font-size: 1.2rem;"><b>{{ work.title }}</b> &nbsp
                   {% if work.progress == "complete" %}
-                    <img class="avatar" alt="" src="./images/research/complete_icon.jpg" style="height: 30px;" /><p class="font-italic" style="font-size: 1.rem"> ㄍcompleted</p>
+                    <p class="font-italic" style="font-size: 1.rem"><img class="avatar" alt="" src="./images/research/complete_icon.jpg" style="height: 30px;" />completed</p>
                   {% else %}  
                     <img class="avatar" alt="" src="./images/research/ongoing_icon.jpg" style="height: 30px;" />
                   {% endif %} 
