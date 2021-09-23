@@ -31,9 +31,9 @@ section_id: research
               <div style="max-width: calc(100% - 400px); min-width: 300px; ">
                 <p style="font-size: 1.2rem;"><b>{{ work.title }}</b> &nbsp
                   {% if work.progress == "complete" %}
-                    <p class="font-italic" style="font-size: 1.rem"><img class="avatar" alt="" src="./images/research/complete_icon.jpg" style="height: 30px;" />completed</p>
+                    <p class="font-italic" style="font-size: 1.rem"><img class="avatar" alt="" src="./images/research/complete_icon.jpg" style="height: 30px;" />&nbsp;completed</p>
                   {% else %}  
-                    <p class="font-italic" style="font-size: 1.rem"><img class="avatar" alt="" src="./images/research/ongoing_icon.jpg" style="height: 30px;" />ongoing</p>
+                    <p class="font-italic" style="font-size: 1.rem"><img class="avatar" alt="" src="./images/research/ongoing_icon.jpg" style="height: 30px;" />&nbsp;ongoing</p>
                   {% endif %} 
                 </p> 
                 <p class="font-italic" style="font-size: 1.rem"> {{ work.abstract }}</p>
