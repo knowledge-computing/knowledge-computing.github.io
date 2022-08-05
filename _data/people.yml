@@ -45,6 +45,10 @@ worker:
     image: images/people/runyuguan.jpg
     profile: Graduate Student <br> USC Computer Science
     link: https://gry1005.github.io/
+  - name: Jack N Milless
+    image: images/people/man.png
+    profile: Undergraduate Student <br> UMN CS&E
+    link:
 alumni:
   - name: Johanna Avelar Portillo
     image: images/people/johannaavelar.png
