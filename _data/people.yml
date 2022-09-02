@@ -40,6 +40,20 @@ phd:
     image: images/people/minnamgung.jpg
     profile: UMN CS&E
     link: https://www.linkedin.com/in/minnamgung0115/
+  - name: Leeje Jang
+    image: images/people/leeje.jpeg
+    profile: UMN CS&E
+  - name: Malcolm Grossman
+    image: images/people/malcolm.jpg
+    profile: UMN CS&E
+  - name: Yuankun Jiao
+    image: images/people/yuankun.jpeg
+    profile: UMN CS&E 
+  - name: Theresa Chen
+    image: images/people/theresa.jpg
+    profile: UMN CS&E
+
+  
 worker:
   - name: Runyu Guan
     image: images/people/runyuguan.jpg
@@ -49,6 +63,10 @@ worker:
     image: images/people/man.png
     profile: Undergraduate Student <br> UMN CS&E
     link:
+  - name: Tanisha Shrotriya 
+    image: images/people/tanisha.jpg
+    profile: Graduate Student <br> UMN CS&E
+    link: https://www.linkedin.com/in/tanishashrotriya/
 alumni:
   - name: Johanna Avelar Portillo
     image: images/people/johannaavelar.png
