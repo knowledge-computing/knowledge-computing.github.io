@@ -39,6 +39,7 @@ phd:
   - name: Leeje Jang
     image: images/people/leeje.jpeg
     profile: UMN CS&E
+    link:
   - name: Malcolm Grossman
     image: images/people/malcolm.jpg
     profile: UMN CS&E
