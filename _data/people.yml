@@ -16,10 +16,6 @@ phd:
     image: images/people/zekunli.jpg
     profile: UMN CS&E
     link: https://zekun-li.github.io/
-  - name: Lois Park
-    image: images/people/loispark.jpeg
-    profile: USC Spatial Sciences Institute <br> PHP Graduate Program
-    link: https://www.linkedin.com/in/lois-park/
   - name: Dan Feldman
     image: images/people/danfeldman.jpeg
     profile: USC Computer Science
@@ -55,10 +51,6 @@ phd:
 
   
 worker:
-  - name: Runyu Guan
-    image: images/people/runyuguan.jpg
-    profile: Graduate Student <br> USC Computer Science
-    link: https://gry1005.github.io/
   - name: Jack N Milless
     image: images/people/man.png
     profile: Undergraduate Student <br> UMN CS&E
@@ -404,3 +396,11 @@ alumni:
     image: images/people/man.png
     profile: Intel <br> Previously Graduate Student <br> USC Computer Science
     link:
+  - name: Lois Park
+    image: images/people/loispark.jpeg
+    profile: USC Spatial Sciences Institute <br> PHP Graduate Program
+    link: https://www.linkedin.com/in/lois-park/
+  - name: Runyu Guan
+    image: images/people/runyuguan.jpg
+    profile: Graduate Student <br> USC Computer Science
+    link: https://gry1005.github.io/
