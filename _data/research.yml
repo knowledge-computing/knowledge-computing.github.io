@@ -1,19 +1,29 @@
-- title: DeepLATTE
+- title: LASI-DAD
   progress: ongoing
-  image: images/research/deeplatte.png
-  klass: st geoint health smartcity
-  desc: Building a spatially-explicit approach for hierarchical forecasting on geolocated multiscale multivariate time-series data
-  abstract: Building a spatially-explicit approach for hierarchical forecasting on geolocated multiscale multivariate time-series data
-  paper: "<ul><li>Lin, Y., Chiang, Y.-Y., Franklin, M., Eckel, P. S., and Ambite, J. L. (November 2020). Building Autocorrelation-Aware Representations for Fine-Scale Spatiotemporal Prediction, In Proceedings of IEEE International Conference on Data Mining (ICDM), pp. 352-361, Sorrento, Italy (9.8% acceptance rate)</li></ul>"
+  image: images/research/LASI_DAD.png
+  klass: 
+  desc: The LASI-DAD project aims to use techniques from computer vision and spatially aware machine learning methods to detect elements of the built environment in India. This project is being conducted in collaboration with public health experts who will use our analysis of the built environment to better understand aging and dementia across India.
+  abstract: The LASI-DAD project aims to use techniques from computer vision and spatially aware machine learning methods to detect elements of the built environment in India. This project is being conducted in collaboration with public health experts who will use our analysis of the built environment to better understand aging and dementia across India.
+  paper:
   sponsor:
-  github: https://github.com/spatial-computing/deeplatte-fine-scale-prediction
-  demo:  
-- title: EarthScan
+  github:
+  demo:
+- title: MNDot
   progress: ongoing
-  image: images/research/earthscan.png
-  klass: cv map geoint
-  desc: Incorporating prior knowledge for robust object detection and geographic layer extraction from overhead imagery 
-  abstract: Incorporating prior knowledge for robust object detection and geographic layer extraction from overhead imagery 
+  image: images/research/mndot.png
+  klass: 
+  desc: The MNDot project focuses on evaluating the performance of different kinds of traffic detection systems in actuated control intersections under a variety of environmental conditions. Our hope with this project is to provide recommendations to the Minnesota Department of Transportation in selecting the most appropriate technology for a given location, as well as an evaluation of the costs involved in maintaining each of these systems year round in Minnesota.
+  abstract: The MNDot project focuses on evaluating the performance of different kinds of traffic detection systems in actuated control intersections under a variety of environmental conditions. Our hope with this project is to provide recommendations to the Minnesota Department of Transportation in selecting the most appropriate technology for a given location, as well as an evaluation of the costs involved in maintaining each of these systems year round in Minnesota.
+  paper:
+  sponsor:
+  github:
+  demo:
+- title: Seaport
+  progress: ongoing
+  image: images/research/seaport.png
+  klass: 
+  desc: Identifying the target seaport(s) described in a document so that a geoint analyst can extract relevant information from the document about the seaport(s)
+  abstract: Identifying the target seaport(s) described in a document so that a geoint analyst can extract relevant information from the document about the seaport(s)
   paper:
   sponsor:
   github:
@@ -24,12 +34,32 @@
   klass: nlp geoint kg
   desc: Building a geolocality aware natural language model using geographic and linguistic contex 
   abstract: Building a geolocality aware natural language model using geographic and linguistic contex 
+  paper: "<ul><li>SpaBERT: A Pretrained Language Model from Geographic Data for Geo-Entity Representation. Li, Z; Kim, J; Chiang, Y Y; Chen M; Accepted by Empirical Methods in Natural Language Processing (EMNLP). 2022.</li></ul>"
+  sponsor:
+  github:
+  demo:
+- title: DeepLATTE
+  progress: complete
+  image: images/research/deeplatte.png
+  klass: st geoint health smartcity
+  desc: Building a spatially-explicit approach for hierarchical forecasting on geolocated multiscale multivariate time-series data
+  abstract: Building a spatially-explicit approach for hierarchical forecasting on geolocated multiscale multivariate time-series data
+  paper: "<ul><li>Lin, Y., Chiang, Y.-Y., Franklin, M., Eckel, P. S., and Ambite, J. L. (November 2020). Building Autocorrelation-Aware Representations for Fine-Scale Spatiotemporal Prediction, In Proceedings of IEEE International Conference on Data Mining (ICDM), pp. 352-361, Sorrento, Italy (9.8% acceptance rate)</li></ul>"
+  sponsor:
+  github: https://github.com/spatial-computing/deeplatte-fine-scale-prediction
+  demo:  
+- title: EarthScan
+  progress: complete
+  image: images/research/earthscan.png
+  klass: cv map geoint
+  desc: Incorporating prior knowledge for robust object detection and geographic layer extraction from overhead imagery 
+  abstract: Incorporating prior knowledge for robust object detection and geographic layer extraction from overhead imagery 
   paper:
   sponsor:
   github:
   demo:
 - title: Moving Behavior Detection from Trajectory
-  progress: ongoing
+  progress: complete
   image: images/research/detect.jpg
   klass: st geoint trans smartcity
   desc: Mining Large Multi-Scale Trajectory Data for Moving Behavior Detection 
@@ -40,7 +70,7 @@
   demo:
   link:
 - title: AI-Driven Analytics for Network Operations
-  progress: ongoing
+  progress: complete
   image: images/research/ntt.png
   klass: st others
   desc: Predicting network events from large network log data 
@@ -51,7 +81,7 @@
   demo:
   link:
 - title: Machines Reading Maps
-  progress: ongoing
+  progress: complete
   image: images/research/mrm.jpeg
   klass: cv map geoint kg
   desc: Make text on maps an accessible resource
