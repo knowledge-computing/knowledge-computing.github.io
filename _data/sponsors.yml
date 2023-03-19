@@ -32,3 +32,9 @@
   image: images/sponsors/usc.jpg
 - name: UMN
   image: images/sponsors/umn.jpg
+  - name: Rumsey
+  image: images/sponsors/rumsey.png
+  - name: NIFA
+  image: images/sponsors/nifa.png
+  - name: MnDOT
+  image: images/sponsors/MnDOT.png
