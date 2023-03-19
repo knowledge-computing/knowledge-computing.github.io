@@ -2,8 +2,8 @@
   progress: ongoing
   image: images/research/LASI_DAD.png
   klass: 
-  desc: The LASI-DAD project aims to use techniques from computer vision and spatially aware machine learning methods to detect elements of the built environment in India. This project is being conducted in collaboration with public health experts who will use our analysis of the built environment to better understand aging and dementia across India.
-  abstract: The LASI-DAD project aims to use techniques from computer vision and spatially aware machine learning methods to detect elements of the built environment in India. This project is being conducted in collaboration with public health experts who will use our analysis of the built environment to better understand aging and dementia across India.
+  desc: Detecting elements of the built environment in India to better understand aging and dementia.
+  abstract: Detecting elements of the built environment in India to better understand aging and dementia.
   paper:
   sponsor:
   github:
@@ -12,8 +12,8 @@
   progress: ongoing
   image: images/research/mndot.png
   klass: 
-  desc: The MNDot project focuses on evaluating the performance of different kinds of traffic detection systems in actuated control intersections under a variety of environmental conditions. Our hope with this project is to provide recommendations to the Minnesota Department of Transportation in selecting the most appropriate technology for a given location, as well as an evaluation of the costs involved in maintaining each of these systems year round in Minnesota.
-  abstract: The MNDot project focuses on evaluating the performance of different kinds of traffic detection systems in actuated control intersections under a variety of environmental conditions. Our hope with this project is to provide recommendations to the Minnesota Department of Transportation in selecting the most appropriate technology for a given location, as well as an evaluation of the costs involved in maintaining each of these systems year round in Minnesota.
+  desc: Evaluating the performance of different kinds of traffic detection systems in actuated control intersections under a variety of environmental conditions.
+  abstract: Evaluating the performance of different kinds of traffic detection systems in actuated control intersections under a variety of environmental conditions.
   paper:
   sponsor:
   github:
