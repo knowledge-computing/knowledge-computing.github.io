@@ -60,6 +60,21 @@ worker:
     image: images/people/tanisha.jpg
     profile: Graduate Student <br> UMN CS&E
     link: https://www.linkedin.com/in/tanishashrotriya/
+
+  - name: Young Namgung 
+    image: images/people/young.jpg
+    profile: Undergraduate Student <br> UMN CS&E
+    link:  
+
+  - name: Jeonghoon Kim
+    image: images/people/jeonghoon.jpg
+    profile:  Undergraduate Student <br> UMN CS&E
+    link: https://www.linkedin.com/in/junghun-kim-42362a24b/
+
+  - name: Yasuki Wu
+    image: images/people/yasuki.jpg
+    profile: Undergraduate Student <br> UMN CS&E
+    link: https://www.linkedin.com/in/yasuki-wu-6232a6204/ 
 alumni:
   - name: Johanna Avelar Portillo
     image: images/people/johannaavelar.png
