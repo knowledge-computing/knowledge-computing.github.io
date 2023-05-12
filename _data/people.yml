@@ -75,6 +75,12 @@ worker:
     image: images/people/yasuki.jpg
     profile: Undergraduate Student <br> UMN CS&E
     link: https://www.linkedin.com/in/yasuki-wu-6232a6204/ 
+    
+  - name: Rhett Olson
+    image: images/people/rhett.jpg
+    profile: Undergraduate Student <br> UMN CS&E
+    link: https://www.linkedin.com/in/rhett-olson-160752261/ 
+    
 alumni:
   - name: Johanna Avelar Portillo
     image: images/people/johannaavelar.png
