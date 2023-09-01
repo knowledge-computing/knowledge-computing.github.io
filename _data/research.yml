@@ -1,3 +1,23 @@
+- title: AI Climate
+  progress: ongoing
+  image: images/research/AI_Climate.png
+  klass: 
+  desc: Utilizing AI to enhance knowledge of the environment and climate, specifically in fields such as agriculture or forestry.
+  abstract: Utilizing AI to enhance knowledge of the environment and climate, specifically in fields such as agriculture or forestry.
+  paper:
+  sponsor:
+  github:
+  demo:
+- title: Critical MAAS
+  progress: ongoing
+  image: images/research/Critical_MAAS.png
+  klass: 
+  desc: Developing tools to rapidly and accurately assess resources of critical mineral commodities in the United States.
+  abstract: Developing tools to rapidly and accurately assess resources of critical mineral commodities in the United States.
+  paper:
+  sponsor: DARPA
+  github: https://criticalminerals.darpa.mil/
+  demo:
 - title: LASI-DAD
   progress: ongoing
   image: images/research/LASI_DAD.png
