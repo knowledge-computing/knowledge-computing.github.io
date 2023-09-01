@@ -72,6 +72,7 @@ worker:
     profile: Graduate Student <br> UMN CS&E
     link: https://www.linkedin.com/in/aahantyagi/ 
     
+    
 alumni:
   - name: Weiwei Duan
     image: images/people/weiweiduan.jpg
@@ -365,6 +366,10 @@ alumni:
     image: images/people/yaminigoyal.jpg
     profile: Graduate Student <br> USC Computer Science
     link:
+  - name: Haoyang Zhu
+    image: images/people/haoyang.jpg
+    profile: High School Student
+    link: 
   - name: Andrew Hsu
     image: images/people/andrewhsu.jpg
     profile: Palos Verdes Peninsula High School
