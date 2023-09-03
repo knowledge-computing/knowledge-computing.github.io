@@ -17,6 +17,7 @@
   paper:
   sponsor: DARPA
   link: https://criticalminerals.darpa.mil/
+  github:
   demo:
 - title: LASI-DAD
   progress: ongoing
