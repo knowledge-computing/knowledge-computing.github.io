@@ -16,7 +16,7 @@
   abstract: Developing tools to rapidly and accurately assess resources of critical mineral commodities in the United States.
   paper:
   sponsor: DARPA
-  github: https://criticalminerals.darpa.mil/
+  link: https://criticalminerals.darpa.mil/
   demo:
 - title: LASI-DAD
   progress: ongoing
