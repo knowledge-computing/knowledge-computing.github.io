@@ -7,6 +7,11 @@ director:
     image: images/people/bob.png
     profile: The Dog
     link:
+  - name: Cha-cha
+    image: images/people/chacha.png
+    profile: The Dog
+    link:
+    
 phd:
   - name: Zekun Li
     image: images/people/zekunli.jpg
@@ -48,7 +53,10 @@ phd:
   - name: Jiyoon Pyo
     image: images/people/jiyoon.jpeg
     profile: UMN CS&E
-
+  - name: Sofia Kirsanova
+    image: images/people/sofia.jpg
+    profile: UMN CS&E
+  
   
 worker:
     
