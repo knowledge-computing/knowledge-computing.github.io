@@ -7,11 +7,12 @@ director:
     image: images/people/bob.png
     profile: The Dog
     link:
+  - name: Cha-cha
+    image: images/people/chacha.png
+    profile: The Dog
+    link:
+    
 phd:
-  - name: Weiwei Duan
-    image: images/people/weiweiduan.jpg
-    profile: USC Computer Science 
-    link: https://weiweiduan.github.io/
   - name: Zekun Li
     image: images/people/zekunli.jpg
     profile: UMN CS&E
@@ -49,27 +50,20 @@ phd:
   - name: Theresa Chen
     image: images/people/theresa.jpg
     profile: UMN CS&E
-
+  - name: Jiyoon Pyo
+    image: images/people/jiyoon.jpeg
+    profile: UMN CS&E
+  - name: Sofia Kirsanova
+    image: images/people/sofia.jpg
+    profile: UMN CS&E
+  
   
 worker:
-  - name: Jack N Milless
-    image: images/people/man.png
-    profile: Undergraduate Student <br> UMN CS&E
-    link:
-  - name: Tanisha Shrotriya 
-    image: images/people/tanisha.jpg
-    profile: Graduate Student <br> UMN CS&E
-    link: https://www.linkedin.com/in/tanishashrotriya/
-
+    
   - name: Young Namgung 
     image: images/people/young.jpg
     profile: Undergraduate Student <br> UMN CS&E
     link:  
-
-  - name: Jeonghoon Kim
-    image: images/people/jeonghoon.jpg
-    profile:  Undergraduate Student <br> UMN CS&E
-    link: https://www.linkedin.com/in/jeonghoon-kimx/
 
   - name: Yasuki Wu
     image: images/people/yasuki.jpg
@@ -81,15 +75,37 @@ worker:
     profile: Undergraduate Student <br> UMN CS&E
     link: https://www.linkedin.com/in/rhett-olson-160752261/ 
     
+  - name: Aahan Tyagi
+    image: images/people/aahan.jpeg
+    profile: Graduate Student <br> UMN CS&E
+    link: https://www.linkedin.com/in/aahantyagi/ 
+    
+    
 alumni:
+  - name: Weiwei Duan
+    image: images/people/weiweiduan.jpg
+    profile: Ph.D. <br> USC Computer Science 
+    link: https://weiweiduan.github.io/
   - name: Johanna Avelar Portillo
     image: images/people/johannaavelar.png
     profile: Ph.D. <br> USC Spatial Sciences Institute <br> PHP Graduate Program
     link: https://www.lawateraccess.com/
+  - name: Lois Park
+    image: images/people/loispark.jpeg
+    profile: USC Spatial Sciences Institute <br> PHP Graduate Program
+    link: https://www.linkedin.com/in/lois-park/
+  - name: Tanisha Shrotriya 
+    image: images/people/tanisha.jpg
+    profile: Graduate Student <br> UMN CS&E
+    link: https://www.linkedin.com/in/tanishashrotriya/
   - name: Hayley Song
     image: images/people/hayleysong.jpg
     profile: Ph.D. Student <br> USC Computer Science
     link: https://www.linkedin.com/in/hayleysong/
+  - name: Runyu Guan
+    image: images/people/runyuguan.jpg
+    profile: Graduate Student <br> USC Computer Science
+    link: https://gry1005.github.io/
   - name: Che-Pai Kung
     image: images/people/chepaikung.jpg
     profile: Graduate Student <br> USC Applied Data Science
@@ -246,6 +262,14 @@ alumni:
     image: images/people/abhishekjain.jpg
     profile: Graduate Student <br> USC Computer Science
     link: https://www.linkedin.com/in/abhishek-jain-1226a415
+  - name: Jack N Milless
+    image: images/people/man.png
+    profile: Undergraduate Student <br> UMN CS&E
+    link:
+  - name: Jeonghoon Kim
+    image: images/people/jeonghoon.jpg
+    profile:  Undergraduate Student <br> UMN CS&E
+    link: https://www.linkedin.com/in/jeonghoon-kimx/
   - name: Joanna Haoshi Wang
     image: images/people/joannahaoshiwang.jpg
     profile: Undergraduate Student <br> USC GeoDesign
@@ -350,6 +374,10 @@ alumni:
     image: images/people/yaminigoyal.jpg
     profile: Graduate Student <br> USC Computer Science
     link:
+  - name: Haoyang Zhu
+    image: images/people/haoyang.jpg
+    profile: High School Student
+    link: 
   - name: Andrew Hsu
     image: images/people/andrewhsu.jpg
     profile: Palos Verdes Peninsula High School
@@ -418,11 +446,3 @@ alumni:
     image: images/people/man.png
     profile: Intel <br> Previously Graduate Student <br> USC Computer Science
     link:
-  - name: Lois Park
-    image: images/people/loispark.jpeg
-    profile: USC Spatial Sciences Institute <br> PHP Graduate Program
-    link: https://www.linkedin.com/in/lois-park/
-  - name: Runyu Guan
-    image: images/people/runyuguan.jpg
-    profile: Graduate Student <br> USC Computer Science
-    link: https://gry1005.github.io/
