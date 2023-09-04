@@ -19,6 +19,17 @@
   link: https://criticalminerals.darpa.mil/
   github:
   demo:
+- title: HAYSTAC
+  progress: ongoing
+  image: images/research/haystac.jpeg
+  klass: 
+  desc: Establishing models of “normal” human movement across times, locations, and people in order to characterize what makes an activity detectable as anomalous.
+  abstract: Establishing models of “normal” human movement across times, locations, and people in order to characterize what makes an activity detectable as anomalous.
+  paper:
+  sponsor: IARPA
+  link: https://www.iarpa.gov/research-programs/haystac
+  github:
+  demo:
 - title: LASI-DAD
   progress: ongoing
   image: images/research/LASI_DAD.png
