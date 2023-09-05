@@ -17,10 +17,6 @@ phd:
     image: images/people/zekunli.jpg
     profile: UMN CS&E
     link: https://zekun-li.github.io/
-  - name: Dan Feldman
-    image: images/people/danfeldman.jpeg
-    profile: USC Computer Science
-    link: https://www.linkedin.com/in/dan-feldman/
   - name: Yijun Lin
     image: images/people/yijunlin.png
     profile: UMN CS&E
@@ -82,10 +78,6 @@ worker:
     
     
 alumni:
-  - name: Weiwei Duan
-    image: images/people/weiweiduan.jpg
-    profile: Ph.D. <br> USC Computer Science 
-    link: https://weiweiduan.github.io/
   - name: Johanna Avelar Portillo
     image: images/people/johannaavelar.png
     profile: Ph.D. <br> USC Spatial Sciences Institute <br> PHP Graduate Program
@@ -94,6 +86,14 @@ alumni:
     image: images/people/loispark.jpeg
     profile: USC Spatial Sciences Institute <br> PHP Graduate Program
     link: https://www.linkedin.com/in/lois-park/
+  - name: Dan Feldman
+    image: images/people/danfeldman.jpeg
+    profile: USC Computer Science
+    link: https://www.linkedin.com/in/dan-feldman/
+  - name: Weiwei Duan
+    image: images/people/weiweiduan.jpg
+    profile: Ph.D. <br> USC Computer Science 
+    link: https://weiweiduan.github.io/
   - name: Tanisha Shrotriya 
     image: images/people/tanisha.jpg
     profile: Graduate Student <br> UMN CS&E
