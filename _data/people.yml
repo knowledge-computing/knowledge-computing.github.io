@@ -46,6 +46,9 @@ phd:
   - name: Theresa Chen
     image: images/people/theresa.jpg
     profile: UMN CS&E
+  - name: Henry Hu
+    image: images/people/man.png
+    profile: UMN CS&E
   - name: Jiyoon Pyo
     image: images/people/jiyoon.jpeg
     profile: UMN CS&E
