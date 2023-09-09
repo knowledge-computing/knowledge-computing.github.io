@@ -92,12 +92,16 @@ alumni:
     link: https://www.lawateraccess.com/
   - name: Lois Park
     image: images/people/loispark.jpeg
-    profile: USC Spatial Sciences Institute <br> PHP Graduate Program
+    profile: Ph.D. <br> USC Spatial Sciences Institute <br> PHP Graduate Program
     link: https://www.linkedin.com/in/lois-park/
   - name: Dan Feldman
     image: images/people/danfeldman.jpeg
-    profile: USC Computer Science
+    profile: Ph.D. <br> USC Computer Science
     link: https://www.linkedin.com/in/dan-feldman/
+  - name: Hayley Song
+    image: images/people/hayleysong.jpg
+    profile: Ph.D. Student <br> USC Computer Science
+    link: https://www.linkedin.com/in/hayleysong/
   - name: Weiwei Duan
     image: images/people/weiweiduan.jpg
     profile: Ph.D. <br> USC Computer Science 
@@ -106,10 +110,6 @@ alumni:
     image: images/people/tanisha.jpg
     profile: Graduate Student <br> UMN CS&E
     link: https://www.linkedin.com/in/tanishashrotriya/
-  - name: Hayley Song
-    image: images/people/hayleysong.jpg
-    profile: Ph.D. Student <br> USC Computer Science
-    link: https://www.linkedin.com/in/hayleysong/
   - name: Runyu Guan
     image: images/people/runyuguan.jpg
     profile: Graduate Student <br> USC Computer Science
