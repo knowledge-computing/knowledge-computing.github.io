@@ -63,11 +63,6 @@ worker:
     image: images/people/young.jpg
     profile: Undergraduate Student <br> UMN CS&E
     link:  
-
-  - name: Yasuki Wu
-    image: images/people/yasuki.jpg
-    profile: Undergraduate Student <br> UMN CS&E
-    link: https://www.linkedin.com/in/yasuki-wu-6232a6204/ 
     
   - name: Rhett Olson
     image: images/people/rhett.jpg
@@ -79,7 +74,7 @@ worker:
     profile: Graduate Student <br> UMN CS&E
     link: https://www.linkedin.com/in/aahantyagi/ 
     
-  - name: Yichen Li,
+  - name: Yichen Li
     image: images/people/yichen.jpg
     profile: Graduate Student <br> UMN CS&E
     link: 
@@ -270,6 +265,10 @@ alumni:
     image: images/people/abhishekjain.jpg
     profile: Graduate Student <br> USC Computer Science
     link: https://www.linkedin.com/in/abhishek-jain-1226a415
+  - name: Yasuki Wu
+    image: images/people/yasuki.jpg
+    profile: Undergraduate Student <br> UMN CS&E
+    link: https://www.linkedin.com/in/yasuki-wu-6232a6204/ 
   - name: Jack N Milless
     image: images/people/man.png
     profile: Undergraduate Student <br> UMN CS&E
