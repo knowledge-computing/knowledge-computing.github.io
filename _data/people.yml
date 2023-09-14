@@ -14,7 +14,7 @@ director:
     
 phd:
   - name: Zekun Li
-    image: images/people/zekunli.jpg
+    image: images/people/zekun.png
     profile: UMN CS&E
     link: https://zekun-li.github.io/
   - name: Yijun Lin
