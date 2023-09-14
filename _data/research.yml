@@ -16,7 +16,7 @@
   abstract: Developing tools to rapidly and accurately assess resources of critical mineral commodities in the United States.
   paper:
   sponsor: DARPA
-  link: https://criticalminerals.darpa.mil/
+  link: https://knowledge-computing.github.io/criticalmaas-aim/
   github:
   demo:
 - title: HAYSTAC
