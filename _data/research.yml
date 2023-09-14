@@ -68,7 +68,8 @@
   abstract: Building a geolocality aware natural language model using geographic and linguistic contex 
   paper: "<ul><li>SpaBERT: A Pretrained Language Model from Geographic Data for Geo-Entity Representation. Li, Z; Kim, J; Chiang, Y Y; Chen M; Accepted by Empirical Methods in Natural Language Processing (EMNLP). 2022.</li></ul>"
   sponsor:
-  github:
+  github: https://github.com/zekun-li/spabert
+  link: https://drive.google.com/file/d/1V1URsRfpw13dbkb_zgBXeNqZJ0AF2744/view 
   demo:
 - title: DeepLATTE
   progress: complete
