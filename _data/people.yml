@@ -78,6 +78,11 @@ worker:
     image: images/people/yichen.jpg
     profile: Graduate Student <br> UMN CS&E
     link: 
+
+  - name: Jinwei Zhou
+    image: images/people/woman.png
+    profile: Undergraduate Student <br> UMN CS&E
+    link: 
     
     
 alumni:
