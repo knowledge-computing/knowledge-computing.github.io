@@ -15,8 +15,8 @@
   #     path: transportation.html
 - name: Publications
   path: publications.html
-- name: Downloads
-  path: downloads.html
+- name: Datasets
+  path: datasets.html
 - name: People
   path: people.html
   section_id: people
