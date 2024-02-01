@@ -1,7 +1,7 @@
-- name: Home
-  path: index.html
-  section_id: home
-- name: Research Projects
+# - name: Home
+#   path: index.html
+#   section_id: home
+- name: Research
   path: research.html
   section_id: research
   # children:
@@ -15,6 +15,8 @@
   #     path: transportation.html
 - name: Publications
   path: publications.html
+- name: Downloads
+  path: downloads.html
 - name: People
   path: people.html
   section_id: people

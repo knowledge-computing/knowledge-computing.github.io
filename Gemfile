@@ -9,3 +9,4 @@ gem "jekyll"
 gem "webrick"
 gem "jekyll-paginate" , group: :jekyll_plugins
 gem 'thin' 
+gem 'liquid','4.0.4'
