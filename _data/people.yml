@@ -59,11 +59,6 @@ phd:
   
 worker:
     
-  - name: Young Namgung 
-    image: images/people/young.jpg
-    profile: Undergraduate Student <br> UMN CS&E
-    link:  
-    
   - name: Rhett Olson
     image: images/people/rhett.jpg
     profile: Undergraduate Student <br> UMN CS&E
@@ -74,11 +69,6 @@ worker:
     profile: Graduate Student <br> UMN CS&E
     link: https://www.linkedin.com/in/aahantyagi/ 
     
-  - name: Yichen Li
-    image: images/people/yichen.jpg
-    profile: Graduate Student <br> UMN CS&E
-    link: 
-
   - name: Jinwei Zhou
     image: images/people/woman.png
     profile: Undergraduate Student <br> UMN CS&E
@@ -86,6 +76,10 @@ worker:
     
     
 alumni:
+  - name: Weiwei Duan
+    image: images/people/weiweiduan.jpg
+    profile: Ph.D. <br> USC Computer Science 
+    link: https://weiweiduan.github.io/
   - name: Johanna Avelar Portillo
     image: images/people/johannaavelar.png
     profile: Ph.D. <br> USC Spatial Sciences Institute <br> PHP Graduate Program
@@ -102,10 +96,14 @@ alumni:
     image: images/people/hayleysong.jpg
     profile: Ph.D. Student <br> USC Computer Science
     link: https://www.linkedin.com/in/hayleysong/
-  - name: Weiwei Duan
-    image: images/people/weiweiduan.jpg
-    profile: Ph.D. <br> USC Computer Science 
-    link: https://weiweiduan.github.io/
+  - name: Young Namgung 
+    image: images/people/young.jpg
+    profile: Undergraduate Student <br> UMN CS&E
+    link:  
+  - name: Yichen Li
+    image: images/people/yichen.jpg
+    profile: Graduate Student <br> UMN CS&E
+    link: 
   - name: Tanisha Shrotriya 
     image: images/people/tanisha.jpg
     profile: Graduate Student <br> UMN CS&E
