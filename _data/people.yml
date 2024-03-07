@@ -58,21 +58,22 @@ phd:
   
   
 worker:
-    
   - name: Rhett Olson
     image: images/people/rhett.jpg
     profile: Undergraduate Student <br> UMN CS&E
     link: https://www.linkedin.com/in/rhett-olson-160752261/ 
-    
-  - name: Aahan Tyagi
-    image: images/people/aahan.jpeg
-    profile: Graduate Student <br> UMN CS&E
-    link: https://www.linkedin.com/in/aahantyagi/ 
-    
   - name: Jinwei Zhou
     image: images/people/woman.png
     profile: Undergraduate Student <br> UMN CS&E
     link: 
+  - name: Morris Liu
+    image: images/people/man.png
+    profile: Undergraduate Student <br> UMN CS&E
+    link: 
+  - name: Aahan Tyagi
+    image: images/people/aahan.jpeg
+    profile: Graduate Student <br> UMN CS&E
+    link: https://www.linkedin.com/in/aahantyagi/ 
     
     
 alumni:
@@ -96,10 +97,6 @@ alumni:
     image: images/people/hayleysong.jpg
     profile: Ph.D. Student <br> USC Computer Science
     link: https://www.linkedin.com/in/hayleysong/
-  - name: Young Namgung 
-    image: images/people/young.jpg
-    profile: Undergraduate Student <br> UMN CS&E
-    link:  
   - name: Yichen Li
     image: images/people/yichen.jpg
     profile: Graduate Student <br> UMN CS&E
@@ -108,6 +105,22 @@ alumni:
     image: images/people/tanisha.jpg
     profile: Graduate Student <br> UMN CS&E
     link: https://www.linkedin.com/in/tanishashrotriya/
+  - name: Young Namgung 
+    image: images/people/young.jpg
+    profile: Undergraduate Student <br> UMN CS&E
+    link:  
+  - name: Yasuki Wu
+    image: images/people/yasuki.jpg
+    profile: Undergraduate Student <br> UMN CS&E
+    link: https://www.linkedin.com/in/yasuki-wu-6232a6204/ 
+  - name: Jack N Milless
+    image: images/people/man.png
+    profile: Undergraduate Student <br> UMN CS&E
+    link:
+  - name: Jeonghoon Kim
+    image: images/people/jeonghoon.jpg
+    profile:  Undergraduate Student <br> UMN CS&E
+    link: https://www.linkedin.com/in/jeonghoon-kimx/
   - name: Runyu Guan
     image: images/people/runyuguan.jpg
     profile: Graduate Student <br> USC Computer Science
@@ -268,18 +281,6 @@ alumni:
     image: images/people/abhishekjain.jpg
     profile: Graduate Student <br> USC Computer Science
     link: https://www.linkedin.com/in/abhishek-jain-1226a415
-  - name: Yasuki Wu
-    image: images/people/yasuki.jpg
-    profile: Undergraduate Student <br> UMN CS&E
-    link: https://www.linkedin.com/in/yasuki-wu-6232a6204/ 
-  - name: Jack N Milless
-    image: images/people/man.png
-    profile: Undergraduate Student <br> UMN CS&E
-    link:
-  - name: Jeonghoon Kim
-    image: images/people/jeonghoon.jpg
-    profile:  Undergraduate Student <br> UMN CS&E
-    link: https://www.linkedin.com/in/jeonghoon-kimx/
   - name: Joanna Haoshi Wang
     image: images/people/joannahaoshiwang.jpg
     profile: Undergraduate Student <br> USC GeoDesign
