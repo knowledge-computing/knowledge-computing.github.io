@@ -63,14 +63,6 @@ worker:
     image: images/people/rhett.jpg
     profile: Undergraduate Student <br> UMN CS&E
     link: https://www.linkedin.com/in/rhett-olson-160752261/ 
-  - name: Jinwei Zhou
-    image: images/people/woman.png
-    profile: Undergraduate Student <br> UMN CS&E
-    link: 
-  - name: Morris Liu
-    image: images/people/morris.png
-    profile: Undergraduate Student <br> UMN CS&E
-    link: https://www.linkedin.com/in/morris-liu/
     
     
 alumni:
@@ -454,3 +446,11 @@ alumni:
     image: images/people/man.png
     profile: Intel <br> Previously Graduate Student <br> USC Computer Science
     link:
+  - name: Jinwei Zhou
+    image: images/people/woman.png
+    profile: Undergraduate Student <br> UMN CS&E
+    link: 
+  - name: Morris Liu
+    image: images/people/morris.png
+    profile: Undergraduate Student <br> UMN CS&E
+    link: https://www.linkedin.com/in/morris-liu/
