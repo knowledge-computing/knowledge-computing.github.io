@@ -50,7 +50,7 @@ phd:
     image: images/people/sofia.jpg
     profile: UMN CS&E
   - name: Janghyeon Lee
-    image: images/people/janghyeon.jpeg
+    image: images/people/janghyeon.jpg
     profile: UMN CS&E
     link: https://janghyeon-lee.github.io/
   - name: Junyi Xie
