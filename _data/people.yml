@@ -37,12 +37,6 @@ phd:
     image: images/people/leeje.jpeg
     profile: UMN CS&E
     link: https://leejejang.github.io/ 
-  - name: Malcolm Grossman
-    image: images/people/malcolm.jpg
-    profile: UMN CS&E
-  - name: Yuankun Jiao
-    image: images/people/woman.png
-    profile: UMN CS&E 
   - name: Theresa Chen
     image: images/people/theresa.jpg
     profile: UMN CS&E
@@ -54,6 +48,13 @@ phd:
     profile: UMN CS&E
   - name: Sofia Kirsanova
     image: images/people/sofia.jpg
+    profile: UMN CS&E
+  - name: Janghyeon Lee
+    image: images/people/janghyeon.jpeg
+    profile: UMN CS&E
+    link: https://janghyeon-lee.github.io/
+  - name: Junyi Xie
+    image: images/people/junyi.jpg
     profile: UMN CS&E
   
   
@@ -70,10 +71,6 @@ worker:
     image: images/people/morris.png
     profile: Undergraduate Student <br> UMN CS&E
     link: https://www.linkedin.com/in/morris-liu/
-  - name: Aahan Tyagi
-    image: images/people/aahan.jpeg
-    profile: Graduate Student <br> UMN CS&E
-    link: https://www.linkedin.com/in/aahantyagi/ 
     
     
 alumni:
