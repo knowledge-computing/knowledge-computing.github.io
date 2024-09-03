@@ -63,6 +63,10 @@ worker:
     image: images/people/rhett.jpg
     profile: Undergraduate Student <br> UMN CS&E
     link: https://www.linkedin.com/in/rhett-olson-160752261/ 
+  - name: Junhan Wu
+    image: images/people/junhan.jpg
+    profile: Undergraduate Student <br> UMN CS&E
+    link: https://www.linkedin.com/in/junhan-wu-698022249/
     
     
 alumni:
