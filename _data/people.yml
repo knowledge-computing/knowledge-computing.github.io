@@ -450,6 +450,12 @@ alumni:
     image: images/people/man.png
     profile: Intel <br> Previously Graduate Student <br> USC Computer Science
     link:
+  - name: Malcolm Grossman
+    image: images/people/malcolm.jpg
+    profile: UMN CS&E
+  - name: Yuankun Jiao
+    image: images/people/woman.png
+    profile: UMN CS&E 
   - name: Jinwei Zhou
     image: images/people/woman.png
     profile: Undergraduate Student <br> UMN CS&E
