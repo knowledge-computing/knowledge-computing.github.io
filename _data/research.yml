@@ -41,7 +41,7 @@
   github:
   demo:
 - title: MNDot
-  progress: ongoing
+  progress: complete
   image: images/research/mndot.png
   klass: 
   desc: Evaluating the performance of different kinds of traffic detection systems in actuated control intersections under a variety of environmental conditions.
@@ -68,7 +68,7 @@
   abstract: Building a geolocality aware natural language model using geographic and linguistic contex 
   paper: "<ul><li>SpaBERT: A Pretrained Language Model from Geographic Data for Geo-Entity Representation. Li, Z; Kim, J; Chiang, Y Y; Chen M; Accepted by Empirical Methods in Natural Language Processing (EMNLP). 2022.</li></ul>"
   sponsor:
-  github: https://github.com/zekun-li/spabert
+  github: https://github.com/knowledge-computing/spabert
   link: https://drive.google.com/file/d/1V1URsRfpw13dbkb_zgBXeNqZJ0AF2744/view 
   demo:
 - title: DeepLATTE
