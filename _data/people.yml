@@ -62,7 +62,7 @@ worker:
   - name: Rhett Olson
     image: images/people/rhett.jpg
     profile: Undergraduate Student <br> UMN CS&E
-    link: https://www.linkedin.com/in/rhett-olson-160752261/ 
+    link: https://rhettoric74.github.io/
   - name: Junhan Wu
     image: images/people/junhan.jpg
     profile: Undergraduate Student <br> UMN CS&E
