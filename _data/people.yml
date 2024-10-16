@@ -40,6 +40,7 @@ phd:
   - name: Theresa Chen
     image: images/people/theresa.jpg
     profile: UMN CS&E
+    link: https://theresachen1759.github.io/
   - name: Henry Hu
     image: images/people/man.png
     profile: UMN CS&E
@@ -72,6 +73,10 @@ worker:
     image: images/people/claire.jpg
     profile: Graduate Student <br> UMN CS&E
     link: https://www.linkedin.com/in/clairec228/
+  - name: Yutong Chuang
+    image: images/people/yutong.jpg
+    profile: Graduate Student <br> UMN CS&E
+    link: https://www.linkedin.com/in/ula663312/
     
     
 alumni:
