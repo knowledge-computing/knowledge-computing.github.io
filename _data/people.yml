@@ -51,6 +51,7 @@ phd:
   - name: Sofia Kirsanova
     image: images/people/sofia.jpg
     profile: UMN CS&E
+    link: https://sofiakirsanova.github.io/
   - name: Janghyeon Lee
     image: images/people/janghyeon.jpg
     profile: UMN CS&E
@@ -74,7 +75,7 @@ worker:
     profile: Graduate Student <br> UMN CS&E
     link: https://www.linkedin.com/in/clairec228/
   - name: Yutong Chuang
-    image: images/people/yutong.jpg
+    image: images/people/yutong.png
     profile: Graduate Student <br> UMN CS&E
     link: https://www.linkedin.com/in/ula663312/
     
