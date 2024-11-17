@@ -11,7 +11,7 @@
   demo:
 - title: Permafrost Peatlands Mapping Modeling
   progress: ongoing
-  image: 
+  image: images/research/permafrost.png
   klass: 
   desc: Employing ML models to map and predict permafrost and peatlands across U.S.
   abstract: This project employs machine learning models to map and predict the extent and characteristics of permafrost and peatlands across the United States. This project is conducted under AI-CLIMATE and in conjunction with the Jelinski Lab.
@@ -22,7 +22,7 @@
   demo:
 - title: CEDAR
   progress: ongoing
-  image: 
+  image: images/research/cedar.png
   klass: 
   desc: Estimating aboveground biomass and carbon stocks in forests.
   abstract: Carbon Estimation with Deep LeARning (CEDAR) is a project designed to estimate aboveground biomass and carbon stocks in forests by leveraging deep learning models. CEDAR is a collaboration with Chad Babcock's Lab.
@@ -55,7 +55,7 @@
   demo:
 - title: LASI-DAD
   progress: ongoing
-  image: images/research/LASI_DAD.png
+  image: images/research/lasi.png
   klass: 
   desc: Exploring human and environment interaction to better understand the determinants of dementia and its impact on society in India
   abstract: Exploring human and environment interaction to better understand the determinants of dementia and its impact on society in India
