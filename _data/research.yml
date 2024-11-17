@@ -11,7 +11,7 @@
   demo:
 - title: Permafrost Peatlands Mapping Modeling
   progress: ongoing
-  image: images/research/permafrost.png
+  image: images/research/no-image.png
   klass: 
   desc: Employing ML models to map and predict permafrost and peatlands across U.S.
   abstract: This project employs machine learning models to map and predict the extent and characteristics of permafrost and peatlands across the United States. This project is conducted under AI-CLIMATE and in conjunction with the Jelinski Lab.
@@ -22,7 +22,7 @@
   demo:
 - title: CEDAR
   progress: ongoing
-  image: images/research/cedar.png
+  image: images/research/no-image.png
   klass: 
   desc: Estimating aboveground biomass and carbon stocks in forests.
   abstract: Carbon Estimation with Deep LeARning (CEDAR) is a project designed to estimate aboveground biomass and carbon stocks in forests by leveraging deep learning models. CEDAR is a collaboration with Chad Babcock's Lab.
@@ -62,6 +62,70 @@
   paper:
   sponsor:
   github:
+  demo:
+- title: Physics + ML
+  progress: ongoing
+  image: images/research/no-image.png
+  klass: 
+  desc: Physics-guided ML methods
+  abstract: We work on physics-guided machine learning methods to solve real-world problems in various domains, such as Astrophysics and Material Science. Previously, we developed a physics-guided neural network, SVPNet, for spatiotemporal predictive learning. The SVPNet learns effective physics representations by estimating the error evolution in physics states for correction and modeling spatially varying physical dynamics to predict future state.
+  paper: "<ul><li>Modeling Spatially Varying Physical Dynamics for Spatiotemporal Predictive Learning. Lin, Y; Chiang, Y Y; Accepted by ACM International Conference on Advances in Geographic Information Systems (SIGSPATIAL). 2023.</li></ul>"
+  sponsor:
+  github: https://github.com/knowledge-computing/svpnet/tree/main
+  demo:
+- title: Innovative chemical microsensor development for in situ, real-time monitoring of priority water pollutants to protect water quality
+  progress: ongoing
+  image: images/research/no-image.png
+  klass: 
+  desc: Real-time water quality monitoring and assessment
+  abstract: The project aims to develop an end-to-end pipeline for real-time water quality monitoring and assessment, including building water sensors, sensor deployment, data collection, and data analysis like spatiotemporal prediction to provide solutions for protecting water quality
+  paper:
+  sponsor:
+  github:
+  demo:
+- title: AI-based Program for Advancing Research, Education and Extension Activities in Precision Agriculture at PVAMU
+  progress: ongoing
+  image: images/research/no-image.png
+  klass: 
+  desc: 
+  abstract: 
+  paper:
+  sponsor:
+  github:
+  link: https://portal.nifa.usda.gov/web/crisprojectpages/1028616-ai-based-program-for-advancing-research-education-and-extension-activities-in-precision-agriculture-at-pvamu.html
+  demo:
+- title: "SCH: Wearables for Health and Disease Knowledge (W4H)"
+  progress: ongoing
+  image: images/research/no-image.png
+  klass: 
+  desc: 
+  abstract: 
+  paper:
+  sponsor:
+  github:
+  link: https://imsc.usc.edu/wearables-for-health/
+  demo:
+- title: Gateway Exposome Coordinating Center (GECC) For AD/ADRD Research
+  progress: ongoing
+  image: images/research/no-image.png
+  klass: 
+  desc: 
+  abstract: 
+  paper:
+  sponsor:
+  github:
+  link:  https://landscapes.isr.umich.edu/projects/gateway-exposome-coordinating-center/
+  demo:
+- title: Building Long-term, National-scale Spatiotemporal Data Collections from Historical Map Archives
+  progress: ongoing
+  image: images/research/no-image.png
+  klass: 
+  desc: 
+  abstract: 
+  paper:
+  sponsor:
+  github:
+  link: https://cse.umn.edu/cs/news/yao-yi-chiang-leverages-ai-analyze-maps-500k-nsf-grant
   demo:
 - title: MNDot
   progress: complete
