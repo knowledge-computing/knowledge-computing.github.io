@@ -65,7 +65,7 @@
   demo:
 - title: Physics + ML
   progress: ongoing
-  image: images/research/no-image.png
+  image: images/research/physics_ml.gif
   klass: 
   desc: Physics-guided ML methods
   abstract: We work on physics-guided machine learning methods to solve real-world problems in various domains, such as Astrophysics and Material Science. Previously, we developed a physics-guided neural network, SVPNet, for spatiotemporal predictive learning. The SVPNet learns effective physics representations by estimating the error evolution in physics states for correction and modeling spatially varying physical dynamics to predict future state.
