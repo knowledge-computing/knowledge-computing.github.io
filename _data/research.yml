@@ -11,7 +11,7 @@
   demo:
 - title: Permafrost Peatlands Mapping Modeling
   progress: ongoing
-  image: images/research/no-image.png
+  image: images/research/permafrost.png
   klass: 
   desc: Employing ML models to map and predict permafrost and peatlands across U.S.
   abstract: This project employs machine learning models to map and predict the extent and characteristics of permafrost and peatlands across the United States. This project is conducted under AI-CLIMATE and in conjunction with the Jelinski Lab.
@@ -22,7 +22,7 @@
   demo:
 - title: CEDAR
   progress: ongoing
-  image: images/research/no-image.png
+  image: images/research/cedar.png
   klass: 
   desc: Estimating aboveground biomass and carbon stocks in forests.
   abstract: Carbon Estimation with Deep LeARning (CEDAR) is a project designed to estimate aboveground biomass and carbon stocks in forests by leveraging deep learning models. CEDAR is a collaboration with Chad Babcock's Lab.
@@ -65,7 +65,7 @@
   demo:
 - title: Physics + ML
   progress: ongoing
-  image: images/research/physics_ml.gif
+  image: images/research/physics_ml.png
   klass: 
   desc: Physics-guided ML methods
   abstract: We work on physics-guided machine learning methods to solve real-world problems in various domains, such as Astrophysics and Material Science. Previously, we developed a physics-guided neural network, SVPNet, for spatiotemporal predictive learning. The SVPNet learns effective physics representations by estimating the error evolution in physics states for correction and modeling spatially varying physical dynamics to predict future state.
@@ -73,9 +73,9 @@
   sponsor:
   github: https://github.com/knowledge-computing/svpnet/tree/main
   demo:
-- title: Innovative chemical microsensor development for in situ, real-time monitoring of priority water pollutants to protect water quality
+- title: "Aquasense: Time Series Analysis with Sparse Sensor Data"
   progress: ongoing
-  image: images/research/no-image.png
+  image: images/research/aquasense.png
   klass: 
   desc: Real-time water quality monitoring and assessment
   abstract: The project aims to develop an end-to-end pipeline for real-time water quality monitoring and assessment, including building water sensors, sensor deployment, data collection, and data analysis like spatiotemporal prediction to provide solutions for protecting water quality
