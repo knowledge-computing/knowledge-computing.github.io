@@ -14,10 +14,10 @@
   image: images/research/permafrost.png
   klass: 
   desc: Employing ML models to map and predict permafrost and peatlands across U.S.
-  abstract: "This project employs machine learning models to map and predict the extent and characteristics of permafrost and peatlands across the United States. This project is conducted under AI-CLIMATE and in conjunction with the <a href="https://www.jelinskilabpedology.org/">Jelinski Lab</a>."
+  abstract: This project employs machine learning models to map and predict the extent and characteristics of permafrost and peatlands across the United States. This project is conducted under AI-CLIMATE and in conjunction with the Jelinski Lab.
   paper:
   sponsor:
-  link: 
+  link: https://www.jelinskilabpedology.org/
   github:
   demo:
 - title: CEDAR
@@ -25,10 +25,10 @@
   image: images/research/cedar.png
   klass: 
   desc: Estimating aboveground biomass and carbon stocks in forests.
-  abstract: "Carbon Estimation with Deep LeARning (CEDAR) is a project designed to estimate aboveground biomass and carbon stocks in forests by leveraging deep learning models. CEDAR is a collaboration with <a href="https://forestry.umn.edu/people/chad-babcock">Chad Babcock's Lab.</a>"
+  abstract: Carbon Estimation with Deep LeARning (CEDAR) is a project designed to estimate aboveground biomass and carbon stocks in forests by leveraging deep learning models. CEDAR is a collaboration with Chad Babcock's Lab.
   paper:
   sponsor:
-  link: 
+  link: https://forestry.umn.edu/people/chad-babcock
   github:
   demo:
 - title: Critical MAAS
