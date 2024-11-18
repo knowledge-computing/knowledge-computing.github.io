@@ -14,7 +14,7 @@
   image: images/research/permafrost.png
   klass: 
   desc: Employing ML models to map and predict permafrost and peatlands across U.S.
-  abstract: This project employs machine learning models to map and predict the extent and characteristics of permafrost and peatlands across the United States. This project is conducted under AI-CLIMATE and in conjunction with the "[Jelinski Lab](https://www.jelinskilabpedology.org/)".
+  abstract: "This project employs machine learning models to map and predict the extent and characteristics of permafrost and peatlands across the United States. This project is conducted under AI-CLIMATE and in conjunction with the <a href="https://www.jelinskilabpedology.org/" target="_blank">Jelinski Lab</a>".
   paper:
   sponsor:
   link: 
