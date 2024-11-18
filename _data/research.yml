@@ -14,7 +14,7 @@
   image: images/research/permafrost.png
   klass: 
   desc: Employing ML models to map and predict permafrost and peatlands across U.S.
-  abstract: "<p>This project employs machine learning models to map and predict the extent and characteristics of permafrost and peatlands across the United States. This project is conducted under AI-CLIMATE and in conjunction with the <a href="https://www.jelinskilabpedology.org/" target="_blank">Jelinski Lab</a></p>".
+  abstract: "<p>This project employs machine learning models to map and predict the extent and characteristics of permafrost and peatlands across the United States. This project is conducted under AI-CLIMATE and in conjunction with the Jelinski Lab</p>."
   paper:
   sponsor:
   link: 
@@ -39,7 +39,7 @@
   abstract: Developing tools to rapidly and accurately assess resources of critical mineral commodities in the United States.
   paper:
   sponsor: DARPA
-  link: https://knowledge-computing.github.io/criticalmaas-aim/
+  link: 
   github:
   demo:
 - title: HAYSTAC
