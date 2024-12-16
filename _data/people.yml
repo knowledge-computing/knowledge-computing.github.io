@@ -71,10 +71,6 @@ worker:
     image: images/people/junhan.jpg
     profile: Undergraduate Student <br> UMN CS&E
     link: https://www.linkedin.com/in/junhan-wu-698022249/
-  - name: Claire Chen
-    image: images/people/claire.jpg
-    profile: Graduate Student <br> UMN CS&E
-    link: https://www.linkedin.com/in/clairec228/
   - name: Yutong Chuang
     image: images/people/yutong.png
     profile: Graduate Student <br> UMN CS&E
@@ -476,3 +472,7 @@ alumni:
     image: images/people/morris.png
     profile: Undergraduate Student <br> UMN CS&E
     link: https://www.linkedin.com/in/morris-liu/
+  - name: Claire Chen
+    image: images/people/claire.jpg
+    profile: Graduate Student <br> UMN CS&E
+    link: https://www.linkedin.com/in/clairec228/
