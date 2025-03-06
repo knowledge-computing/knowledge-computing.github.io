@@ -75,6 +75,10 @@ worker:
     image: images/people/yutong.png
     profile: Graduate Student <br> UMN CS&E
     link: https://www.linkedin.com/in/ula663312/
+  - name: Sarah Wood
+    image: images/people/sarah.png
+    profile: Undergraduate Student <br> UMN CS&E
+    link: https://www.linkedin.com/in/sarah-wood-02a053276/
     
     
 alumni:
