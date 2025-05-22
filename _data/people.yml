@@ -79,6 +79,15 @@ worker:
     image: images/people/sarah.jpeg
     profile: Undergraduate Student <br> UMN CS&E
     link: https://www.linkedin.com/in/sarah-wood-02a053276/
+  - name: Shilong Xiang
+    image: images/people/shilongxiang.png
+    profile: Undergraduate Student <br> UMN CS&E
+    link: https://shilongxiang.github.io/
+  - name: Nathan Stangler
+    image: images/people/nathanstrangler.png
+    profile: Undergraduate Student <br> UMN CS&E
+    link: https://nathanstangler.github.io/
+
     
     
 alumni:
