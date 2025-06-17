@@ -67,10 +67,6 @@ worker:
     image: images/people/rhett.jpg
     profile: Undergraduate Student <br> UMN CS&E
     link: https://rhettoric74.github.io/
-  - name: Junhan Wu
-    image: images/people/junhan.jpg
-    profile: Undergraduate Student <br> UMN CS&E
-    link: https://www.linkedin.com/in/junhan-wu-698022249/
   - name: Yutong Chuang
     image: images/people/yutong.png
     profile: Graduate Student <br> UMN CS&E
@@ -111,6 +107,10 @@ alumni:
     image: images/people/hayleysong.jpg
     profile: Ph.D. Student <br> USC Computer Science
     link: https://www.linkedin.com/in/hayleysong/
+  - name: Junhan Wu
+    image: images/people/junhan.jpg
+    profile: Undergraduate Student <br> UMN CS&E
+    link: https://www.linkedin.com/in/junhan-wu-698022249/
   - name: Yichen Li
     image: images/people/yichen.jpg
     profile: Graduate Student <br> UMN CS&E
