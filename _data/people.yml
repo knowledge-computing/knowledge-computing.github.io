@@ -41,6 +41,9 @@ phd:
     image: images/people/theresa.jpg
     profile: UMN CS&E
     link: https://theresachen1759.github.io/
+  - name: Yuankun Jiao
+    image: images/people/woman.png
+    profile: UMN CS&E 
   - name: Henry Hu
     image: images/people/man.png
     profile: UMN CS&E
@@ -153,9 +156,6 @@ alumni:
   - name: Malcolm Grossman
     image: images/people/malcolm.jpg
     profile: UMN CS&E
-  - name: Yuankun Jiao
-    image: images/people/woman.png
-    profile: UMN CS&E 
   - name: Runyu Guan
     image: images/people/runyuguan.jpg
     profile: Graduate Student <br> USC Computer Science
