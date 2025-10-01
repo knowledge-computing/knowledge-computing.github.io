@@ -1,8 +1,16 @@
+@article{namgung2025less,
+  title={Less is More: Multimodal Region Representation via Pairwise Inter-view Learning},
+  author={Namgung, Min and Lin, Yijun and Lee, JangHyeon and Chiang, Yao-Yi},
+  journal={arXiv preprint arXiv:2505.18178},
+  year={2025}
+}
 @article{li2025mapqa,
   title={MapQA: Open-domain Geospatial Question Answering on Map Data},
-  author={Li, Zekun and Grossman, Malcolm and Qasemi, Eric (Ehsan) and Kulkarni, Mihir and Chen, Muhao and Chiang, Yao-Yi},
+  author={Li, Zekun and Grossman, Malcolm and Qasemi, Eric and Kulkarni, Mihir and Chen, Muhao and Chiang, Yao-Yi},
   journal={arXiv preprint arXiv:2503.07871},
-  year={2025}
+  year={2025},
+  url={https://arxiv.org/abs/2503.07871},
+  abstract={Geospatial question answering (QA) is a fundamental task in navigation and point of interest (POI) searches. While existing geospatial QA datasets exist, they are limited in both scale and diversity, often relying solely on textual descriptions of geo-entities without considering their geometries. A major challenge in scaling geospatial QA datasets for reasoning lies in the complexity of geospatial relationships, which require integrating spatial structures, topological dependencies, and multi-hop reasoning capabilities that most text-based QA datasets lack. To address these limitations, we introduce MapQA, a novel dataset that not only provides question-answer pairs but also includes the geometries of geo-entities referenced in the questions. MapQA is constructed using SQL query templates to extract question-answer pairs from OpenStreetMap (OSM) for two study regions: Southern California and Illinois. It consists of 3,154 QA pairs spanning nine question types that require geospatial reasoning, such as neighborhood inference and geo-entity type identification. Compared to existing datasets, MapQA expands both the number and diversity of geospatial question types. We explore two approaches to tackle this challenge: (1) a retrieval-based language model that ranks candidate geo-entities by embedding similarity, and (2) a large language model (LLM) that generates SQL queries from natural language questions and geo-entity attributes, which are then executed against an OSM database. Our findings indicate that retrieval-based methods effectively capture concepts like closeness and direction but struggle with questions that require explicit computations (e.g., distance calculations). LLMs (e.g., GPT and Gemini) excel at generating SQL queries for one-hop reasoning but face challenges with multi-hop reasoning, highlighting a key bottleneck in advancing geospatial QA systems.}
 }
 
 @article{MAI2025104368,
@@ -247,11 +255,6 @@ series = {SIGSPATIAL '23}
   year={2022},
   organization={IEEE}
 }
-@article{li2025mapqa,
-  title={MapQA: Open-domain Geospatial Question Answering on Map Data},
-  author={Li, Zekun and Grossman, Malcolm and Qasemi, Eric (Ehsan) and Kulkarni, Mihir and Chen, Muhao and Chiang, Yao-Yi},
-  journal={arXiv preprint arXiv:2503.07871},
-  year={2025}
 }
 @article{li2022spabert,
   title={SpaBERT: A Pretrained Language Model from Geographic Data for Geo-Entity Representation},
