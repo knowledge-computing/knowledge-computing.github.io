@@ -42,8 +42,9 @@ phd:
     profile: UMN CS&E
     link: https://theresachen1759.github.io/
   - name: Yuankun Jiao
-    image: images/people/woman.png
-    profile: UMN CS&E 
+    image: images/people/yuankun.png
+    profile: UMN CS&E
+    link: https://36n120e.github.io/yuankunjiao.github.io
   - name: Henry Hu
     image: images/people/man.png
     profile: UMN CS&E
@@ -73,7 +74,7 @@ worker:
   - name: Sarah Wood
     image: images/people/sarah.jpeg
     profile: Undergraduate Student <br> UMN CS&E
-    link: https://www.linkedin.com/in/sarah-wood-02a053276/
+    link: https://sarahjwood.com
   - name: Shilong Xiang
     image: images/people/shilongxiang.png
     profile: Undergraduate Student <br> UMN CS&E
