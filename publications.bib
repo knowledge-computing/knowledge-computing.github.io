@@ -27,6 +27,228 @@
   abstract = {Geospatial Artificial Intelligence (GeoAI), as the integration of geospatial studies and AI, has become one of the fastest-developing research directions in spatial data science and geography. This rapid change in the field calls for a deeper understanding of the recent developments and envision where the field is going in the near future. In this work, we provide a quantitative analysis of the GeoAI literature from the spatial, temporal, and semantic aspects. We briefly discuss the history of AI and GeoAI by highlighting some pioneering work. Then we discuss the current landscape of GeoAI by selecting five representative subdomains including remote sensing, urban computing, Earth system science, cartography, and geospatial semantics. Finally, we highlight several unique future research directions of GeoAI which are classified into two groups: GeoAI method development challenges and GeoAI Ethics challenges. Topics include heterogeneity-aware GeoAI, knowledge-guided GeoAI, spatial representation learning, geo-foundation models, fairness-aware GeoAI, privacy-aware GeoAI, as well as interpretable and explainable GeoAI. We hope our review of GeoAI’s past, present, and future is comprehensive and can enlighten the next generation of GeoAI research.}
 }
 
+@inproceedings{10.1145/3764915.3770723,
+  author = {Xie, Junyi and Jiao, Yuankun and Kim, Jina and Chiang, Yao-Yi and Zhao, Lingyi and Shafique, Khurram},
+  title = {HiCoTraj: Zero-Shot Demographic Reasoning via Hierarchical Chain-of-Thought Prompting from Trajectory},
+  year = {2025},
+  isbn = {9798400722615},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  url = {https://doi.org/10.1145/3764915.3770723},
+  doi = {10.1145/3764915.3770723},
+  abstract = {Inferring demographic attributes such as age, sex, or income level from human mobility patterns enables critical applications such as targeted public health interventions, equitable urban planning, and personalized transportation services. Existing mobility-based demographic inference studies heavily rely on large-scale trajectory data with demographic labels, leading to limited interpretability and poor generalizability across different datasets and user groups. We propose HiCoTraj (Zero-Shot Demographic Reasoning via Hierarchical Chain-of-Thought Prompting from Trajectory), a framework that leverages LLMs' zero-shot learning and semantic understanding capabilities to perform demographic inference without labeled training data. HiCoTraj transforms trajectories into semantically rich, natural language representations by creating detailed activity chronicles and multi-scale visiting summaries. Then HiCoTraj uses a novel hierarchical chain of thought reasoning to systematically guide LLMs through three cognitive stages: factual feature extraction, behavioral pattern analysis, and demographic inference with structured output. This approach addresses the scarcity challenge of labeled demographic data while providing transparent reasoning chains. Experimental evaluation on real-world trajectory data demonstrates that HiCoTraj achieves competitive performance across multiple demographic attributes in zero-shot scenarios.},
+  booktitle = {Proceedings of the 1st ACM SIGSPATIAL International Workshop on Generative and Agentic AI for Multi-Modality Space-Time Intelligence},
+  pages = {49–53},
+  numpages = {5},
+  keywords = {demographic inference, large language model reasoning, trajectory analysis, chain-of-thought prompting, zero-shot learning},
+  location = {The Graduate Hotel Minneapolis, Minneapolis, MN, USA},
+  series = {GeoGenAgent '25}
+}
+
+@inproceedings{jelinski2025fine,
+  title = {Fine-Scale Soil Mapping in Alaska with Multimodal Machine Learning},
+  author = {Jelinski, Nicolas A and Chiang, Yao-Yi and Nawrocki, Timm and Macander, Matt and Ives, Sue and Grunwald, Sabine and Brungard, Colby and Chen, Theresa and Lin, Yijun},
+  year = {2025},
+  booktitle = {Proceedings of ACM SIGSPATIAL 2025},
+  url = {https://sigspatial2025.sigspatial.org/application-accepted/}
+}
+
+@article{kim2025streetlens,
+  title = {StreetLens: Enabling Human-Centered AI Agents for Neighborhood Assessment from Street View Imagery},
+  author = {Kim, Jina and Jang, Leeje and Chiang, Yao-Yi and Wang, Guanyu and Pasco, Michelle},
+  journal = {arXiv preprint arXiv:2506.14670},
+  year = {2025},
+  doi = {10.48550/arXiv.2506.14670},
+  url = {https://arxiv.org/abs/2506.14670}
+}
+
+@article{namgung2025transit,
+  title = {Transit for All: Mapping Equitable Bike2Subway Connection using Region Representation Learning},
+  author = {Namgung, Min and Lee, JangHyeon and Ding, Fangyi and Chiang, Yao-Yi},
+  journal = {arXiv preprint arXiv:2506.15113},
+  year = {2025},
+  doi = {10.48550/arXiv.2506.15113},
+  url = {https://arxiv.org/abs/2506.15113}
+}
+
+@article{duan2025digmapper,
+  title = {DIGMAPPER: A Modular System for Automated Geologic Map Digitization},
+  author = {Duan, Weiwei and Gerlek, Michael and Minton, Steven and Knoblock, Craig and Lin, Fandel and Chen, Theresa and Jang, Leeje and Kirsanova, Sofia and Li, Zekun and Lin, Yijun and Chiang, Yao-Yi},
+  journal = {arXiv preprint arXiv:2506.16006},
+  year = {2025},
+  doi = {10.48550/arXiv.2506.16006},
+  url = {https://arxiv.org/abs/2506.16006}
+}
+
+@article{10.1145/3757932.3757935,
+  title = {GeoAnomaly Detection: Towards finding Needles of Anomalous Behavior in a Haystack of Geospatial Data},
+  author = {Chiang, Yao-Yi and Kim, Joon-Seok and Krause, Cory and Mattei, Enrico and Shafique, Khurram and Wenk, Carola and Z\"{u}fle, Andreas},
+  journal = {SIGSPATIAL Special},
+  year = {2025},
+  volume = {15},
+  number = {1},
+  pages = {9–15},
+  numpages = {7},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  url = {https://doi.org/10.1145/3757932.3757935},
+  doi = {10.1145/3757932.3757935},
+  abstract = {The task of anomaly detection in geospatial data is to find data points in space and time that deviate so much from other observations as to arouse suspicion that it was generated by a different mechanism. Most of the existing work in geospatial data analysis relies on supervised machine learning, which involves training models on labeled datasets, allowing them to learn and make accurate predictions. Anomalies, by definition, are rare events that occur infrequently and unpredictably. As a result, labeled datasets for these events are either non-existent or extremely limited. Consequently, anomaly detection research calls for new strategies that can identify rare and unexpected events based on patterns and distributions within the data itself in an unsupervised fashion. These anomalies may manifest as unexpected changes in environmental conditions, natural disasters, unusual human activities, or irregular patterns in spatiotemporal distributions. To answer this call, we organized the 1st ACM SIGSPATIAL International Workshop on Geospatial Anomaly Detection (GeoAnomalies'24) at SIGSPATIAL'24. In this Newsletter Article, we report our first findings and map future research directions.}
+}
+
+@article{pyo2025augmenting,
+  title = {Augmenting Human-Centered Racial Covenant Detection and Georeferencing with Plug-and-Play NLP Pipelines},
+  author = {Pyo, Jiyoon and Jiao, Yuankun and Chiang, Yao-Yi and Corey, Michael},
+  journal = {arXiv preprint arXiv:2509.05829},
+  year = {2025},
+  doi = {10.48550/arXiv.2509.05829},
+  url = {https://arxiv.org/abs/2509.05829}
+}
+
+@inproceedings{10.1007/978-3-032-04617-8_4,
+  title = {LIGHT: Multi-modal Text Linking on Historical Maps},
+  author = {Lin, Yijun and Olson, Rhett and Wu, Junhan and Chiang, Yao-Yi and Weinman, Jerod},
+  editor = {Yin, Xu-Cheng and Karatzas, Dimosthenis and Lopresti, Daniel},
+  booktitle = {Document Analysis and Recognition -- ICDAR 2025},
+  year = {2026},
+  publisher = {Springer Nature Switzerland},
+  address = {Cham},
+  pages = {60--77},
+  isbn = {978-3-032-04617-8},
+  abstract = {Text on historical maps provides valuable information for studies in history, economics, geography, and other related fields. Unlike structured or semi-structured documents, text on maps varies significantly in orientation, reading order, shape, and placement. Many modern methods can detect and transcribe text regions, but they struggle to effectively ``link'' the recognized text fragments, e.g., determining a multi-word place name. Existing layout analysis methods model word relationships to improve text understanding in structured documents, but they primarily rely on linguistic features and neglect geometric information, which is essential for handling map text. To address these challenges, we propose LIGHT, a novel multi-modal approach that integrates linguistic, image, and geometric features for linking text on historical maps. In particular, LIGHT includes a geometry-aware embedding module that encodes the polygonal coordinates of text regions to capture polygon shapes and their relative spatial positions on an image. LIGHT unifies this geometric information with the visual and linguistic token embeddings from LayoutLMv3, a pretrained layout analysis model. LIGHT uses the cross-modal information to predict the reading-order successor of each text instance directly with a bi-directional learning strategy that enhances sequence robustness. Experimental results show that LIGHT outperforms existing methods on the ICDAR 2024/2025 MapText Competition data, demonstrating the effectiveness of multi-modal learning for historical map text linking.}
+}
+
+@inproceedings{10.1007/978-3-032-04617-8_3,
+  title = {LDTR: Linear Object Detection Transformer for Accurate Graph Generation by Learning the N-Hop Connectivity Information},
+  author = {Duan, Weiwei and Chiang, Yao-Yi and Knoblock, Craig A.},
+  editor = {Yin, Xu-Cheng and Karatzas, Dimosthenis and Lopresti, Daniel},
+  booktitle = {Document Analysis and Recognition -- ICDAR 2025},
+  year = {2026},
+  publisher = {Springer Nature Switzerland},
+  address = {Cham},
+  pages = {40--59},
+  isbn = {978-3-032-04617-8},
+  abstract = {Historical maps contain valuable, detailed survey data often unavailable elsewhere. Automatically extracting linear objects, such as fault lines, from scanned historical maps benefits diverse application areas, such as mining resource prediction. However, existing models encounter challenges in capturing adequate image context and spatial context. Insufficient image context leads to false detections by failing to distinguish desired linear objects from others with similar appearances. Meanwhile, insufficient spatial context hampers the accurate delineation of elongated, slender-shaped linear objects. This paper introduces the Linear Object Detection TRansformer (LDTR), which directly generates accurate vector graphs for linear objects from scanned map images. LDTR leverages multi-scale deformable attention to capture representative image context, reducing false detections. Furthermore, LDTR's innovative N-hop connectivity component explicitly encourages interactions among nodes within an N-hop neighborhood, enabling the model to learn sufficient spatial context for generating graphs with accurate connectivity. Experiments show that LDTR improves detection precision by 6{\%} and enhances line connectivity by 20{\%} over state-of-the-art baselines.}
+}
+
+@inproceedings{10.1007/978-3-032-09530-5_26,
+  title = {Exploiting LLMs and Semantic Technologies to Build a Knowledge Graph of Historical Mining Data},
+  author = {Knoblock, Craig A. and Vu, Binh and Shbita, Basel and Chiang, Yao-Yi and Krishna, Pothula Punith and Lin, Xiao and Muric, Goran and Pyo, Jiyoon and Trejo-Sheu, Adriana and Ye, Meng},
+  editor = {Garijo, Daniel and Kirrane, Sabrina and Salatino, Angelo and Shimizu, Cogan and Acosta, Maribel and Nuzzolese, Andrea Giovanni and Ferrada, Sebasti{\'a}n and Soulard, Thibaut and Kozaki, Kouji and Takeda, Hideaki and Gentile, Anna Lisa},
+  booktitle = {The Semantic Web -- ISWC 2025},
+  year = {2026},
+  publisher = {Springer Nature Switzerland},
+  address = {Cham},
+  pages = {451--471},
+  isbn = {978-3-032-09530-5},
+  abstract = {Locating new sources of critical minerals begins with understanding where these minerals have been found in the past. However, historical data about mineral occurrences is often locked in disparate, unstructured, and inconsistent formats, ranging from government databases to mining reports and journal articles. To address this challenge, we have developed a set of scalable technologies that extract, normalize, and semantically integrate information from these sources into a unified knowledge graph. Our approach combines ontology-driven modeling, large-language models for information extraction and classification, and tools for linking and validating data across sources. The result is a semantically enriched, queryable knowledge graph that supports reproducible analysis, expert validation, and geoscientific applications such as deposit classification and prospectivity modeling. Through this work, we have successfully integrated information from hundreds of thousands of records across multiple historical sources to build one of the world's largest repositories of structured data on critical minerals.}
+}
+
+@article{pai2025supported,
+  title = {AI-Supported Smart Search for Multi-Period Historical Maps Using the mapKurator Place Name Index},
+  author = {Pai, Pi-Ling and Lu, Hsiang-Hsi and Su, Wen-Rong and Liao, Hsiung-Ming and Chan, Ta-Chien and Lin, Yijun and Chiang, Yao-Yi},
+  journal = {Journal of Map & Geography Libraries},
+  year = {2025},
+  pages = {1-23},
+  doi = {10.1080/15420353.2025.2580239}
+}
+
+@inproceedings{10.1145/3764920.3770590,
+  title = {Detecting Legend Items on Historical Maps Using GPT-4o with In-Context Learning},
+  author = {Kirsanova, Sofia and Duan, Weiwei and Chiang, Yao-Yi},
+  year = {2025},
+  isbn = {9798400721830},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  url = {https://doi.org/10.1145/3764920.3770590},
+  doi = {10.1145/3764920.3770590},
+  booktitle = {Proceedings of the 4th ACM SIGSPATIAL International Workshop on Searching and Mining Large Collections of Geospatial Data},
+  pages = {35–38},
+  numpages = {4},
+  keywords = {Map Digitization, Geospatial information retrieval, Map Layout Analysis, In-Context Learning},
+  series = {GeoSearch '25},
+  abstract = {Historical map legends are critical for interpreting cartographic symbols. However, their inconsistent layouts and unstructured formats make automatic extraction challenging. Prior work focuses primarily on segmentation or general optical character recognition (OCR), with few methods effectively matching legend symbols to their corresponding descriptions in a structured manner. We present a method that combines LayoutLMv3 for layout detection with GPT-4o using in-context learning to detect and link legend items and their descriptions via bounding-box predictions. Our experiments show that GPT-4 with structured JSON prompts outperforms the baseline, achieving 88\% F-1 and 85\% IoU, and reveal how prompt design, example counts, and layout alignment affect performance. This approach supports scalable, layout-aware legend parsing and improves the indexing and searchability of historical maps across various visual styles.}
+}
+
+@inproceedings{10.1145/3764914.3770888,
+  title = {BeSTAD: Behavior-Aware Spatio-Temporal Anomaly Detection for Human Mobility Data},
+  author = {Xie, Junyi and Kim, Jina and Chiang, Yao-Yi and Zhao, Lingyi and Shafique, Khurram},
+  year = {2025},
+  isbn = {9798400722608},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  url = {https://doi.org/10.1145/3764914.3770888},
+  doi = {10.1145/3764914.3770888},
+  booktitle = {Proceedings of the 2nd ACM SIGSPATIAL International Workshop on Geospatial Anomaly Detection},
+  pages = {56–59},
+  numpages = {4},
+  keywords = {trajectory anomaly detection, mobility behavioral understanding, unsupervised learning},
+  series = {GeoAnomalies '25},
+  abstract = {Traditional anomaly detection in human mobility has primarily focused on trajectory-level analysis, identifying statistical outliers or spatiotemporal inconsistencies across aggregated movement traces. However, detecting individual-level anomalies, i.e., unusual deviations in a person's mobility behavior relative to their own historical patterns, within datasets encompassing large populations remains a significant challenge. In this paper, we present BeSTAD (Behavior-aware Spatio-Temporal Anomaly Detection for Human Mobility Data), an unsupervised framework that captures individualized behavioral signatures across large populations and uncovers fine-grained anomalies by jointly modeling spatial context and temporal dynamics. BeSTAD learns semantically enriched mobility representations that integrate location meaning and temporal patterns, enabling the detection of subtle deviations in individual movement behavior. BeSTAD further employs a behavior-cluster-aware modeling mechanism that builds personalized behavioral profiles from normal activity and identifies anomalies through cross-period behavioral comparison with consistent semantic alignment. Building on prior work in mobility behavior clustering, this approach enables not only the detection of behavioral shifts and deviations from established routines but also the identification of individuals exhibiting such changes within large-scale mobility datasets. By learning individual behaviors directly from unlabeled data, BeSTAD advances anomaly detection toward personalized and interpretable mobility analysis.}
+}
+
+@inproceedings{10.1145/3764926.3771947,
+  title = {CareWELL: Multimodal Region Representation Learning with Spatial Contexts for Urban Health},
+  author = {Namgung, Min and Chiang, Yao-Yi and Omitaomu, Olufemi A.},
+  year = {2025},
+  isbn = {9798400721892},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  url = {https://doi.org/10.1145/3764926.3771947},
+  doi = {10.1145/3764926.3771947},
+  booktitle = {Proceedings of the 3rd ACM SIGSPATIAL International Workshop on Advances in Urban-AI},
+  pages = {27–36},
+  numpages = {10},
+  keywords = {Multimodal Learning, Region Representation Learning, Large Language Models},
+  series = {UrbanAI '25},
+  abstract = {Rapid urbanization affects living environments by intensifying exposure to air pollution, heat, noise, and urban dynamics, which together contribute to uneven health outcomes across neighborhoods. For instance, cardiovascular, respiratory, and mental health conditions are each influenced by distinct exposures such as air pollution, extreme temperatures, or limited access to green space. These heterogeneous patterns require understanding the characteristics of geographic regions in order to explain why urban health risks vary across urban areas. Recent work in self-supervised region representation learning provides a promising way to model such characteristics from multimodal geospatial data. However, existing methods face two major limitations: (i) they often depend on non-public datasets, limiting reproducibility and applicability, and (ii) their generic pretraining objectives overlook health-relevant determinants, including temporal variability in environmental exposures and inequalities in social conditions. To address these gaps, we propose Context-Aware Region rEpresentation with Weather, Environment, and Location Learning (CareWELL). CareWELL leverages large language models to encode seasonal variability in weather, employs contrastive learning to align geo-coordinate and weather representations, and introduces a context-aware objective that integrates socio-demographic factors while preserving spatial correlations. We evaluate CareWELL by predicting six urban health outcomes in Manhattan, New York City, and demonstrate that CareWELL consistently outperforms state-of-the-art baselines as well as a traditional spatial computing method. These results suggest the importance of context-aware pretraining objectives for learning health-relevant region representations.}
+}
+
+@inproceedings{10.1145/3764926.3771941,
+  title = {Region Context from Unifying Points, Lines, and Polygons},
+  author = {Kim, Jina and Chiang, Yao-Yi},
+  year = {2025},
+  isbn = {9798400721892},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  url = {https://doi.org/10.1145/3764926.3771941},
+  doi = {10.1145/3764926.3771941},
+  booktitle = {Proceedings of the 3rd ACM SIGSPATIAL International Workshop on Advances in Urban-AI},
+  pages = {94–95},
+  numpages = {2},
+  keywords = {urban foundation models, region contextualization, spatial semantics},
+  series = {UrbanAI '25},
+  abstract = {We envision a new generation of urban foundation models that unify semantic, spatial, and topological relationships within and across point, line, and polygon features. Existing approaches typically encode different feature types separately and fuse them only at later stages, missing opportunities for truly integrated contextualization. To illustrate our vision, we present RegionContext, a framework that generates contextual region embeddings capturing both fine-grained spatial structures and higher-order semantics. Finally, we highlight key research directions for region contextualization in urban foundation models.}
+}
+
+@inproceedings{10.1145/3764925.3770911,
+  title = {Capturing Shared and Unique Information in Multimodal Region Representations for Urban Mobility Prediction},
+  author = {Namgung, Min and Lee, JangHyeon and Lin, Yijun and Chiang, Yao-Yi},
+  year = {2025},
+  isbn = {9798400721885},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  url = {https://doi.org/10.1145/3764925.3770911},
+  doi = {10.1145/3764925.3770911},
+  booktitle = {Proceedings of the 1st ACM SIGSPATIAL International Workshop on Urban Mobility Foundation Models},
+  pages = {10–12},
+  numpages = {3},
+  keywords = {Multimodal Region Representation Learning, Mobility Demand Prediction},
+  series = {UMFM '25},
+  abstract = {Understanding urban mobility patterns requires integrating diverse geospatial data, including built environment, infrastructure, and demographics. Region Representation Learning (RRL) provides a promising way to incorporate such multimodal data, but existing contrastive learning approaches often overlook modality-specific information. We propose CooKIE, a multimodal RRL method that combines intra-view learning with pairwise inter-view learning to capture both shared and unique information efficiently. As a case study, we apply CooKIE to bike-sharing demand prediction at newly opened stations in New York City. Experimental results show that embeddings learned by CooKIE consistently outperform baseline method, demonstrating its effectiveness in modeling multimodal dependencies that drive urban mobility patterns.}
+}
+
+@article{xiang2025walkclip,
+  title = {WalkCLIP: Multimodal Learning for Urban Walkability Prediction},
+  author = {Xiang, Shilong and Lee, JangHyeon and Namgung, Min and Chiang, Yao-Yi},
+  journal = {arXiv preprint arXiv:2511.21947},
+  year = {2025},
+  doi = {10.48550/arXiv.2511.21947},
+  url = {https://arxiv.org/abs/2511.21947}
+}
+
+
+
 @inproceedings{10.1145/3681769.3698577,
   author = {Olson, Rhett and Kim, Jina and Chiang, Yao-Yi},
   title = {Automatic Search of Multiword Place Names on Historical Maps},
