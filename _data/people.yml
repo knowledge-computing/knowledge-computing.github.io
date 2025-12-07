@@ -1,6 +1,6 @@
 director:
   - name: Yao-Yi Chiang
-    image: images/people/yaoyichiang.jpg
+    image: images/people/yao-yi_chiang.jpg
     profile: Associate Professor <br> UMN CS&E
     link: https://yaoyichi.github.io/
   - name: Bob
@@ -14,11 +14,11 @@ director:
     
 phd:
   - name: Zekun Li
-    image: images/people/zekun.png
+    image: images/people/zekun_li.png
     profile: UMN CS&E
     link: https://zekun-li.github.io/
   - name: Yijun Lin
-    image: images/people/yijunlin.png
+    image: images/people/yijun_lin.png
     profile: UMN CS&E
     link: https://linyijun.github.io/
   - name: Junbao & Yuanyuan
@@ -26,30 +26,30 @@ phd:
     profile: The Cats
     link:
   - name: Jina Kim
-    image: images/people/jinakim.jpeg
+    image: images/people/jina_kim.jpeg
     profile: UMN CS&E
     link: https://jina-kim.github.io
   - name: Min Namgung
-    image: images/people/minnamgung.jpg
+    image: images/people/min_namgung.jpg
     profile: UMN CS&E
     link: https://minnamgung.github.io/
   - name: Leeje Jang
-    image: images/people/leeje.jpeg
+    image: images/people/leeje_jang.jpeg
     profile: UMN CS&E
     link: https://leejejang.github.io/ 
   - name: Theresa Chen
-    image: images/people/theresa.jpg
+    image: images/people/theresa_chen.jpg
     profile: UMN CS&E
     link: https://theresachen1759.github.io/
   - name: Yuankun Jiao
-    image: images/people/yuankun.png
+    image: images/people/yuankun_jiao.png
     profile: UMN CS&E
     link: https://36n120e.github.io/yuankunjiao.github.io
   - name: Henry Hu
     image: images/people/man.png
     profile: UMN CS&E
   - name: Jiyoon Pyo
-    image: images/people/jiyoon.jpeg
+    image: images/people/jiyoon_pyo.jpeg
     profile: UMN CS&E
     link: https://yoo-un-ee.github.io/
   - name: Sofia Kirsanova
@@ -57,69 +57,69 @@ phd:
     profile: UMN CS&E
     link: https://sofiakirsanova.github.io/
   - name: Janghyeon Lee
-    image: images/people/janghyeon.jpg
+    image: images/people/janghyeon_lee.jpg
     profile: UMN CS&E
     link: https://janghyeon-lee.github.io/
   - name: Junyi Xie
-    image: images/people/junyi.jpg
+    image: images/people/junyi_xie.jpg
     profile: UMN CS&E
     link: https://ginnyxxxxxxx.github.io/Ginny.github.io/
   
   
 worker:
   - name: Sarah Wood
-    image: images/people/sarah.jpeg
+    image: images/people/sarah_wood.jpeg
     profile: Undergraduate Student <br> UMN CS&E
     link: https://sarahjwood.com
   - name: Shilong Xiang
-    image: images/people/shilongxiang.png
+    image: images/people/shilong_xiang.png
     profile: Undergraduate Student <br> UMN CS&E
     link: https://shilongxiang.github.io/
   - name: Nathan Stangler
-    image: images/people/nathanstrangler.png
+    image: images/people/nathan_stangler.png
     profile: Undergraduate Student <br> UMN CS&E
     link: https://nathanstangler.github.io/
   - name: Viswa Nadimpalli
-    image: images/people/viswanadimpalli.jpg
+    image: images/people/viswa_nadimpalli.jpg
     profile: Undergraduate Student <br> UMN CS&E
     link: https://www.linkedin.com/in/viswa-nadimpalli/
     
     
 alumni:
   - name: Yutong Chuang
-    image: images/people/yutong.png
+    image: images/people/yutong_chuang.png
     profile: Graduate Student <br> UMN CS&E
     link: https://www.linkedin.com/in/ula663312/
   - name: Weiwei Duan
-    image: images/people/weiweiduan.jpg
+    image: images/people/weiwei_duan.jpg
     profile: Ph.D. <br> USC Computer Science 
     link: https://weiweiduan.github.io/
   - name: Johanna Avelar Portillo
-    image: images/people/johannaavelar.png
+    image: images/people/johanna_portillo.png
     profile: Ph.D. <br> USC Spatial Sciences Institute <br> PHP Graduate Program
     link: https://www.lawateraccess.com/
   - name: Lois Park
-    image: images/people/loispark.jpeg
+    image: images/people/lois_park.jpeg
     profile: Ph.D. <br> USC Spatial Sciences Institute <br> PHP Graduate Program
     link: https://www.linkedin.com/in/lois-park/
   - name: Dan Feldman
-    image: images/people/danfeldman.jpeg
+    image: images/people/dan_feldman.jpeg
     profile: Ph.D. <br> USC Computer Science
     link: https://www.linkedin.com/in/dan-feldman/
   - name: Hayley Song
-    image: images/people/hayleysong.jpg
+    image: images/people/hayley_song.jpg
     profile: Ph.D. Student <br> USC Computer Science
     link: https://www.linkedin.com/in/hayleysong/
   - name: Rhett Olson
-    image: images/people/rhett.jpg
+    image: images/people/rhett_olson.jpg
     profile: Undergraduate Student <br> UMN CS&E
     link: https://rhettoric74.github.io/
   - name: Junhan Wu
-    image: images/people/junhan.jpg
+    image: images/people/junhan_wu.jpg
     profile: Undergraduate Student <br> UMN CS&E
     link: https://www.linkedin.com/in/junhan-wu-698022249/
   - name: Yichen Li
-    image: images/people/yichen.jpg
+    image: images/people/yichen_li.jpg
     profile: Graduate Student <br> UMN CS&E
     link: 
   - name: Jinwei Zhou
@@ -127,23 +127,23 @@ alumni:
     profile: Undergraduate Student <br> UMN CS&E
     link: 
   - name: Morris Liu
-    image: images/people/morris.png
+    image: images/people/morris_liu.png
     profile: Undergraduate Student <br> UMN CS&E
     link: https://www.linkedin.com/in/morris-liu/
   - name: Claire Chen
-    image: images/people/claire.jpg
+    image: images/people/claire_chen.jpg
     profile: Graduate Student <br> UMN CS&E
     link: https://www.linkedin.com/in/clairec228/
   - name: Tanisha Shrotriya 
-    image: images/people/tanisha.jpg
+    image: images/people/tanisha_shrotriya.jpg
     profile: Graduate Student <br> UMN CS&E
     link: https://www.linkedin.com/in/tanishashrotriya/
   - name: Young Namgung 
-    image: images/people/young.jpg
+    image: images/people/young_namgung.jpg
     profile: Undergraduate Student <br> UMN CS&E
     link:  
   - name: Yasuki Wu
-    image: images/people/yasuki.jpg
+    image: images/people/yasuki_wu.jpg
     profile: Undergraduate Student <br> UMN CS&E
     link: https://www.linkedin.com/in/yasuki-wu-6232a6204/ 
   - name: Jack N Milless
@@ -151,214 +151,214 @@ alumni:
     profile: Undergraduate Student <br> UMN CS&E
     link:
   - name: Jeonghoon Kim
-    image: images/people/jeonghoon.jpg
+    image: images/people/jeonghoon_kim.jpg
     profile:  Undergraduate Student <br> UMN CS&E
     link: https://www.linkedin.com/in/jeonghoon-kimx/
   - name: Malcolm Grossman
-    image: images/people/malcolm.jpg
+    image: images/people/malcolm_grossman.jpg
     profile: UMN CS&E
   - name: Runyu Guan
-    image: images/people/runyuguan.jpg
+    image: images/people/runyu_guan.jpg
     profile: Graduate Student <br> USC Computer Science
     link: https://gry1005.github.io/
   - name: Che-Pai Kung
-    image: images/people/chepaikung.jpg
+    image: images/people/che-pai_kung.jpg
     profile: Graduate Student <br> USC Applied Data Science
     link: https://www.linkedin.com/in/che-pai-kung-85467a183/
   - name: Qianmu Yu
-    image: images/people/qianmuyu.jpg
+    image: images/people/qianmu_yu.jpg
     profile: Graduate Student <br> USC Electrical Engineering
     link: https://www.linkedin.com/in/qianmu-yu-665074168
   - name: Haipeng Yu
-    image: images/people/haipengyu.jpg
+    image: images/people/haipeng_yu.jpg
     profile: Graduate Student <br> USC Computer Science
     link: https://www.linkedin.com/in/haipengyu
   - name: Yiren Liu
-    image: images/people/yirenliu.jpg
+    image: images/people/yiren_liu.jpg
     profile: Graduate Student <br> USC
     link: https://www.linkedin.com/in/乙人-刘-072874158/
   - name: Sayee Kulkarni
-    image: images/people/sayeekulkarni.jpg
+    image: images/people/sayee_kulkarni.jpg
     profile: Graduate Student <br> USC Computer Science
     link: https://www.linkedin.com/in/sayeekulkarni
   - name: Hao Chen
-    image: images/people/haochen.jpg
+    image: images/people/hao_chen.jpg
     profile: Graduate Student <br> USC
     link: https://www.linkedin.com/in/hchen0910/
   - name: Diego Frankel
-    image: images/people/diegofrankel.jpg
+    image: images/people/diego_frankel.jpg
     profile: Undergraduate Student <br> USC
     link: https://www.linkedin.com/in/diegofra/
   - name: Myunghee Lee
-    image: images/people/myungheelee.jpg
+    image: images/people/myunghee_lee.jpg
     profile: Graduate Student <br> USC Applied Data Science
     link: https://www.linkedin.com/in/myunghee-lee-7761491a2/
   - name: Shiuan-Chin Huang
-    image: images/people/shiuan-chinhuang.jpg
+    image: images/people/shiuan-chin_huang.jpg
     profile: Graduate Student <br> USC Computer Science
     link: https://www.linkedin.com/in/shiuanchinhuang/
   - name: Xiaozhe Yin
-    image: images/people/xiaozheyin.jpg
+    image: images/people/xiaozhe_yin.jpg
     profile: Ph.D. Student <br> USC 
     link:
   - name: Khaoula Karroum
-    image: images/people/khaoulakarroum.jpg
+    image: images/people/khaoula_karroum.jpg
     profile: Ph.D. Student <br> Telecommunication Systems, <br> Networks and Services Lab <br> National Institute of Posts <br> and Telecommunications <br> Rabat Morocco 
     link:
   - name: Libo Liu
-    image: images/people/liboliu.jpg
+    image: images/people/libo_liu.jpg
     profile: Graduate Student <br> USC Computer Science
     link: https://github.com/limbov8
   - name: Pallavi Taneja
-    image: images/people/pallavitaneja.jpg
+    image: images/people/pallavi_taneja.jpg
     profile: Graduate Student <br> USC Computer Science
     link: https://www.linkedin.com/in/pallavitaneja/
   - name: Haowen Lin
-    image: images/people/haowenlin.jpg
+    image: images/people/haowen_lin.jpg
     profile: Undergraduate Student <br> USC Computer Science
     link: https://www.linkedin.com/in/haowen-lin/
   - name: Yuanbin Cheng
-    image: images/people/yuanbincheng.jpg
+    image: images/people/yuanbin_cheng.jpg
     profile: Graduate Student <br> USC Computer Science
     link: https://www.linkedin.com/in/yuanbin-cheng-9452b7133/
   - name: Adam Vaccaro
-    image: images/people/adamvaccaro.jpg
+    image: images/people/adam_vaccaro.jpg
     profile: Graduate Student <br> USC Spatial Data Science
     link:
   - name: Jeffrey Jow
-    image: images/people/jeffreyjow.jpg
+    image: images/people/jeffrey_jow.jpg
     profile: Graduate Student <br> USC Data Informatics
     link:
   - name: Tong Lyu
-    image: images/people/tonglyu.jpg
+    image: images/people/tong_lyu.jpg
     profile: Graduate Student <br> USC Data Informatics
     link: https://www.linkedin.com/in/tong-lyu/
   - name: Jianfa Lin
-    image: images/people/jianfalin.jpg
+    image: images/people/jianfa_lin.jpg
     profile: Graduate Student <br> USC Data Informatics
     link: https://www.linkedin.com/in/jianfa-lin
   - name: Liujie Wang
-    image: images/people/liujiewang.jpg
+    image: images/people/liujie_wang.jpg
     profile: Graduate Student <br> USC Data Informatics
     link:
   - name: Weifeng Yan
-    image: images/people/weifengyan.jpg
+    image: images/people/weifeng_yan.jpg
     profile: Visiting Research Assistant <br> Mathematics <br> Shanghai Jiao Tong University
     link: https://www.linkedin.com/in/weifengyan/
   - name: Yanyi Qian
-    image: images/people/yanyiqian.jpg
+    image: images/people/yanyi_qian.jpg
     profile: Visiting Scholar <br> Information Management <br> and Information System <br> Peking University
     link:
   - name: Xin Yu
-    image: images/people/xinyu.jpg
+    image: images/people/xin_yu.jpg
     profile: Graduate Student <br> USC Spatial Informatics
     link:
   - name: Sandeep Banisetti
-    image: images/people/sandeepbanisetti.jpg
+    image: images/people/sandeep_banisetti.jpg
     profile: Graduate Student <br> USC Computer Science
     link: https://www.linkedin.com/in/sandeep-banisetti/
   - name: Lakshya Kejriwal
-    image: images/people/lakshyakejriwal.jpg
+    image: images/people/lakshya_kejriwal.jpg
     profile: Graduate Student <br> USC Data Informatics
     link: https://www.linkedin.com/in/lakshya-kejriwal/
   - name: Sudan Zhang
-    image: images/people/sudanzhang.jpg
+    image: images/people/sudan_zhang.jpg
     profile: Graduate Student <br> USC Data Informatics
     link: http://linkedin.com/in/sudan-zhang-6a4b85132
   - name: Nikhit Mago
-    image: images/people/nikhitmago.jpg
+    image: images/people/nikhit_mago.jpg
     profile: Graduate Student <br> USC Data Informatics
     link:
   - name: Shayna Lascala
-    image: images/people/shaynalascala.jpg
+    image: images/people/shayna_lascala.jpg
     profile: Ph.D. Student <br> Department of Sociology <br> UC Riverside
     link:
   - name: Jose Rico
-    image: images/people/joserico.jpg
+    image: images/people/jose_rico.jpg
     profile: Undergraduate Student <br> USC GeoDesign
     link:
   - name: Yiqi Huang
-    image: images/people/yiqihuang.jpg
+    image: images/people/yiqi_huang.jpg
     profile: Graduate Student <br> USC Data Informatics
     link: https://www.linkedin.com/in/yiqi-huang-6aa16013a/
   - name: Lu Zhang
-    image: images/people/luzhang.jpg
+    image: images/people/lu_zhang.jpg
     profile: Graduate Student <br> USC Data Informatics
     link: home.ustc.edu.cn/~zlsx
   - name: Mengyue Huan
-    image: images/people/mengyuehuan.jpg
+    image: images/people/mengyue_huan.jpg
     profile: Graduate Student <br> USC Spatial Informatics
     link:
   - name: Ishan Alok
-    image: images/people/ishanalok.jpg
+    image: images/people/ishan_alok.jpg
     profile: Graduate Student <br> USC Computer Science
     link: https://www.linkedin.com/in/ishanalok
   - name: Ying Zhang
-    image: images/people/yingzhang.jpg
+    image: images/people/ying_zhang.jpg
     profile: Associate Professor <br> Control and Computing Engineering <br> North China Electric Power University
     link:
   - name: Xiaoyue (Vivien) Yang
-    image: images/people/xiaoyue(vivien)yang.jpg
+    image: images/people/xiaoyue_yang.jpg
     profile: Visiting Research Programmer
     link: https://www.linkedin.com/in/xiaoyue-yang-925aabaa/
   - name: Pan Fan
-    image: images/people/panfan.jpg
+    image: images/people/pan_fan.jpg
     profile: Graduate Student <br> USC Data Informatics
     link: https://www.linkedin.com/in/pan-fan-916a03129/
   - name: Zhiyuan Wang
-    image: images/people/zhiyuanwang.jpg
+    image: images/people/zhiyuan_wang.jpg
     profile: Graduate Student <br> USC Computer Science
     link: https://www.linkedin.com/in/wangzhiy/
   - name: Bhaskar Bandyopadhyay
-    image: images/people/bhaskarbandyopadhyay.jpg
+    image: images/people/bhaskar_bandyopadhyay.jpg
     profile: Graduate Student <br> USC Computer Science
     link: https://www.linkedin.com/in/bhaskarbandyopadhyay
   - name: Abhishek Jain
-    image: images/people/abhishekjain.jpg
+    image: images/people/abhishek_jain.jpg
     profile: Graduate Student <br> USC Computer Science
     link: https://www.linkedin.com/in/abhishek-jain-1226a415
   - name: Joanna Haoshi Wang
-    image: images/people/joannahaoshiwang.jpg
+    image: images/people/joanna_wang.jpg
     profile: Undergraduate Student <br> USC GeoDesign
     link: https://www.linkedin.com/in/joanna-haoshi-wang-2a17bb8a
   - name: Deepika Anand
-    image: images/people/deepikaanand.jpg
+    image: images/people/deepika_anand.jpg
     profile: Graduate Student <br> USC Computer Science
     link: https://www.linkedin.com/in/deepikaanand087
   - name: Manikanta Kotthapalli
-    image: images/people/manikantakotthapalli.jpg
+    image: images/people/manikanta_kotthapalli.jpg
     profile: Graduate Student <br> USC Computer Science
     link: https://www.linkedin.com/in/manikanta-kotthapalli-36080087
   - name: Sumedha Kucherlapati
-    image: images/people/sumedhakucherlapati.jpg
+    image: images/people/sumedha_kucherlapati.jpg
     profile: Graduate Student <br> USC Data Informatics
     link: https://www.linkedin.com/in/kucherlapati-sumedha-a2040448
   - name: Hariprabha Mallyah
-    image: images/people/hariprabhamallyah.jpg
+    image: images/people/hariprabha_mallyah.jpg
     profile: Graduate Student <br> USC Computer Science
     link: https://www.linkedin.com/in/hariprabhamallyah
   - name: Nandan Nayak
-    image: images/people/nandannayak.jpg
+    image: images/people/nandan_nayak.jpg
     profile: Graduate Student <br> USC Spatial Informatics
     link: https://www.linkedin.com/in/nandan-nayak-91987216
   - name: Jakapun Tachaiya
-    image: images/people/jakapuntachaiya.jpg
+    image: images/people/jakapun_tachaiya.jpg
     profile: Graduate Student <br> USC Data Informatics
     link:
   - name: Ronald Yu
-    image: images/people/ronaldyu.jpg
+    image: images/people/ronald_yu.jpg
     profile: Undergraduate Student <br> USC Computer Science
     link:
   - name: Yuanchang Zhang
-    image: images/people/yuanchangzhang.jpg
+    image: images/people/yuanchang_zhang.jpg
     profile: Graduate Student <br> USC Spatial Informatics
     link: https://www.linkedin.com/in/yuanchang-zhang-90b95b21
   - name: Vijayan Balasubramanian
-    image: images/people/vijayanbalasubramanian.jpg
+    image: images/people/vijayan_balasubramanian.jpg
     profile: Graduate Student <br> USC Data Informatics
     link: https://www.linkedin.com/in/vijayanb
   - name: Yuan Gao
-    image: images/people/yuangao.jpg
+    image: images/people/yuan_gao.jpg
     profile: Associate Professor <br> Department of Information <br> and Management <br> Northwest University, China
     link:
   - name: Narges Honarvar Nazari
@@ -366,27 +366,27 @@ alumni:
     profile: Graduate Student <br> USC Computer Science
     link:
   - name: Saarthak Khanna
-    image: images/people/saarthakkhanna.jpg
+    image: images/people/saarthak_khanna.jpg
     profile: Graduate Student <br> USC Data Informatics
     link: https://www.linkedin.com/in/saarthak-khanna-48b62b90
   - name: Zexuan Luo
-    image: images/people/zexuanluo.jpg
+    image: images/people/zexuan_luo.jpg
     profile: Graduate Student <br> USC Computer Science
     link:
   - name: Sanjay Singh
-    image: images/people/sanjaysingh.jpg
+    image: images/people/sanjay_singh.jpg
     profile: Graduate Student <br> USC Computer Science
     link: https://www.linkedin.com/in/cjsanjay
   - name: Tianxiang Tan 
-    image: images/people/tianxiangtan.jpg
+    image: images/people/tianxiang_tan.jpg
     profile: Graduate Student <br> USC Computer Science
     link: https://www.linkedin.com/in/tian-xiang-tan-24566ba9
   - name: Jianhua Wu
-    image: images/people/jianhuawu.jpg
+    image: images/people/jianhua_wu.jpg
     profile: Visiting Scholar <br> USC Spatial Sciences Institute
     link:
   - name: Robin Franke
-    image: images/people/robinfranke.jpg
+    image: images/people/robin_franke.jpg
     profile: Undergraduate Student <br> USC GeoDesign
     link:
   - name: Alex Chen
@@ -406,27 +406,27 @@ alumni:
     profile: Undergraduate Student <br> USC GeoDesign
     link:
   - name: Rashmina Ramachandran Menon
-    image: images/people/rashminaramachandranmenon.jpg
+    image: images/people/rashmina_menon.jpg
     profile: Graduate Student <br> USC Computer Science
     link: https://www.linkedin.com/in/rashminarmenon
   - name: Zebao Zhang
-    image: images/people/zebaozhang.jpg
+    image: images/people/zebao_zhang.jpg
     profile: Visiting Scholar <br> USC Spatial Sciences Institute
     link:
   - name: Nilesh Gupta
-    image: images/people/nileshgupta.jpg
+    image: images/people/nilesh_gupta.jpg
     profile: Graduate Student <br> USC Electrical Engineering
     link:
   - name: Yamini Goyal
-    image: images/people/yaminigoyal.jpg
+    image: images/people/yamini_goyal.jpg
     profile: Graduate Student <br> USC Computer Science
     link:
   - name: Haoyang Zhu
-    image: images/people/haoyang.jpg
+    image: images/people/haoyang_zhu.jpg
     profile: High School Student
     link: 
   - name: Andrew Hsu
-    image: images/people/andrewhsu.jpg
+    image: images/people/andrew_hsu.jpg
     profile: Palos Verdes Peninsula High School
     link:
   - name: Wilson Franca De Souza
@@ -434,43 +434,43 @@ alumni:
     profile: Undergraduate Student <br> Environmental Resources Engineering <br> Humboldt State University
     link:
   - name: Yang Meng
-    image: images/people/yangmeng.jpg
+    image: images/people/yang_meng.jpg
     profile: Graduate Student <br> USC Data Science
     link:
   - name: Woojin Park
-    image: images/people/woojinpark.jpg
+    image: images/people/woojin_park.jpg
     profile: Visiting Scholar <br> USC Spatial Sciences Institute
     link:
   - name: Sima Moghaddam
-    image: images/people/simamoghaddam.jpg
+    image: images/people/sima_moghaddam.jpg
     profile: Graduate Student <br> USC Computer Science
     link: https://www.linkedin.com/pub/sima-k-moghaddam/85/539/529
   - name: Haohan Yang
-    image: images/people/haohanyang.jpg
+    image: images/people/haohan_yang.jpg
     profile: Graduate Student <br> USC Computer Science
     link: http://haohany.github.io/
   - name: Akshay Anand
-    image: images/people/akshayanand.jpg
+    image: images/people/akshay_anand.jpg
     profile: Esri <br> Previously Graduate Student <br> USC Computer Science
     link: https://sites.google.com/site/akshayanandprofile/
   - name: Ramtin Boustani
-    image: images/people/ramtinboustani.jpg
+    image: images/people/ramtin_boustani.jpg
     profile: Graduate Student <br> USC Computer Science
     link: https://www.linkedin.com/in/ramtinboustani
   - name: Renuka Fernandes
-    image: images/people/renukafernandes.jpg
+    image: images/people/renuka_fernandes.jpg
     profile: Undergraduate Student <br> USC Electrical Engineering
     link: https://www.linkedin.com/pub/renuka-fernandes/5a/310/b66
   - name: Sanjaul Gupta
-    image: images/people/sanjaulgupta.jpg
+    image: images/people/sanjaul_gupta.jpg
     profile: Yahoo <br> Previously Graduate Student <br> USC Computer Science
     link: https://www.linkedin.com/pub/sanjauli-gupta/22/841/b84
   - name: Jizhe Zhou
-    image: images/people/jizhezhou.jpg
+    image: images/people/jizhe_zhou.jpg
     profile: Undergraduate Student <br> USC Electronics and <br> Information Engineering 
     link:
   - name: Ketan Akade
-    image: images/people/ketamakade.jpg
+    image: images/people/ketan_akade.jpg
     profile: Yahoo <br> Previously Graduate Student <br> USC Computer Science
     link: http://www-scf.usc.edu/~akade/index.php
   - name: Cathy Ji 
