@@ -1,4 +1,6 @@
 from pathlib import Path
+from datetime import datetime, timezone
+
 import bibtexparser
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -30,8 +32,15 @@ def main():
 
     writer = bibtexparser.bwriter.BibTexWriter()
     writer.indent = "  "
+    body = writer.write(db)
 
-    OUT.write_text(writer.write(db), encoding="utf-8")
+    ts = datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
+    header = (
+        f"% AUTO-GENERATED FILE — DO NOT EDIT\n"
+        f"% Merged {STATIC.name} + {DYNAMIC.name} on {ts}\n\n"
+    )
+
+    OUT.write_text(header + body, encoding="utf-8")
     print(f"Wrote {OUT} with {len(db.entries)} entries.")
 
 if __name__ == "__main__":

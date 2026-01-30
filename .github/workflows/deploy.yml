@@ -1,4 +1,4 @@
-name: Deploy to GitHub Pages
+name: Update Publications
 
 on:
   push:
@@ -44,12 +44,12 @@ jobs:
 
       - name: Commit & push if changed
         run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
           if git diff --quiet; then
             echo "No changes to commit."
             exit 0
           fi
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add -A
           git commit -m "chore: update publications from Google Scholar"
           git push
