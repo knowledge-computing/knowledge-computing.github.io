@@ -38,6 +38,10 @@ jobs:
     #     run: |
     #       python scripts/update_pubs.py
 
+      - name: Merge into publications.bib
+        run: |
+          python scripts/merge_bibs.py
+
       - name: Commit & push if changed
         run: |
           if git diff --quiet; then
