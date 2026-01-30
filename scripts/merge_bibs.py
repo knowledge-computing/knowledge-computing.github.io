@@ -1,3 +1,8 @@
+"""
+Merges static bibs and dynamic bibs
+Reason: we'll only update dynamic bibs automatically
+"""
+
 from pathlib import Path
 from datetime import datetime, timezone
 
