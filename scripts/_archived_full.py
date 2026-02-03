@@ -111,7 +111,6 @@ def token_set_ratio(a: str, b: str) -> float:
 def strip_html_tags(s: str) -> str:
     if not s:
         return ""
-    # Crossref abstracts are sometimes JATS-ish; strip tags crudely.
     s = re.sub(r"<[^>]+>", " ", s)
     s = html.unescape(s)
     return normalize_ws(s)
@@ -320,7 +319,7 @@ def springer_bibtex_by_doi(doi: str) -> str:
 def get_bibtex_with_fallback(p_full: dict, title: str) -> str:
     # 1) Try directly
     try:
-        s = scholarly.bibtex(p_full)
+        s = scholarly.bibtex(p_full)        # Get bibtext directly
         if s:
             return s
     except Exception:
@@ -328,7 +327,7 @@ def get_bibtex_with_fallback(p_full: dict, title: str) -> str:
 
     # 2) Fallback: search by title
     try:
-        q = scholarly.search_pubs(title)
+        q = scholarly.search_pubs(title)    # Search by title
         pub2 = next(q, None)
         if not pub2:
             return ""
@@ -854,7 +853,6 @@ def main():
                 best_doi = (best.get("DOI") or "").strip()
                 if best_doi:
                     crossref_bib = crossref_bibtex_transform(best_doi)
-                    # also fetch message if you want abstract etc.
                     try:
                         crossref_msg = crossref_lookup_by_doi(best_doi)
                     except Exception:

@@ -34,6 +34,10 @@ jobs:
           pip install scholarly
           pip install bibtexparser
 
+      # - name: Move old dynamic to static
+      #   run: |
+      #     python scripts/migrate_files.py
+
     #   - name: Update publications file
     #     run: |
     #       python scripts/update_pubs.py

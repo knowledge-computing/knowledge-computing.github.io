@@ -6,6 +6,8 @@ import argparse
 
 import os
 import re
+import json
+
 import time
 from datetime import datetime, timezone 
 
@@ -15,17 +17,10 @@ import bibtexparser
 from bibtexparser.bwriter import BibTexWriter
 
 from scripts.providers import *
+from scripts import helpers     # File with helper functions
 
 # Basic configurations
 OUT_BIB_PATH = "./_data/pub/dynamic.bib"
-
-# Regex
-DOI_RE = re.compile(r"(10\.\d{4,9}/[-._;()/:A-Z0-9]+)", re.I)
-ARXIV_ID_RE = re.compile(
-    r"(?:arxiv\.org/(?:abs|pdf)/)(?P<id>(?:\d{4}\.\d{4,5}|[a-z\-]+/\d{7})(?:v\d+)?)",
-    re.I,
-)
-ARXIV_WORD_RE = re.compile(r"\barxiv\b", re.I)
 
 # Request headers
 UA_HEADERS = {
@@ -53,26 +48,6 @@ def _return_basics(pub: dict):
     venue = ""
 
     return title, year, authors, venue, link, citation
-
-def _citation_type(venue:str=None,
-                   citation:str=None,
-                   scholar_bibtex:str=None,
-                   link:str=None,
-                   doi:str=None) -> str:
-    """
-    Determine citation type to pass determine which website for bib extraction to use
-    """
-    if ARXIV_WORD_RE.search(venue or "") or \
-       ARXIV_WORD_RE.search(citation) or \
-       ARXIV_WORD_RE.search(scholar_bibtex) or \
-       ARXIV_WORD_RE.search(link):
-         return 'arxiv'
-    elif doi.startswith("10.1145/"):
-        return 'acm'
-    elif doi.startswith("10.1007/"):
-        return 'springer'
-    
-    return 'fallback'
 
 def main(scholar_id:str,
          year_window:int) -> None:
@@ -102,59 +77,109 @@ def main(scholar_id:str,
             break
 
         # Clean
-        scholar_bibtex = ""
-        scholar_fields = {}
-        try:
-            scholar_bibtex = get_bibtex_with_fallback(p_full, title=title)
-            scholar_fields = bibtex_to_fields(scholar_bibtex)
-        except Exception:
-            scholar_bibtex = ""
-            scholar_fields = {}
+        scholar_bibtex = get_bibtex_with_fallback(p_full, title=title)
+        scholar_fields = helpers.bibtex_to_fields(scholar_bibtex)
 
-        doi = (
-            _extract_doi(link)
-            or _extract_doi(scholar_bibtex)
-            or _extract_doi(json.dumps(scholar_fields, ensure_ascii=False))
-        )
-
-        ##
+        doi = helpers.extract_doi_any([link, scholar_bibtex,
+                                       json.dumps(scholar_fields, ensure_ascii=False)])
 
         # Determine citation type
-        cit_type = _citation_type(venue=venue,
-                                  citation=citation,
-                                  doi=doi)
+        cit_type = helpers.citation_type(venue=venue,
+                                         citation=citation,
+                                         scholar_bibtex=scholar_bibtex,
+                                         link=link,
+                                         doi=doi)
 
         if cit_type == 'arxiv':
-            entry = {}
+            arxiv_id = extract_arxiv_any([link, scholar_bibtex,
+                                          citation])
+            entry = arxiv_entry(
+                arxiv_id=arxiv_id,
+                base_title=title,
+                base_year=year,
+                base_venue=venue,
+                base_link=link,
+                authors_guess=authors,
+            )
+
             entries.append(entry)
             time.sleep(1.0)
             continue
 
         elif cit_type == 'acm':
-            entry = {}
+            acm_bib = acm_bibtex_by_doi(doi) if doi else ""
+            
+            if acm_bib:
+                entry = build_entry_bibtex(
+                    acm_bib,
+                    title_fallback=title,
+                    venue_fallback=venue,
+                    year_fallback=year,
+                    link_fallback=link,
+                    abstract_fallback="",
+                )
+            
             entries.append(entry)
             time.sleep(1.0)
             continue
 
         elif cit_type == 'springer':
-            entry = {}
+            springer_bib = springer_bibtex_by_doi(doi)
+            if springer_bib:
+                entry = build_entry_bibtex(
+                    acm_bib,
+                    title_fallback=title,
+                    venue_fallback=venue,
+                    year_fallback=year,
+                    link_fallback=link,
+                    abstract_fallback="",
+                )
+
             entries.append(entry)
             time.sleep(1.0)
             continue
 
         elif cit_type == 'fallback':
-            entry = {}
+            crossref_bib = 
+            if crossref_bib:
+                entry = build_entry_bibtex(
+                    acm_bib,
+                    title_fallback=title,
+                    venue_fallback=venue,
+                    year_fallback=year,
+                    link_fallback=link,
+                    abstract_fallback="",
+                )
+
             entries.append(entry)
             time.sleep(1.0)
             continue
 
-        # Identify if on ACM
+        elif scholar_bibtex:
+            entry = build_entry_bibtex(
+                scholar_bibtex,
+                title_fallback=title,
+                venue_fallback=venue,
+                year_fallback=year,
+                link_fallback=link,
+                abstract_fallback="",
+            )
 
-        # Identify if on Springer
+        else:
+            entry = {
+                "ENTRYTYPE": "misc",
+                "ID": make_bib_key(normalize_authors_to_bibtex(authors), year, title),
+                "title": title,
+                "author": normalize_authors_to_bibtex(authors),
+                "year": year,
+            }
+            if venue:
+                entry["howpublished"] = venue
+            if link:
+                entry["url"] = link
 
-        # Fallback Crossref
-
-        # Fallback just regular scholarly
+            entries.append(entry)
+            time.sleep(1.0)
 
     # Write to bib
     db = bibtexparser.bibdatabase.BibDatabase()
