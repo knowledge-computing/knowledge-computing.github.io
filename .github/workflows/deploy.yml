@@ -42,7 +42,7 @@ jobs:
     #     run: |
     #       python scripts/update_pubs.py
 
-      - name: Merge into publications.bib
+      - name: Create publications.bib
         run: |
           python scripts/merge_bibs.py
 
