@@ -3,19 +3,17 @@ Migrates two years ago data in dynamic bib to static bib
     with consideration for override and delete
 """
 import re
-from typing import List
 
 from pathlib import Path
 from datetime import datetime, timezone
 
-import bibtexparser
+from scripts._update_utils import load, write_to_bibtex
 
 ROOT = Path(__file__).resolve().parents[1]
 STATIC = ROOT / "_data/pub/static.bib"
 DYNAMIC = ROOT / "_data/pub/dynamic.bib"
 OVERRIDE= ROOT / "_data/pub/override.bib"
 DELETE = ROOT / "_data/pub/delete.bib"
-# OUT = ROOT / "publications.bib"
 
 def still_current(static_year:int,
                   current_year:int) -> bool:
@@ -26,13 +24,6 @@ def still_current(static_year:int,
         return True
     
     return False
-
-def load(path: Path):
-    if not path.exists():
-        return []
-    with path.open("r", encoding="utf-8") as f:
-        db = bibtexparser.load(f)
-    return db.entries
 
 def get_static_year(path: Path) -> int:
     """
@@ -47,29 +38,6 @@ def get_static_year(path: Path) -> int:
     year = m.group(1) if m else None
 
     return int(year)
-
-def write_to_bibtex(merged,
-                    file_path: Path,
-                    auto_message: List[str],) -> None:
-    """
-    Write dictionary to file_path with auto_message and date
-    """
-
-    db = bibtexparser.bibdatabase.BibDatabase()
-    db.entries = list(merged.values())
-
-    writer = bibtexparser.bwriter.BibTexWriter()
-    writer.indent = "  "
-    body = writer.write(db)
-
-    ts = datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
-    header = (
-        "".join(f"% {line}\n" for line in auto_message) + 
-        f"% Updated on {ts}\n\n"
-    )
-
-    file_path.write_text(header + body, encoding="utf-8")
-    print(f"Wrote {file_path} with {len(db.entries)} entries.")
 
 def main():
     current_year = datetime.now(timezone.utc).year

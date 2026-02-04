@@ -59,7 +59,7 @@ def arxiv_meta_by_id(arxiv_id: str) -> dict:
         title = normalize_ws(html.unescape(titles[-1]))
 
     summary = normalize_ws(xml_text("summary", xml))
-    published = xml_text("publishedm", xml)
+    published = xml_text("published", xml)
     year = published[:4] if published[:4].isdigit() else ""
 
     names = re.findall(r"<author>\s*<name>(.*?)</name>\s*</author>", xml, flags=re.S | re.I)
@@ -124,8 +124,6 @@ def arxiv_meta_by_title(title: str,
 
     return best or {}
 
-
-
 def _build_arxiv_meta(arxiv_id:str=None,
                       title:str=None,
                       authors_guess:str=None) -> None:
@@ -152,7 +150,7 @@ def arxiv_entry(base_title: str,
     """
 
     arxiv_id = extract_arxiv_any([base_link, scholar_bibtex, citation])
-    arxiv_meta = _build_arxiv_meta(arxiv_id)
+    arxiv_meta = _build_arxiv_meta(arxiv_id=arxiv_id, title=base_title, authors_guess=authors_guess)
 
     title = arxiv_meta.get("title") or base_title
     authors = arxiv_meta.get("authors") or normalize_authors_to_bibtex(authors_guess)

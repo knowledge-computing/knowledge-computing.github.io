@@ -36,15 +36,15 @@ jobs:
 
       - name: Annual update on bib files
         run: |
-          python scripts/migrate_files.py
+          PYTHONPATH=. python scripts/migrate_files.py
 
     #   - name: Update publications file
     #     run: |
-    #       python scripts/update_pubs.py
+    #       PYTHONPATH=. python scripts/update_pubs.py --scholar_id Xf3M93cAAAAJ
 
       - name: Create publications.bib
         run: |
-          python scripts/merge_bibs.py
+          PYTHONPATH=. python scripts/merge_bibs.py
 
       - name: Commit & push if changed
         run: |

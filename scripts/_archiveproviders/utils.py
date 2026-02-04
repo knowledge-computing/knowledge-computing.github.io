@@ -23,6 +23,18 @@ def seq_ratio(a: str, b: str) -> float:
     from difflib import SequenceMatcher
     return SequenceMatcher(None, a, b).ratio()
 
+def token_set_ratio(a: str, b: str) -> float:
+    a = normalize_ws((a or "").lower())
+    b = normalize_ws((b or "").lower())
+    if not a or not b:
+        return 0.0
+    ta = set(a.split())
+    tb = set(b.split())
+    inter = ta & tb
+    if not inter:
+        return 0.0
+    return len(inter) / max(1, len(ta | tb))
+
 def prefer_doi_key(entry: dict) -> None:
     doi = (entry.get("doi") or "").strip()
     if doi:

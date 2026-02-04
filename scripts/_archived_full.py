@@ -26,10 +26,10 @@ from urllib.parse import quote
 from tqdm import tqdm
 
 from scholarly import scholarly
-
-
 import bibtexparser
 from bibtexparser.bwriter import BibTexWriter
+
+
 # -----------------------------
 # Config
 # -----------------------------
@@ -65,6 +65,17 @@ if not SCHOLAR_ID:
 # -----------------------------
 def now_year() -> int:
     return datetime.now(timezone.utc).year
+
+def clean_crossref_text(s: str) -> str:
+    """
+    Convert HTML entities (&lt; etc.) to characters, strip tags (<p>),
+    and normalize whitespace.
+    """
+    if not s:
+        return ""
+    s = html.unescape(s)          # &lt;p&gt; -> <p>
+    s = re.sub(r"<[^>]+>", " ", s)  # remove tags like <p>
+    return normalize_ws(s)
 
 
 def normalize_ws(s: str) -> str:
@@ -111,6 +122,7 @@ def token_set_ratio(a: str, b: str) -> float:
 def strip_html_tags(s: str) -> str:
     if not s:
         return ""
+    # Crossref abstracts are sometimes JATS-ish; strip tags crudely.
     s = re.sub(r"<[^>]+>", " ", s)
     s = html.unescape(s)
     return normalize_ws(s)
@@ -192,7 +204,6 @@ def parse_first_bibtex_entry(bibtex_str: str) -> dict:
         else:
             out[kk.lower()] = vv  # keep everything else
     return out
-
 
 def prefer_doi_key(entry: dict) -> None:
     """If doi exists, use it as BibTeX key (ID) like @...{10.1145/...,...}."""
@@ -319,7 +330,7 @@ def springer_bibtex_by_doi(doi: str) -> str:
 def get_bibtex_with_fallback(p_full: dict, title: str) -> str:
     # 1) Try directly
     try:
-        s = scholarly.bibtex(p_full)        # Get bibtext directly
+        s = scholarly.bibtex(p_full)
         if s:
             return s
     except Exception:
@@ -327,7 +338,7 @@ def get_bibtex_with_fallback(p_full: dict, title: str) -> str:
 
     # 2) Fallback: search by title
     try:
-        q = scholarly.search_pubs(title)    # Search by title
+        q = scholarly.search_pubs(title)
         pub2 = next(q, None)
         if not pub2:
             return ""
@@ -464,6 +475,10 @@ def build_entry_keep_all_fields(
         "year": year_fallback,
         "url": link_fallback,
     }, overwrite=False)
+
+    # Killing html elements
+    if entry.get("title"):
+        entry["title"] = clean_crossref_text(entry["title"])
 
     # Venue: only patch if missing in BOTH journal/booktitle
     if not (entry.get("journal") or entry.get("booktitle")):
@@ -720,6 +735,8 @@ def main():
         if y_int not in allowed_years:
             break
 
+        print(f"Doing for {idx}")
+
         authors = pick_authors(p_full)
         venue = pick_venue(p_full)
         link = pick_link(p_full)
@@ -853,6 +870,7 @@ def main():
                 best_doi = (best.get("DOI") or "").strip()
                 if best_doi:
                     crossref_bib = crossref_bibtex_transform(best_doi)
+                    # also fetch message if you want abstract etc.
                     try:
                         crossref_msg = crossref_lookup_by_doi(best_doi)
                     except Exception:
