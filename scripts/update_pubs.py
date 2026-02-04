@@ -45,11 +45,18 @@ UA_HEADERS = {
 
 
 
-def extract_doi(text: str) -> str:
-    if not text:
-        return ""
-    m = DOI_RE.search(text)
-    return m.group(1) if m else ""
+from typing import List
+def extract_doi(list_text: List[str]) -> str:
+
+    for text in list_text:
+        if not text:
+            continue
+        m = DOI_RE.search(text)
+
+        if m:
+            return m.group(1)
+        
+    return ""
 
 
 def make_bib_key(authors_bibtex: str, year: str, title: str) -> str:
@@ -139,48 +146,67 @@ def bibtex_to_fields(bibtex_str: str) -> dict:
         out[str(k).lower().strip()] = str(v).strip()
     return out
 
-
-
-def pick_title(pub: dict) -> str:
+def pick_basics(pub: dict) -> str:
     bib = pub.get("bib", {}) or {}
     title = normalize_ws(bib.get("title") or "")
-    author = normalize_ws(bib.get("author") or "")
+
+    authors = normalize_ws(bib.get("author") or "")
+
     year = bib.get("pub_year") or bib.get("year") or ""
-    year = str(y).strip() if y is not None else ""
-    return normalize_ws(bib.get("title") or "")
+    year = str(year).strip() if year is not None else ""
 
+    link = normalize_ws(pub.get("pub_url") or bib.get("url") or "")
 
-def pick_authors(pub: dict) -> str:
-    bib = pub.get("bib", {}) or {}
-    return normalize_ws(bib.get("author") or "")
-
-
-def pick_year(pub: dict) -> str:
-    bib = pub.get("bib", {}) or {}
-    y = bib.get("pub_year") or bib.get("year") or ""
-    return str(y).strip() if y is not None else ""
-
-
-def pick_venue(pub: dict) -> str:
-    """
-    Your previous venue parsing relied on bib['citation'].
-    Keep that fallback approach because it tends to exist.
-    """
     bib = pub.get("bib", {}) or {}
     cit = normalize_ws(bib.get("citation") or "")
-    if not cit:
-        return ""
-    head = cit.split(",", 1)[0].strip()
-    if head and head.lower() != "unknown":
-        return head
-    # strip trailing year
-    cit2 = re.sub(r"\s*\(?\b(19|20)\d{2}\b\)?\s*$", "", cit).strip()
-    return cit2
+
+    if cit:
+        head = cit.split(",", 1)[0].strip()
+        if head and head.lower() != "unknown":
+            venue = head
+
+        else:
+            venue = re.sub(r"\s*\(?\b(19|20)\d{2}\b\)?\s*$", "", cit).strip()
+
+    else: venue = cit
+
+    return title, authors, venue, year, link
+
+# def pick_title(pub: dict) -> str:
+#     bib = pub.get("bib", {}) or {}
+#     title = normalize_ws(bib.get("title") or "")
+#     # author = normalize_ws(bib.get("author") or "")
+#     # year = bib.get("pub_year") or bib.get("year") or ""
+#     # year = str(y).strip() if y is not None else ""
+#     return title
 
 
-def pick_link(pub: dict) -> str:
-    bib = pub.get("bib", {}) or {}
-    return normalize_ws(pub.get("pub_url") or bib.get("url") or "")
+# def pick_authors(pub: dict) -> str:
+#     bib = pub.get("bib", {}) or {}
+#     return normalize_ws(bib.get("author") or "")
+
+
+# def pick_year(pub: dict) -> str:
+#     bib = pub.get("bib", {}) or {}
+#     y = bib.get("pub_year") or bib.get("year") or ""
+#     return str(y).strip() if y is not None else ""
+
+
+# def pick_venue(pub: dict) -> str:
+
+#     bib = pub.get("bib", {}) or {}
+#     cit = normalize_ws(bib.get("citation") or "")
+
+#     if cit:
+#         head = cit.split(",", 1)[0].strip()
+#         if head and head.lower() != "unknown":
+#             cit = head
+
+#         else:
+#             cit = re.sub(r"\s*\(?\b(19|20)\d{2}\b\)?\s*$", "", cit).strip()
+
+#     return citc
+
 
 # Springer
 def springer_bibtex_by_doi(doi: str) -> str:
@@ -504,14 +530,11 @@ def crossref_search_best(title: str, year: str, venue: str, rows: int = 5) -> di
 
     return best_item or {}
 
-def acm_dl_bibtex_by_doi(doi: str) -> str:
+def acm_bibtex_by_doi(doi: str) -> str:
     """
     Best-effort attempt to download BibTeX from ACM DL for 10.1145/* DOIs.
     This endpoint sometimes changes / may require access; keep it best-effort.
     """
-    if not doi.startswith("10.1145/"):
-        return ""
-    # Common ACM export endpoint pattern:
     url = "https://dl.acm.org/action/downloadCitation"
     params = {"doi": doi, "format": "bibtex"}
     try:
@@ -613,23 +636,22 @@ def main(scholar_id:str,
         except Exception:
             p_full = p
 
-        title = pick_title(p_full)
+        title, authors, venue, year, link = pick_basics(p_full)
+    
         if not title:
+            # Too little information to actually do something
             continue
 
-        year = pick_year(p_full)
         try:
-            y_int = int(year)
+            year = int(year)
         except Exception:
             continue
-        if y_int not in allowed_years:
+
+        if year not in allowed_years:
+            # Not within the year window
             break
 
         print(f"Doing for {idx}")
-
-        authors = pick_authors(p_full)
-        venue = pick_venue(p_full)
-        link = pick_link(p_full)
 
         # Pull scholar bibtex (still useful as fallback, DOI extraction, etc.)
         scholar_bibtex = ""
@@ -685,47 +707,51 @@ def main(scholar_id:str,
             time.sleep(1.0)
             continue
 
-        # Not arXiv -> prefer Crossref (with validation), else scholarly bibtex, else minimal entry.
-        chosen_entry = {}
+        entry = {}
 
         # 1) Try Crossref via DOI if we can extract it
-        doi = (
-            extract_doi(link)
-            or extract_doi(scholar_bibtex)
-            or extract_doi(json.dumps(scholar_fields, ensure_ascii=False))
-        )
+        doi = extract_doi([link, scholar_bibtex,
+                           json.dumps(scholar_fields, ensure_ascii=False)])
+        # doi = (
+        #     extract_doi(link)
+        #     or extract_doi(scholar_bibtex)
+        #     or extract_doi(json.dumps(scholar_fields, ensure_ascii=False))
+        # )
 
-        acm_bib = acm_dl_bibtex_by_doi(doi) if doi else ""
-        if acm_bib:
-            chosen_entry = build_entry_keep_all_fields(
-                acm_bib,
-                title_fallback=title,
-                venue_fallback=venue,
-                year_fallback=year,
-                link_fallback=link,
-                abstract_fallback="",  # ACM BibTeX sometimes includes abstract; if it does, keep_all preserves it
-            )
+        if doi and doi.startswith("10.1145/"):
+            acm_bib = acm_bibtex_by_doi(doi)
+            if acm_bib:
+                entry = build_entry_keep_all_fields(
+                    acm_bib,
+                    title_fallback=title,
+                    venue_fallback=venue,
+                    year_fallback=year,
+                    link_fallback=link,
+                    abstract_fallback="",
+                )
 
-        if not chosen_entry and doi and doi.startswith("10.1007/"):
+        if not entry and doi and doi.startswith("10.1007/"):
             sp_bib = springer_bibtex_by_doi(doi)
             if sp_bib:
-                chosen_entry = build_entry_keep_all_fields(
+                entry = build_entry_keep_all_fields(
                     sp_bib,
                     title_fallback=title,
                     venue_fallback=venue,
                     year_fallback=year,
                     link_fallback=link,
-                    abstract_fallback="",  # Springer bibtex usually won’t include abstract
+                    abstract_fallback="",
                 )
 
         crossref_bib = ""
         crossref_msg = {}
 
-        if not chosen_entry and doi:
+
+        # CROSSREF by DOI
+        if not entry and doi:
             try:
-                # Validate year & venue/title using the Crossref message too (stronger)
                 crossref_msg = crossref_lookup_by_doi(doi)
-                # Basic checks
+
+                # To verify crossref entry
                 cr_title = ""
                 if isinstance(crossref_msg.get("title"), list) and crossref_msg["title"]:
                     cr_title = crossref_msg["title"][0]
@@ -753,7 +779,7 @@ def main(scholar_id:str,
                 crossref_bib = ""
                 crossref_msg = {}
 
-        # 2) If no DOI path worked, search Crossref by title and validate
+        # CROSSREF by title year
         if not crossref_bib:
             try:
                 best = crossref_search_best(title=title, year=year, venue=venue, rows=5)
@@ -768,10 +794,9 @@ def main(scholar_id:str,
             except Exception:
                 crossref_bib = ""
 
-        # 3) Build entry from Crossref bibtex if available
         if crossref_bib:
             cr_abs = strip_html_tags(crossref_msg.get("abstract") or "")
-            chosen_entry = build_entry_keep_all_fields(
+            entry = build_entry_keep_all_fields(
                 crossref_bib,
                 title_fallback=title,
                 venue_fallback=venue,
@@ -779,37 +804,38 @@ def main(scholar_id:str,
                 link_fallback=link,
                 abstract_fallback=cr_abs,
             )
-            # If Crossref JSON has abstract, optionally include it (nice-to-have)
-            cr_abs = strip_html_tags(crossref_msg.get("abstract") or "")
-            if cr_abs:
-                chosen_entry["abstract"] = cr_abs
 
-        # 4) Otherwise, fall back to scholarly BibTeX -> parse into entry
-        if not chosen_entry and scholar_bibtex:
-            chosen_entry = build_entry_keep_all_fields(
+            cr_abs = strip_html_tags(crossref_msg.get("abstract") or "")    # Keep abstract if available
+            if cr_abs:
+                entry["abstract"] = cr_abs
+
+        # Scholarly bibtex if they have that
+        if not entry and scholar_bibtex:
+            entry = build_entry_keep_all_fields(
                 scholar_bibtex,
                 title_fallback=title,
                 venue_fallback=venue,
                 year_fallback=year,
                 link_fallback=link,
-                abstract_fallback="",  # scholar bibtex usually won't have it
+                abstract_fallback="",
             )
 
-        # 5) Absolute last resort: minimal entry
-        if not chosen_entry:
-            chosen_entry = {
+        # Minimum
+        if not entry:
+            authors = normalize_authors_to_bibtex(authors)
+            entry = {
                 "ENTRYTYPE": "misc",
-                "ID": make_bib_key(normalize_authors_to_bibtex(authors), year, title),
+                "ID": make_bib_key(authors, year, title),
                 "title": title,
-                "author": normalize_authors_to_bibtex(authors),
+                "author": authors,
                 "year": year,
             }
             if venue:
-                chosen_entry["howpublished"] = venue
+                entry["howpublished"] = venue
             if link:
-                chosen_entry["url"] = link
+                entry["url"] = link
 
-        entries.append(chosen_entry)
+        entries.append(entry)
         time.sleep(1.0)
 
     write_to_bibtex(entries, outpath,
