@@ -74,7 +74,6 @@ def write_to_bibtex(merged,
 def main():
     current_year = datetime.now(timezone.utc).year
     static_year = get_static_year(STATIC)
-    static_year = 2025
 
     if still_current(static_year, current_year):
         print("No changes to make yet")

@@ -70,6 +70,7 @@ def main(scholar_id:str,
         title, year, authors, venue, link, citation = _return_basics(p_full)
 
         if (not title) or (not year):   # Too many information is missing
+            print(f"[INFO] Omitting for {title}, {year} due to lack of information")
             continue
 
         if int(year) not in allowed_years:
