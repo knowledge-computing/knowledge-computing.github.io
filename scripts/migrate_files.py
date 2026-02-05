@@ -7,7 +7,7 @@ import re
 from pathlib import Path
 from datetime import datetime, timezone
 
-from scripts._update_utils import load, write_to_bibtex
+from scripts.utils import load, write_to_bibtex
 
 ROOT = Path(__file__).resolve().parents[1]
 STATIC = ROOT / "_data/pub/static.bib"

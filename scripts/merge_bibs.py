@@ -6,7 +6,7 @@ Reason: we'll only update dynamic bibs automatically
 
 from pathlib import Path
 
-from scripts._update_utils import load, write_to_bibtex
+from scripts.utils import load, write_to_bibtex
 
 ROOT = Path(__file__).resolve().parents[1]
 STATIC = ROOT / "_data/pub/static.bib"
