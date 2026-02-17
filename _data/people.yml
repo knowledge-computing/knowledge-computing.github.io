@@ -41,10 +41,6 @@ phd:
     image: images/people/theresa_chen.jpg
     profile: UMN CS&E
     link: https://theresachen1759.github.io/
-  - name: Yuankun Jiao
-    image: images/people/yuankun_jiao.png
-    profile: UMN CS&E
-    link: https://36n120e.github.io/yuankunjiao.github.io
   - name: Jiyoon Pyo
     image: images/people/jiyoon_pyo.jpeg
     profile: UMN CS&E
@@ -104,6 +100,10 @@ alumni:
     profile: Ph.D. Student <br> USC Computer Science
     link: https://www.linkedin.com/in/hayleysong/
 # Undergrad/Masters Alumni
+  - name: Yuankun Jiao
+    image: images/people/yuankun_jiao.png
+    profile: UMN CS&E
+    link: https://36n120e.github.io/yuankunjiao.github.io
   - name: Yutong Chuang
     image: images/people/yutong_chuang.png
     profile: Graduate Student <br> UMN CS&E
