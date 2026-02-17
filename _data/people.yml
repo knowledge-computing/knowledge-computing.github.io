@@ -45,9 +45,6 @@ phd:
     image: images/people/yuankun_jiao.png
     profile: UMN CS&E
     link: https://36n120e.github.io/yuankunjiao.github.io
-  - name: Henry Hu
-    image: images/people/man.png
-    profile: UMN CS&E
   - name: Jiyoon Pyo
     image: images/people/jiyoon_pyo.jpeg
     profile: UMN CS&E
@@ -67,10 +64,6 @@ phd:
   
   
 worker:
-  - name: Sarah Wood
-    image: images/people/sarah_wood.jpeg
-    profile: Undergraduate Student <br> UMN CS&E
-    link: https://sarahjwood.com
   - name: Shilong Xiang
     image: images/people/shilong_xiang.png
     profile: Undergraduate Student <br> UMN CS&E
@@ -86,10 +79,10 @@ worker:
     
     
 alumni:
-  - name: Yutong Chuang
-    image: images/people/yutong_chuang.png
-    profile: Graduate Student <br> UMN CS&E
-    link: https://www.linkedin.com/in/ula663312/
+# PhD Alumni
+  - name: Henry Hu
+    image: images/people/man.png
+    profile: Ph.D. <br> UMN CS&E
   - name: Weiwei Duan
     image: images/people/weiwei_duan.jpg
     profile: Ph.D. <br> USC Computer Science 
@@ -110,6 +103,15 @@ alumni:
     image: images/people/hayley_song.jpg
     profile: Ph.D. Student <br> USC Computer Science
     link: https://www.linkedin.com/in/hayleysong/
+# Undergrad/Masters Alumni
+  - name: Yutong Chuang
+    image: images/people/yutong_chuang.png
+    profile: Graduate Student <br> UMN CS&E
+    link: https://www.linkedin.com/in/ula663312/
+  - name: Sarah Wood
+    image: images/people/sarah_wood.jpeg
+    profile: Undergraduate Student <br> UMN CS&E
+    link: https://sarahjwood.com
   - name: Rhett Olson
     image: images/people/rhett_olson.jpg
     profile: Undergraduate Student <br> UMN CS&E
