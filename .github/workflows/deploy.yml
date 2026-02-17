@@ -38,9 +38,9 @@ jobs:
         run: |
           PYTHONPATH=. python scripts/migrate_files.py
 
-      - name: Update publications file
-        run: |
-          PYTHONPATH=. python scripts/update_pubs.py --scholar_id Xf3M93cAAAAJ
+      # - name: Update publications file
+      #   run: |
+      #     PYTHONPATH=. python scripts/update_pubs.py --scholar_id Xf3M93cAAAAJ
 
       - name: Create publications.bib
         run: |
