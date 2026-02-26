@@ -1,9 +1,13 @@
 name: Update Publications
 
 on:
-  push:
-    branches: [ gh-pages ]
+  # push:
+  #   branches: [ gh-pages ]
   workflow_dispatch:
+    inputs:
+      scholar_id:
+        required: true
+        default: "Xf3M93cAAAAJ"
   schedule:
     - cron: "0 7 * * 0"  # Sundays 07:00 UTC
 
@@ -38,9 +42,9 @@ jobs:
         run: |
           PYTHONPATH=. python scripts/migrate_files.py
 
-      # - name: Update publications file
-      #   run: |
-      #     PYTHONPATH=. python scripts/update_pubs.py --scholar_id Xf3M93cAAAAJ
+      - name: Update publications file
+        run: |
+          PYTHONPATH=. python scripts/update_pubs.py --scholar_id "${{ inputs.scholar_id }}"
 
       - name: Create publications.bib
         run: |
