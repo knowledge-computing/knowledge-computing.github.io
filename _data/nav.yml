@@ -1,9 +1,9 @@
 # - name: Home
 #   path: index.html
 #   section_id: home
-- name: Research
-  path: research.html
-  section_id: research
+# - name: Research
+#   path: research.html
+#   section_id: research
   # children:
   #   - name: Map
   #     path: jonsnow.html
