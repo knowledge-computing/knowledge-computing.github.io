@@ -241,6 +241,106 @@ UA_HEADERS = {
         "(KHTML, like Gecko) Chrome/120 Safari/537.36"
     )
 }
+
+CV_FAMILY_HOST_RE = re.compile(
+    r"^https?://(?:www\.)?(?:openaccess\.thecvf\.com|thecvf\.com|ecva\.net)/",
+    re.I,
+)
+CV_FAMILY_CONF_RE = re.compile(r"(?:CVPR|ICCV|ECCV|WACV)", re.I)
+BIBTEX_ENTRY_START_RE = re.compile(
+    r"@(?:article|book|booklet|conference|inbook|incollection|inproceedings|manual|"
+    r"mastersthesis|misc|phdthesis|proceedings|techreport|unpublished)\s*\{",
+    re.I,
+)
+
+def is_cv_family_url(url: str) -> bool:
+    url = normalize_ws(url)
+    return bool(url and CV_FAMILY_HOST_RE.search(url) and CV_FAMILY_CONF_RE.search(url))
+
+def cv_family_candidate_urls(url: str) -> List[str]:
+    url = normalize_ws(url)
+    if not url or not is_cv_family_url(url):
+        return []
+
+    candidates = [url]
+
+    # CVF PDF links map cleanly to paper HTML pages, which expose the BibTeX block.
+    if re.search(r"/papers/.+_paper\.pdf(?:\?.*)?$", url, re.I):
+        html_url = re.sub(r"/papers/", "/html/", url, flags=re.I)
+        html_url = re.sub(r"_paper\.pdf(?:\?.*)?$", "_paper.html", html_url, flags=re.I)
+        if html_url not in candidates:
+            candidates.append(html_url)
+
+    return candidates
+
+def extract_bibtex_entries(text: str) -> List[str]:
+    text = html.unescape(text or "")
+    entries = []
+
+    for match in BIBTEX_ENTRY_START_RE.finditer(text):
+        start = match.start()
+        pos = match.end() - 1
+        depth = 0
+
+        while pos < len(text):
+            ch = text[pos]
+            if ch == "{":
+                depth += 1
+            elif ch == "}":
+                depth -= 1
+                if depth == 0:
+                    entry = text[start:pos + 1].strip()
+                    if entry:
+                        entries.append(entry)
+                    break
+            pos += 1
+
+    return entries
+
+def cv_family_bibtex_by_url(url: str, title: str = "") -> str:
+    candidates = cv_family_candidate_urls(url)
+    if not candidates:
+        return ""
+
+    expected_title = normalize_title(title)
+
+    for candidate in candidates:
+        try:
+            r = requests.get(candidate, headers=UA_HEADERS, timeout=25)
+            if r.status_code != 200:
+                continue
+            if "pdf" in (r.headers.get("Content-Type") or "").lower():
+                continue
+        except Exception:
+            continue
+
+        entries = extract_bibtex_entries(r.text)
+        if not entries:
+            continue
+
+        if len(entries) == 1 and not expected_title:
+            return entries[0]
+
+        best_entry = ""
+        best_score = 0.0
+        for entry in entries:
+            fields = bibtex_to_fields(entry)
+            entry_title = normalize_title(fields.get("title") or "")
+            if not entry_title:
+                continue
+            score = seq_ratio(expected_title, entry_title) if expected_title else 0.0
+            if score > best_score:
+                best_score = score
+                best_entry = entry
+
+        if best_entry and best_score >= 0.88:
+            return best_entry
+
+        if len(entries) == 1:
+            return entries[0]
+
+    return ""
+
 # ACM
 def acm_bibtex_by_doi(doi: str) -> str:
     """

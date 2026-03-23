@@ -14,7 +14,7 @@ from scripts.utils import (write_to_bibtex,   # Some defaults,
                            seq_ratio, token_set_ratio,       # Fuzzy matching
                            extract_doi, extract_arxiv_id,    # DOI stuff
                            make_bib_key,  # bibtex creation
-                           bibtex_to_fields, get_bibtex_with_fallback,    # Default grab
+                           bibtex_to_fields, get_bibtex_with_fallback, cv_family_bibtex_by_url,   # Default grab
                            arxiv_api_query_by_id, arxiv_find_best_by_title,     # Things for arxiv
                            acm_bibtex_by_doi, springer_bibtex_by_doi, crossref_bibtex_by_doi,    # Outer bibtex
                            crossref_bibtex_transform, crossref_search_best,     # Crossref grab
@@ -82,15 +82,27 @@ def main(scholar_id:str,
 
         print(f"Filling bibtex for {idx+1}: {title}")
 
-        # Try filling with scholarly
+        # Prefer BibTeX exposed directly on CV-family paper pages.
+        cv_family_bibtex = ""
+        cv_family_fields = {}
+        try:
+            cv_family_bibtex = cv_family_bibtex_by_url(link, title=title)
+            if cv_family_bibtex:
+                cv_family_fields = bibtex_to_fields(cv_family_bibtex)
+        except Exception:
+            cv_family_bibtex = ""
+            cv_family_fields = {}
+
+        # Fall back to scholarly when no conference-page BibTeX is available.
         scholar_bibtex = ""
         scholar_fields = {}
-        try:
-            scholar_bibtex = get_bibtex_with_fallback(p_full, title=title)
-            scholar_fields = bibtex_to_fields(scholar_bibtex)
-        except Exception:   # If either fails
-            scholar_bibtex = ""
-            scholar_fields = {}
+        if not cv_family_bibtex:
+            try:
+                scholar_bibtex = get_bibtex_with_fallback(p_full, title=title)
+                scholar_fields = bibtex_to_fields(scholar_bibtex)
+            except Exception:   # If either fails
+                scholar_bibtex = ""
+                scholar_fields = {}
 
         is_arxiv = False
         if ARXIV_WORD_RE.search(venue or ""):
@@ -133,8 +145,13 @@ def main(scholar_id:str,
         entry = {}
 
         # Try getting DOI
-        doi = extract_doi([link, scholar_bibtex,
-                           json.dumps(scholar_fields, ensure_ascii=False)])
+        doi = extract_doi([
+            link,
+            cv_family_bibtex,
+            scholar_bibtex,
+            json.dumps(cv_family_fields, ensure_ascii=False),
+            json.dumps(scholar_fields, ensure_ascii=False),
+        ])
 
         # ACM
         if doi and doi.startswith("10.1145/"):
@@ -228,6 +245,16 @@ def main(scholar_id:str,
             cr_abs = strip_html_tags(crossref_msg.get("abstract") or "")    # Keep abstract if available
             if cr_abs:
                 entry["abstract"] = cr_abs
+
+        if not entry and cv_family_bibtex:
+            entry = build_other_bib_entry(
+                cv_family_bibtex,
+                title_fallback=title,
+                venue_fallback=venue,
+                year_fallback=year,
+                link_fallback=link,
+                abstract_fallback="",
+            )
 
         # Fall back to Scholarly bibtex if they have that
         if not entry and scholar_bibtex:
