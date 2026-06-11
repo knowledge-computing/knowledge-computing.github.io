@@ -13,18 +13,6 @@ director:
     link:
     
 phd:
-  - name: Zekun Li
-    image: images/people/zekun_li.png
-    profile: UMN CS&E
-    link: https://zekun-li.github.io/
-  - name: Yijun Lin
-    image: images/people/yijun_lin.png
-    profile: UMN CS&E
-    link: https://linyijun.github.io/
-  - name: Junbao & Yuanyuan
-    image: images/people/junbao&yuanyuan.jpeg
-    profile: The Cats
-    link:
   - name: Jina Kim
     image: images/people/jina_kim.jpeg
     profile: UMN CS&E
@@ -74,8 +62,20 @@ worker:
     link: https://www.linkedin.com/in/viswa-nadimpalli/
     
     
-alumni:
+phd-alumni:
 # PhD Alumni
+  - name: Yijun Lin
+    image: images/people/yijun_lin.png
+    profile: UMN CS&E
+    link: https://linyijun.github.io/
+  - name: Junbao & Yuanyuan
+    image: images/people/junbao&yuanyuan.jpeg
+    profile: The Cats
+    link:
+  - name: Zekun Li
+    image: images/people/zekun_li.png
+    profile: UMN CS&E
+    link: https://zekun-li.github.io/
   - name: Henry Hu
     image: images/people/man.png
     profile: Ph.D. <br> UMN CS&E
@@ -91,6 +91,8 @@ alumni:
     image: images/people/lois_park.jpeg
     profile: Ph.D. <br> USC Spatial Sciences Institute <br> PHP Graduate Program
     link: https://www.linkedin.com/in/lois-park/
+alumni:
+# Undergrad/Masters Alumni
   - name: Dan Feldman
     image: images/people/dan_feldman.jpeg
     profile: Ph.D. <br> USC Computer Science
@@ -99,7 +101,6 @@ alumni:
     image: images/people/hayley_song.jpg
     profile: Ph.D. Student <br> USC Computer Science
     link: https://www.linkedin.com/in/hayleysong/
-# Undergrad/Masters Alumni
   - name: Yuankun Jiao
     image: images/people/yuankun_jiao.png
     profile: UMN CS&E
