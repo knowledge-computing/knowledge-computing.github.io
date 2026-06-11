@@ -66,7 +66,7 @@ phd-alumni:
 # PhD Alumni
   - name: Yijun Lin, PhD
     image: images/people/yijun_lin.png
-    profile: PhD, UMN CS&E | Assistant Professor, Southern Illinois University
+    profile: PhD, University of Minnesota, Computer Science <br> Assistant Professor, Southern Illinois University
     link: https://linyijun.github.io/
   - name: Junbao & Yuanyuan
     image: images/people/junbao&yuanyuan.jpeg
@@ -74,22 +74,22 @@ phd-alumni:
     link:
   - name: Zekun Li, PhD
     image: images/people/zekun_li.png
-    profile: PhD, UMN CS&E |
+    profile: PhD, University of Minnesota, Computer Science <br>
     link: https://zekun-li.github.io/
   - name: Haoji Hu, PhD
     image: images/people/haoji_hu.jpg
-    profile: PhD, UMN CS&E | Microsoft
+    profile: PhD, University of Minnesota, Computer Science <br> Microsoft
   - name: Weiwei Duan, PhD
     image: images/people/weiwei_duan.jpg
-    profile: PhD, USC CS | Google
+    profile: PhD, University of Southern California, Computer Science <br>Google
     link: https://weiweiduan.github.io/
   - name: Johanna Avelar Portillo, PhD
     image: images/people/johanna_portillo.png
-    profile: PhD, USC PHP | County of San Diego
+    profile: PhD, University of Southern California, Population, Health and Place <br> County of San Diego
     link: https://www.lawateraccess.com/
   - name: Lois Park, PhD
     image: images/people/lois_park.jpeg
-    profile: PhD, USC PHP | CDC: Centers for Disease Control and Prevention
+    profile: PhD, University of Southern California, Population, Health and Place  <br> CDC: Centers for Disease Control and Prevention
     link: https://www.linkedin.com/in/lois-park/
 alumni:
 # Undergrad/Masters Alumni
