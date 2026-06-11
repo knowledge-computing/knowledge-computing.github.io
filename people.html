@@ -99,7 +99,24 @@ section_id: people
       <div class="columns end"></div>
   </div>
 </div>
-
+<div class='full'>
+  <div class='row'>
+    <h2> PhD Alumni </h2>
+      {% for member in site.data.people.phd-alumni %}
+            <div class='modPeople'>
+              {% if member.link %}
+                <a href={{member.link}}><img class="avatar" alt="" src="{{ member.image }}"/></a>
+                <h3><a href={{member.link}}>{{member.name}}</a></h3>
+              {% else %}  
+                <img class="avatar" alt="" src="{{ member.image }}" />
+                <h3>{{member.name}}</h3>
+              {% endif %}
+              <p>{{member.profile}}</p>        
+            </div>
+      {% endfor %}
+      <div class="columns end"></div>
+  </div>
+</div>
 <div class='full'>
   <div class='row'>
     <h2> Alumni </h2>
