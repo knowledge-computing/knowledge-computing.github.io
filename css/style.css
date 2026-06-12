@@ -3393,7 +3393,7 @@ body {
   text-align: center;
   display: inline-block;
   vertical-align: top;
-  min-width: 20%;
+  width: 220px;
 }
 
 .modPeople img {
