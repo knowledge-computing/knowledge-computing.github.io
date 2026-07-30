@@ -56,10 +56,6 @@ worker:
     image: images/people/nathan_stangler.png
     profile: Undergraduate Student <br> UMN CS&E
     link: https://nathanstangler.github.io/
-  - name: Viswa Nadimpalli
-    image: images/people/viswa_nadimpalli.jpg
-    profile: Undergraduate Student <br> UMN CS&E
-    link: https://www.linkedin.com/in/viswa-nadimpalli/
     
     
 phd-alumni:
@@ -105,6 +101,10 @@ alumni:
     image: images/people/yuankun_jiao.png
     profile: UMN CS&E
     link: https://36n120e.github.io/yuankunjiao.github.io
+  - name: Viswa Nadimpalli
+    image: images/people/viswa_nadimpalli.jpg
+    profile: Undergraduate Student <br> UMN CS&E
+    link: https://www.linkedin.com/in/viswa-nadimpalli/
   - name: Yutong Chuang
     image: images/people/yutong_chuang.png
     profile: Graduate Student <br> UMN CS&E
