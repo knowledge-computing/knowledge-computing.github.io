@@ -56,6 +56,12 @@ worker:
     image: images/people/nathan_stangler.png
     profile: Undergraduate Student <br> UMN CS&E
     link: https://nathanstangler.github.io/
+  - name: Hyunjoong Kim
+    image: images/people/hyunjoong_kim.jpg
+    profile: Undergraduate Student <br> UMN CS&E
+  - name: Kent Nguyen
+    image: images/people/kent_nguyen.jpg
+    profile: Undergraduate Student <br> UMN CS&E
     
     
 phd-alumni:
