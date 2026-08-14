@@ -59,6 +59,7 @@ worker:
   - name: Kent Nguyen
     image: images/people/kent_nguyen.jpg
     profile: Undergraduate Student <br> UMN CS&E
+    link: https://www.linkedin.com/in/kentnguyen15/
   - name: Hyunjoong Kim
     image: images/people/hyunjoong_kim.jpg
     profile: Undergraduate Student <br> Normandale Community College
