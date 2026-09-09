@@ -45,7 +45,10 @@ phd:
     image: images/people/junyi_xie.jpg
     profile: UMN CS&E
     link: https://ginnyxxxxxxx.github.io/Ginny.github.io/
-  
+  - name: Nayeon Kim
+    image: images/people/nayeon_kim.jpg
+    profile: UMN CS&E
+    link: https://ny2kim.github.io
   
 worker:
   - name: Shilong Xiang
@@ -63,6 +66,9 @@ worker:
   - name: Hyunjoong Kim
     image: images/people/hyunjoong_kim.jpg
     profile: Undergraduate Student <br> Normandale Community College
+  - name: David Feng
+    image: images/people/david_feng.png
+    profile: Undergraduate Student <br> UMN CS&E
 
     
     
