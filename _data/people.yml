@@ -51,14 +51,6 @@ phd:
     link: https://ny2kim.github.io
   
 worker:
-  - name: Shilong Xiang
-    image: images/people/shilong_xiang.png
-    profile: Undergraduate Student <br> UMN CS&E
-    link: https://shilongxiang.github.io/
-  - name: Nathan Stangler
-    image: images/people/nathan_stangler.png
-    profile: Undergraduate Student <br> UMN CS&E
-    link: https://nathanstangler.github.io/
   - name: Kent Nguyen
     image: images/people/kent_nguyen.jpg
     profile: Undergraduate Student <br> UMN CS&E
@@ -103,6 +95,14 @@ phd-alumni:
     link: https://www.linkedin.com/in/lois-park/
 alumni:
 # Undergrad/Masters Alumni
+  - name: Shilong Xiang
+    image: images/people/shilong_xiang.png
+    profile: Undergraduate Student <br> UMN CS&E
+    link: https://shilongxiang.github.io/
+  - name: Nathan Stangler
+    image: images/people/nathan_stangler.png
+    profile: Undergraduate Student <br> UMN CS&E
+    link: https://nathanstangler.github.io/
   - name: Dan Feldman
     image: images/people/dan_feldman.jpeg
     profile: Ph.D. <br> USC Computer Science
